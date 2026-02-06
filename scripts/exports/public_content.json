@@ -1,0 +1,1458 @@
+[
+  {
+    "_id": "course_ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO",
+    "_path": "public_content/course_ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO",
+    "generatedAt": 1769716632050,
+    "worlds": [
+      {
+        "finalExam": null,
+        "themeColor": "#1cb0f6",
+        "description": "Üçgen eşitsizliği, yardımcı elemanlar ve üçgen çizim kurallarının birinci prensiplerle incelenmesi.",
+        "lessons": [
+          {
+            "status": "ACTIVE",
+            "conceptId": "ucgen-esitsizligi",
+            "title": "Üçgen Kenar İlişkileri",
+            "isFinalExam": false,
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L00-STD",
+            "isAudio": false,
+            "isReview": false,
+            "conceptTitle": "Üçgen Eşitsizliği",
+            "content": {
+              "isPartial": false,
+              "lessonId": "lesson-1769717374055",
+              "phase": 3,
+              "cards": [
+                {
+                  "generatedImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+                  "visualType": "WIKIPEDIA",
+                  "visualPrompt": "LGS Geometri, üçgen kenar ilişkileri, farklı uzunlukta çubuklarla üçgen oluşturma denemeleri, başarılı ve başarısız örnekler, matematiksel denklemler",
+                  "content": "Merhaba sevgili LGS Geometri öğrencileri! Bugün, geometri dünyasına atacağımız ilk adımda sizi şaşırtacak bir soruyla başlıyoruz. Elimizde 3 cm, 4 cm ve 10 cm uzunluğunda üç adet çubuk olsa, bu çubuklarla bir üçgen oluşturabilir miyiz? Ya da 5 cm, 7 cm ve 12 cm uzunluğundaki çubuklarla? Çoğumuz, 'elbette, neden olmasın?' diye düşünebiliriz. Ancak geometri, bu konuda kendi 'fiziksel yasalarına' sahiptir ve her üç çubuk kombinasyonu bir üçgen oluşturmaz. Bu durum, LGS sınavında sıklıkla karşımıza çıkan ve \"Üçgen Kenar İlişkileri\" olarak bilinen temel bir konunun kapılarını aralıyor.\n\nBir üçgenin var olabilmesi için kenarlarının belirli kurallara uyması şarttır. Bu dersin sonunda, herhangi üç kenar uzunluğu verildiğinde bir üçgenin oluşup oluşamayacağını kesin olarak bilecek, hatta bir üçgende **büyük açının karşısında büyük kenarın** yer aldığını, küçük açının karşısında ise küçük kenarın bulunduğunu keşfedeceksiniz. Bu ilk ders, tüm LGS Geometri konularının temelini atacak. Üçgenin sadece bir şekil olmadığını, aynı zamanda belirli matematiksel kurallara tabi bir yapı olduğunu anlamak, sonraki derslerde inceleyeceğimiz \"Üçgenin Yardımcı Elemanları\" gibi daha karmaşık konular için sağlam bir zemin hazırlayacak.\n\n> [!NOTE]\n> LGS'de geometri sorularının çoğu, bu temel kenar ilişkilerini ve **Üçgen Eşitsizliği** prensibini anlamanızı gerektirir. Bu, hem problem çözme becerinizi geliştirecek hem de günlük hayattaki birçok yapıyı daha iyi anlamanıza yardımcı olacaktır.",
+                  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+                  "phase": 1,
+                  "type": "HOOK",
+                  "id": "card-phase1-1769717381858-0",
+                  "title": "Üçgen Kenar İlişkileri"
+                },
+                {
+                  "phase": 2,
+                  "title": "Üçgen Kenar İlişkileri",
+                  "content": "Merhaba sevgili LGS Geometri öğrencileri! Bugün, geometri dünyasına atacağımız ilk adımda sizi şaşırtacak, ama bir o kadar da mantıklı ve temel bir konuyla buluşturacağım: Üçgen Kenar İlişkileri. Bu konuyu sağlam bir şekilde anlamak, ileride karşılaşacağınız tüm geometri problemlerinin kilidini açacak anahtarlardan biridir. Hazırsanız, bu büyüleyici yolculuğa çıkalım!\n\n## Üçgen Kenar İlişkileri: Temel Tanımlar ve İlkeler\n\nÜçgenler, geometrinin yapı taşlarıdır ve onların kenar uzunlukları ile iç açıları arasında çok özel, değişmez ilişkiler bulunur. Bu ilişkileri bilmek, bir üçgenin var olup olamayacağını anlamaktan, belirli bir üçgenin kenarlarını veya açılarını sıralamaya kadar birçok durumda bize yol gösterir.\n\n### 1. Üçgen Eşitsizliği: Bir Üçgenin Var Olma Şartı\n\nÖncelikle şunu düşünelim: Elimizde üç farklı uzunlukta çubuk olsa, bu çubuklarla her zaman bir üçgen oluşturabilir miyiz? Cevap kesinlikle hayır! İşte tam da bu noktada **Üçgen Eşitsizliği** devreye girer. Bu ilke, bir üçgenin oluşabilmesi için kenar uzunluklarının sağlaması gereken temel koşulu ortaya koyar.\n\n> [!IMPORTANT]\n> **Üçgen Eşitsizliği Kuralı:** Bir üçgende herhangi iki kenarın uzunlukları toplamı üçüncü kenarın uzunluğundan **büyük**, farkının mutlak değeri ise üçüncü kenarın uzunluğundan **küçük** olmalıdır.\n\nMatematiksel olarak ifade edersek, kenar uzunlukları $a$, $b$ ve $c$ olan bir üçgen için bu kuralı şu şekilde yazarız:\n\n*   $|b-c| < a < b+c$\n*   $|a-c| < b < a+c$\n*   $|a-b| < c < a+b$\n\nBu eşitsizlikler, bir kenarın uzunluğunun diğer iki kenarın toplamından kısa, ancak farklarının mutlak değerinden uzun olması gerektiğini söyler. Peki neden böyle? Hayal edin ki elinizde 2 cm, 3 cm ve 6 cm uzunluğunda üç çubuk var. 2 cm ve 3 cm'lik çubukları uç uca ekleseniz bile (toplam 5 cm), 6 cm'lik çubuğun iki ucunu birleştirmek için yeterince uzun değillerdir. Birleşemezler ve bir üçgen oluşturamazlar.\n\n[DIAGRAM:geometry content=\"Bir ABC üçgeni. A köşesi yukarıda, B sol altta, C sağ altta. AB kenarı 7 birim, AC kenarı 9 birim, BC kenarı 12 birim uzunluğunda. A açısı 75 derece, B açısı 50 derece, C açısı 55 derece olarak gösterilsin. Tüm kenarlar ve açılar etiketlensin.\"]\n\n> [!WARNING]\n> **Yaygın Yanılgı:** En uzun kenarın diğer iki kenarın toplamına *eşit* olabileceği yanılgısına düşmeyin. Eğer $a = b+c$ olsaydı, bu üç kenar bir üçgen değil, düz bir çizgi oluştururdu. Üçgen olabilmesi için mutlaka **küçük** ve **büyük** eşitsizlikleri geçerli olmalıdır. Yani, üçüncü kenar diğer ikisinin toplamından *kesinlikle* küçük olmalı, farklarının mutlak değerinden ise *kesinlikle* büyük olmalıdır.\n\n### 2. Büyük Açı Karşısında Büyük Kenar İlişkisi\n\nŞimdi de üçgenin iç açıları ile kenar uzunlukları arasındaki ilişkiye odaklanalım. Bu ilişki, adeta bir denge prensibi gibidir ve bize üçgenin şekli hakkında önemli ipuçları verir.\n\n> [!NOTE]\n> **Açı-Kenar İlişkisi Kuralı:** Bir üçgende, **büyük açı karşısında büyük kenar**, **küçük açı karşısında ise küçük kenar** bulunur. Eşit açılar karşısında ise eşit kenarlar vardır.\n\nBu kuralı anlamak oldukça sezgiseldir. Bir kapının menteşesini düşünün; kapıyı ne kadar çok açarsanız (açıyı büyütürseniz), kapının dış kenarı ile duvar arasındaki mesafe (karşıdaki kenar) o kadar artar. Üçgenlerde de durum böyledir.\n\nYukarıdaki ABC üçgenini inceleyelim:\n*   En büyük açı A açısı (75°). Bu açının karşısındaki kenar $a$ (BC kenarı) en uzun kenar olmalıdır. (12 birim)\n*   En küçük açı B açısı (50°). Bu açının karşısındaki kenar $b$ (AC kenarı) en kısa kenar olmalıdır. (9 birim)\n*   Ortanca açı C açısı (55°). Bu açının karşısındaki kenar $c$ (AB kenarı) ortanca uzunlukta olmalıdır. (7 birim)\n\nBu durumda kenar uzunluklarını küçükten büyüğe doğru sıralarsak: $AB < AC < BC$ (yani $c < b < a$). Açılarının sıralamasına baktığımızda ise $B < C < A$ olduğunu görürüz. Görüldüğü üzere, en küçük açının karşısında en kısa kenar, en büyük açının karşısında ise en uzun kenar yer almaktadır.\n\n> [!TIP]\n> Bu iki temel ilke, özellikle birden fazla üçgenin bir arada bulunduğu veya bilinmeyen kenar/açı değerlerinin karşılaştırılması istenen LGS sorularında size büyük avantaj sağlayacaktır. Unutmayın, geometri sadece formülleri ezberlemek değil, aynı zamanda bu ilişkilerin arkasındaki mantığı kavramaktır.\n\nBu ilk dersimizde, üçgenlerin var olabilmesi için gereken temel koşulu ve kenar uzunlukları ile açıları arasındaki hayati ilişkiyi öğrendik. Bir sonraki dersimizde, bu temel bilgileri kullanarak üçgenlerin kenar uzunluklarını nasıl daha detaylı sıralayacağımızı ve özel üçgenlerde bu ilişkilerin nasıl farklılaştığını inceleyeceğiz. Kendinizi bu temel bilgilerle donatın, çünkü yolculuğumuzda bunlara sıkça başvuracağız!",
+                  "type": "INSTRUCTION",
+                  "id": "card-phase2-1769717400929-0"
+                },
+                {
+                  "content": "## Üçgen Kenar İlişkileri: Temel İlkeler ve Mantığı\n\nGeometri dünyasında üçgenlerin sırlarını açığa çıkarmak için bilmemiz gereken ilk ve en kritik kurallardan biri, bir üçgenin kenar uzunlukları arasında var olan eşitsizliklerdir. Herhangi üç uzunluk, bir üçgen oluşturmak için yeterli değildir; belirli koşulları sağlamaları gerekir.\n\n### Üçgen Eşitsizliği: Kenarlar Arasındaki Zorunlu Bağ\n\nBir üçgenin oluşabilmesi için temel şart şudur: Herhangi iki kenarın uzunlukları toplamı, üçüncü kenarın uzunluğundan **büyük** olmalıdır. Aynı zamanda, herhangi iki kenarın uzunlukları farkının mutlak değeri, üçüncü kenarın uzunluğundan **küçük** olmalıdır. Bu iki durumu birleştirerek daha güçlü bir ifadeye ulaşırız.\n\nDiyelim ki bir üçgenin kenar uzunlukları $a$, $b$ ve $c$ olsun. Bu durumda, aşağıdaki eşitsizlikler mutlak suretle sağlanmalıdır:\n\n1.  $a < b + c$\n2.  $b < a + c$\n3.  $c < a + b$\n\nBu üç eşitsizliği tek bir ifadeyle özetleyebiliriz: Herhangi bir kenarın uzunluğu, diğer iki kenarın toplamından küçük, farkının mutlak değerinden ise büyük olmalıdır. Yani:\n\n$$|b-c| < a < b+c$$\n$$|a-c| < b < a+c$$\n$$|a-b| < c < a+b$$\n\nBu ilkeyi somutlaştırmak için, elinize üç farklı uzunlukta çubuk aldığınızı hayal edin. Eğer çubukların uzunlukları $3 \\text{ cm}$, $4 \\text{ cm}$ ve $10 \\text{ cm}$ ise, bu çubukları birleştirerek bir üçgen oluşturmanız imkansızdır. En uzun çubuk ($10 \\text{ cm}$), diğer iki çubuğun toplamından ($3+4=7 \\text{ cm}$) daha uzundur ve uçlarını bir araya getiremezsiniz; ortada mutlaka bir boşluk kalır. Ancak, $3 \\text{ cm}$, $4 \\text{ cm}$ ve $5 \\text{ cm}$ uzunluğundaki çubuklarla mükemmel bir üçgen oluşturabilirsiniz, çünkü her bir kenar diğer ikisinin toplamından küçük, farkından ise büyüktür.\n\n[DIAGRAM:geometry content=\"Birinci kısımda, kenar uzunlukları $3 \\text{ cm}$, $4 \\text{ cm}$ ve $10 \\text{ cm}$ olan üç doğru parçasının uç uca eklenmeye çalışıldığında bir üçgen oluşturamadığı, aralarında belirgin bir boşluk kaldığı gösteriliyor. İkinci kısımda ise, kenar uzunlukları $3 \\text{ cm}$, $4 \\text{ cm}$ ve $5 \\text{ cm}$ olan doğru parçalarının başarılı bir şekilde birleşerek bir ABC üçgeni oluşturduğu gösteriliyor. Bu ABC üçgeninde, A açısı karşısındaki kenar $a=5 \\text{ cm}$, B açısı karşısındaki kenar $b=4 \\text{ cm}$, C açısı karşısındaki kenar $c=3 \\text{ cm}$ olarak etiketlenmiştir. Açıların büyüklük sıralaması (örneğin A > B > C) ve kenar uzunluklarının sıralaması ($a > b > c$) arasındaki ilişkiyi açıkça gösteren bir yapı.\"]\n\n> [!WARNING]\n> Öğrencilerin sıkça düştüğü bir yanılgı, en uzun kenarın diğer iki kenarın toplamına eşit olabileceğini düşünmektir. Ancak bu durumda, üçgenin kenarları kapanmaz, düz bir çizgi oluşturur ve geometrik anlamda bir üçgen meydana gelmez. Bir üçgen oluşabilmesi için kenarların \"bükülmesi\" ve bir alan kaplaması gerekir, bu da ancak kesinlikle **büyük** olma koşuluyla sağlanır.\n\n### Büyük Açı Karşısında Büyük Kenar İlişkisi\n\nÜçgenlerin kenar uzunlukları ile iç açıları arasında çok güçlü ve doğrudan bir ilişki vardır. Bu ilişkiyi anlamak, birçok geometri probleminde doğru tahminler yapmamızı sağlar:\n\n> [!IMPORTANT]\n> Bir üçgende, **büyük açı karşısında büyük kenar**, **küçük açı karşısında küçük kenar** bulunur.\n\nBu kural, kenar uzunlukları ile açı büyüklükleri arasında doğru orantılı bir ilişki olduğunu ifade eder. Yukarıdaki [DIAGRAM:geometry] görselindeki $3 \\text{ cm}$, $4 \\text{ cm}$, $5 \\text{ cm}$ kenarlı üçgeni düşünelim. En uzun kenar $5 \\text{ cm}$'dir (a kenarı). Bu kenarın karşısındaki A açısı, üçgenin en büyük açısı olacaktır. Benzer şekilde, en kısa kenar $3 \\text{ cm}$'dir (c kenarı). Bu kenarın karşısındaki C açısı da üçgenin en küçük açısıdır.\n\nEğer bir üçgende $\\angle A > \\angle B > \\angle C$ ise, bu durumda bu açıların karşısındaki kenarların uzunlukları için de aynı sıralama geçerlidir: $a > b > c$. Bu prensip, bir üçgenin yalnızca kenarlarını bilerek açıları hakkında, ya da yalnızca açılarını bilerek kenarları hakkında önemli çıkarımlar yapmamızı sağlar.\n\nBu iki temel prensip, \"Üçgen Kenar İlişkileri\" konusunun mihenk taşlarıdır. Bir üçgenin var olup olamayacağını belirlerken ve kenar-açı sıralamalarını yaparken bu kuralları zihninize kazımanız, geometri yolculuğunuzda size büyük kolaylık sağlayacaktır. Şimdi bu bilgileri pekiştirmek için örnek uygulamalara geçmeye hazırız.",
+                  "type": "INSTRUCTION",
+                  "id": "card-phase2-1769717415800-1",
+                  "title": "Üçgen Kenar İlişkileri: Temel İlkeler ve Mantığı",
+                  "phase": 2
+                },
+                {
+                  "title": "Üçgen Kenar İlişkileri: Gerçek Hayatta ve Sınavda Uygulamaları",
+                  "content": "## Üçgen Kenar İlişkileri: Gerçek Hayatta ve Sınavda Uygulamaları\n\nGeometri dünyasında üçgenlerin sadece soyut şekillerden ibaret olmadığını, aksine derin ve tutarlı kurallara sahip yapılar olduğunu önceki derslerimizde görmeye başlamıştık. Şimdi ise bu temel ilkeleri, yani üçgen kenar ilişkilerini, hem günlük hayatımızdaki gözlemlerle somutlaştıracak hem de LGS Geometri sınavındaki karmaşık problemleri çözmek için nasıl birer anahtar olarak kullanacağımızı derinlemesine inceleyeceğiz. Bu ilişkileri anlamak, sadece doğru cevabı bulmakla kalmayacak, aynı zamanda geometrik düşünme becerilerinizi de üst seviyeye taşıyacaktır.\n\n### 1. Üçgen Eşitsizliği: Kenarların Sihirli Sınırları\n\nBir üçgenin oluşabilmesi için kenar uzunlukları arasında belirli bir uyum olması şarttır. Bu uyumu bize **Üçgen Eşitsizliği** kuralı verir. Şöyle düşünün: Elinizde üç farklı uzunlukta çubuk var. Bu çubukları her zaman bir üçgen oluşturacak şekilde birleştirebilir misiniz? Deneyin, göreceksiniz ki bu her zaman mümkün değildir.\n\n[DIAGRAM:geometry content=\"Birbirine değen ancak bir üçgen oluşturmayan üç ayrı uzunluktaki çubuk: 2 cm, 3 cm ve 6 cm. En uzun çubuk (6 cm) yatay, diğer iki çubuk (2 cm ve 3 cm) uçlarından birleşip 6 cm'lik çubuğun uçlarına yetişemeyecek şekilde havada duruyor. Çubukların uzunlukları üzerinde yazılı.\"]\n\nBu kural der ki: **Bir üçgende herhangi bir kenarın uzunluğu, diğer iki kenarın uzunlukları toplamından küçük, farkının mutlak değerinden ise büyük olmak zorundadır.** Matematiksel olarak ifade edersek, kenarları $a, b, c$ olan bir üçgen için:\n\n$$|b - c| < a < b + c$$\n$$|a - c| < b < a + c$$\n$$|a - b| < c < a + b$$\n\nBu eşitsizlik, bir üçgenin var olabilmesinin temel koşuludur. Örneğin, kenar uzunlukları 2 cm, 3 cm ve 6 cm olan bir üçgen çizmeye çalışırsanız, 2 cm ile 3 cm'nin toplamı (5 cm), 6 cm'den küçük olduğu için çubuklar birbirine yetişmeyecek ve bir üçgen oluşturamayacaktır. Oysa 3 cm, 4 cm ve 5 cm'lik çubuklarla bir üçgen rahatlıkla oluşturulabilir, çünkü her kenar için eşitsizlik sağlanır:\n*   $|4-5| < 3 < 4+5 \\Rightarrow 1 < 3 < 9$ (Doğru)\n*   $|3-5| < 4 < 3+5 \\Rightarrow 2 < 4 < 8$ (Doğru)\n*   $|3-4| < 5 < 3+4 \\Rightarrow 1 < 5 < 7$ (Doğru)\n\n> [!WARNING]\n> Öğrencilerin sıkça yaptığı bir hata, en uzun kenarın diğer iki kenarın toplamına eşit olabileceğini veya ondan büyük olabileceğini düşünmektir. Unutmayın, eşitlik durumunda veya büyük olduğunda bir üçgen oluşmaz; kenarlar ya düz bir çizgi üzerinde kalır ya da birbirine hiç yetişmez. Kesinlikle **küçük** olmak zorundadır.\n\n### 2. Büyük Açı Karşısında Büyük Kenar İlişkisi\n\nÜçgenlerin kenarları ve açıları arasında da doğrudan bir ilişki vardır. Bu ilişkiyi anlamak, bir üçgenin genel yapısını gözünüzde canlandırmanıza yardımcı olur ve özellikle birden fazla üçgenin bir arada verildiği LGS sorularında hangi kenarın daha uzun olduğunu tahmin etmenizi sağlar.\n\nKural basittir: **Bir üçgende, büyük açı karşısında büyük kenar, küçük açı karşısında ise küçük kenar bulunur.** Yani, bir üçgenin iç açılarının ölçüleri arasında bir sıralama varsa, bu sıralama aynı zamanda bu açıların karşısındaki kenarların uzunlukları için de geçerlidir. Örneğin, bir ABC üçgeninde $\\angle A > \\angle B > \\angle C$ ise, bu açıların karşısındaki kenarlar için de $a > b > c$ sıralaması geçerlidir.\n\n[DIAGRAM:geometry content=\"Üçgen ABC. A açısı 80 derece, B açısı 60 derece, C açısı 40 derece olarak gösterilsin. A açısının karşısındaki a kenarı, B açısının karşısındaki b kenarı, C açısının karşısındaki c kenarı olarak etiketlensin. Kenar uzunlukları arasında a > b > c ilişkisi gösterilsin.\"]\n\nBu ilişkiyi sezgisel olarak anlamak kolaydır: Bir açıyı ne kadar çok \"açarsanız\", o açının karşısındaki kenar o kadar uzar. Kapı menteşesini düşünün; kapıyı ne kadar çok açarsanız, kapının diğer ucu ile menteşe arasındaki mesafe o kadar artar.\n\nBu iki temel ilişkiyi, yani Üçgen Eşitsizliği'ni ve Büyük Açı Karşısında Büyük Kenar prensibini sağlam bir şekilde kavramak, geometri problemlerine yaklaşımınızı kökten değiştirecektir. Bir sonraki dersimizde, bu ilişkileri kullanarak nasıl daha karmaşık soruları çözeceğimize ve özel üçgen durumlarında bu kuralların nasıl çalıştığına değineceğiz. Bu bilgiler, LGS'deki geometri sorularını çözerken size büyük bir avantaj sağlayacaktır.",
+                  "id": "card-phase2-1769717434780-2",
+                  "type": "INSTRUCTION",
+                  "phase": 2
+                },
+                {
+                  "content": "## Üçgen Kenar İlişkileri: Temel Eşitsizlikler ve Açı-Kenar Bağlantısı\n\nGeometride bir üçgenin var olabilmesi için kenar uzunlukları arasında belirli bir uyumun olması şarttır. Bu uyumun en temel ifadesi **Üçgen Eşitsizliği**'dir. Hayal edin ki elinizde üç farklı uzunlukta çubuk var. Acaba bu çubukları her zaman birleştirerek bir üçgen oluşturabilir misiniz? Deneyler bize gösterir ki, her zaman mümkün değildir. Örneğin, 2 cm, 3 cm ve 10 cm uzunluğundaki çubuklarla bir üçgen yapmaya çalışsanız, en uzun çubuk diğer ikisinin toplamından daha uzun olduğu için uçları birleşmeyecektir. İşte bu gözlem, Üçgen Eşitsizliği'nin özünü oluşturur.\n\n> [!IMPORTANT]\n> Bir üçgende herhangi bir kenarın uzunluğu, diğer iki kenarın uzunlukları toplamından **küçük**, farkının mutlak değerinden ise **büyük** olmak zorundadır.\n\nMatematiksel olarak ifade edersek, kenar uzunlukları $a, b, c$ olan bir üçgen için bu koşul şu şekildedir:\n$$|b - c| < a < b + c$$\nBu kural, üçgenin \"kapanabilmesi\" için kritik bir koşuldur. Eğer $a = b + c$ olsaydı, üçgen oluşmaz, düz bir doğru parçası elde ederdik. Bu, sıkça düşülen bir yanılgıdır: en uzun kenarın diğer iki kenarın toplamına eşit olabileceği sanılır. Ancak bu durumda bir üçgen değil, doğrusal bir yapı oluşur; yani köşeler aynı doğru üzerinde kalır ve bir üçgen alanı oluşmaz.\n\n[DIAGRAM:geometry content=\"Bir ABC üçgeni çiziniz. A köşesi üstte, BC kenarı altta yatay olsun. Kenar uzunlukları AB=c, AC=b, BC=a olarak isimlendirilsin. Köşeler A, B, C olarak etiketlensin. İç açılar A açısı $\\alpha$, B açısı $\\beta$, C açısı $\\gamma$ olarak gösterilsin.\"]\n\nÜçgenin kenarları arasındaki bu ilişki, açılarla da derin bir bağlantı içindedir. **Büyük Açı Karşısında Büyük Kenar** prensibi, bu bağlantının temelini oluşturur. Bir üçgende, en büyük açının karşısındaki kenar en uzun kenardır. Benzer şekilde, en küçük açının karşısındaki kenar en kısa kenardır. Diğer bir deyişle, bir üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçüleri doğru orantılıdır. Eğer bir üçgende A açısı B açısından büyükse, A açısının karşısındaki kenar (BC) de B açısının karşısındaki kenardan (AC) daha uzun olacaktır.\n\nBu iki temel prensip, LGS Geometri sorularında kenar uzunlukları veya açı ölçüleri hakkında yorum yapmamızı, sıralama yapmamızı ve olası değer aralıklarını bulmamızı sağlar. Bir üçgenin sadece kenar uzunluklarına bakarak var olup olamayacağını anlamak veya açılarını bilerek kenarlarını sıralamak, bu konunun temel uygulama alanlarıdır. Geometrideki her bir ilke, bir diğerinin üzerine inşa edilir ve bu ilkeler, daha karmaşık problemleri çözmek için birer yapı taşı görevi görür. Önümüzdeki derslerde bu prensipleri somut örnekler ve problem çözümleriyle pekiştireceğiz.",
+                  "title": "Üçgen Kenar İlişkileri: Temel Eşitsizlikler ve Açı-Kenar Bağlantısı",
+                  "type": "CASE_STUDY",
+                  "phase": 2,
+                  "id": "card-phase2-1769717448596-3"
+                },
+                {
+                  "content": "## Üçgen Kenar İlişkilerinde Temel Çıkarımlar ve Gelecek Konulara Bakış\n\nGeometri serüvenimizin bu ilk adımında, üçgenlerin temel yapı taşlarından olan kenar uzunlukları arasındaki hayati ilişkilere derinlemesine bir bakış attık. Şimdiye kadar öğrendiklerimizi bir araya getirerek en önemli çıkarımları özetleyelim ve bu bilgilerin bizi LGS Geometri'de bir sonraki durağımıza nasıl taşıyacağını inceleyelim.\n\n### Üçgen Eşitsizliği: Üçgenin Varlık Şartı\n\nBir üçgenin sadece üç doğru parçasının bir araya gelmesiyle oluşmadığını, bu parçaların belirli bir uyum içinde olması gerektiğini net bir şekilde gördük. **Üçgen Eşitsizliği**, bu uyumun matematiksel ifadesidir: herhangi bir kenarın uzunluğu, diğer iki kenarın uzunlukları toplamından küçük, farklarının mutlak değerinden ise büyük olmalıdır.\n\nBu kuralı matematiksel olarak ifade edecek olursak, $a, b, c$ kenar uzunluklarına sahip bir üçgen için:\n$$|b-c| < a < b+c$$\nBu eşitsizlik, üçgenin var olabilmesi için vazgeçilmez bir koşuldur. Tıpkı üç farklı uzunluktaki çubuğu masada bir üçgen oluşturacak şekilde birleştirmeye çalışırken deneyimlediğimiz gibi, bu kural bize hangi kenar kombinasyonlarının gerçek bir üçgen oluşturabileceğini gösterir.\n\n> [!WARNING]\n> Öğrencilerin sıkça düştüğü bir yanılgı, en uzun kenarın diğer iki kenarın toplamına *eşit olabileceği* düşüncesidir. Ancak bu durumda kenarlar bir üçgen oluşturmak yerine düz bir çizgi üzerinde yan yana dizilirler. Unutmayın, eşitsizlik *kesinlikle* küçüktür/büyüktür işaretini gerektirir. Bir kenar diğer ikisinin toplamına eşitse ya da farkına eşitse üçgen oluşmaz, doğru parçaları üst üste gelir veya doğrusal olurlar.\n\n### Büyük Açı Karşısında Büyük Kenar İlişkisi\n\nKenar uzunlukları arasındaki bu varlık koşulunun yanı sıra, üçgenin iç açıları ile kenar uzunlukları arasında da doğrudan bir ilişki olduğunu keşfettik. Bir üçgende **büyük açı karşısında büyük kenar**, **küçük açı karşısında küçük kenar** bulunur. Bu, geometrideki en temel ve sezgisel ilişkilerden biridir. Bir açıyı büyüttüğünüzde, o açının \"karşısına düşen\" kenarın da uzaması, üçgenin dengesi için kaçınılmazdır.\n\n[DIAGRAM:geometry content=\"ABC üçgeni, A köşesi üstte. BC kenarı yatay ve 10 cm. AB kenarı 7 cm, AC kenarı 8 cm. Açıları: A açısı 75 derece, B açısı 55 derece, C açısı 50 derece. En uzun kenarın karşısındaki en büyük açı ve en kısa kenarın karşısındaki en küçük açı açıkça işaretlenmiş. Tüm kenar uzunlukları ve açı değerleri etiketlenmiş.\"]\n\nYukarıdaki üçgen görselinde de görebileceğiniz gibi, en büyük açı olan A açısının (75°) karşısında en uzun kenar olan BC (10 cm) bulunmaktadır. Benzer şekilde, en küçük açı olan C açısının (50°) karşısında ise en kısa kenar olan AB (7 cm) yer almaktadır. Bu doğru orantılı ilişki, üçgenin yapısını anlamamızda kilit rol oynar.\n\n### Geleceğe Yönelik Bağlantılar\n\nBu dersle attığımız temel adımlar, geometrinin daha karmaşık konularına giden yolu aydınlatıyor. Üçgen kenar ilişkileri konusundaki sağlam anlayışınız, ileride karşılaşacağınız birçok geometrik problemi çözmede size rehberlik edecek. Örneğin:\n\n*   **Üçgenlerde Benzerlik ve Eşlik:** Kenar uzunlukları arasındaki oranlar ve açıların eşitliği, üçgenlerin benzerliğini ve eşliğini anlamanın temelini oluşturur.\n*   **Pisagor Teoremi:** Dik üçgenlerde kenarlar arasındaki özel ilişkiyi (hipotenüsün karesinin dik kenarların kareleri toplamına eşit olması) incelerken, bu temel bilgileri kullanacağız.\n*   **Üçgenin Alanı ve Çevresi:** Kenar uzunluklarını ve açıları kullanarak üçgenlerin alan ve çevre hesaplamalarını yapabileceksiniz.\n\nBu ilk ders, LGS Geometri yolculuğunuzun sadece başlangıcıydı. Ancak sağlam bir temel attık. Unutmayın, geometride her kavram bir sonrakine köprüdür. Bu köprüleri sağlam inşa ettiğinizde, en zorlu problemler bile gözünüzde küçülecektir. Şimdi bu çıkarımları zihninize iyice yerleştirin, çünkü bir sonraki dersimizde üçgenlerin belki de en bilinen özelliğine, dik üçgenlerin vazgeçilmezi olan Pisagor Teoremi'ne odaklanacağız.",
+                  "title": "Üçgen Kenar İlişkilerinde Temel Çıkarımlar ve Gelecek Konulara Bakış",
+                  "id": "card-phase2-1769717461989-4",
+                  "type": "INSTRUCTION",
+                  "phase": 2
+                },
+                {
+                  "id": "card-phase3-1769717578139-0",
+                  "difficultyLevel": 1,
+                  "courseTopic": "LGS Geometri",
+                  "title": "Bilgi Kontrolü 1: Temel İlke",
+                  "topic": "Üçgen Kenar İlişkileri",
+                  "type": "QUIZ",
+                  "phase": 3,
+                  "question": {
+                    "explanation": "Üçgen eşitsizliğine göre, bir üçgende herhangi iki kenarın uzunlukları toplamı, üçüncü kenarın uzunluğundan her zaman daha büyük olmalıdır. Bu, bir üçgenin oluşabilmesi için temel şarttır.",
+                    "options": [
+                      "E) Herhangi bir kenarın uzunluğu, diğer iki kenarın uzunlukları farkına eşittir.",
+                      "B) En uzun kenarın uzunluğu, diğer iki kenarın uzunlukları toplamına eşittir.",
+                      "C) Herhangi iki kenarın uzunlukları farkı, üçüncü kenarın uzunluğundan büyüktür.",
+                      "D) Tüm kenar uzunluklarının toplamı sabittir.",
+                      "A) Herhangi iki kenarın uzunlukları toplamı, üçüncü kenarın uzunluğundan büyüktür."
+                    ],
+                    "correctIndex": 4,
+                    "text": "Bir üçgenin kenar uzunlukları arasında aşağıdaki hangi ilişki *her zaman* doğrudur?"
+                  }
+                },
+                {
+                  "courseTopic": "LGS Geometri",
+                  "title": "Bilgi Kontrolü 2: Üçgen Oluşturma Şartı",
+                  "difficultyLevel": 2,
+                  "type": "QUIZ",
+                  "phase": 3,
+                  "id": "card-phase3-1769717578139-1",
+                  "question": {
+                    "correctIndex": 4,
+                    "explanation": "Üçgen eşitsizliğine göre, $|7-4| < x < 7+4$ olmalıdır. Bu da $3 < x < 11$ anlamına gelir. $x$ bir tam sayı olduğu için alabileceği değerler 4, 5, 6, 7, 8, 9, 10'dur.",
+                    "options": [
+                      "A) Sadece 3, 4, 5, 6, 7, 8, 9, 10",
+                      "B) Sadece 4, 5, 6, 7, 8, 9",
+                      "C) Sadece 5, 6, 7, 8, 9, 10",
+                      "E) Sadece 3, 4, 5, 6, 7, 8, 9",
+                      "D) Sadece 4, 5, 6, 7, 8, 9, 10"
+                    ],
+                    "text": "Kenar uzunlukları sırasıyla 4 cm, 7 cm ve $x$ cm olan bir üçgenin var olabilmesi için $x$ hangi tam sayı değerlerini alabilir?"
+                  },
+                  "topic": "Üçgen Kenar İlişkileri"
+                },
+                {
+                  "type": "QUIZ",
+                  "phase": 3,
+                  "id": "card-phase3-1769717578139-2",
+                  "courseTopic": "LGS Geometri",
+                  "difficultyLevel": 3,
+                  "title": "Bilgi Kontrolü 3: Kenar Uzunluğu Uygulaması",
+                  "question": {
+                    "text": "Bir ABC üçgeninde $|AB|= (2n+1)$ cm, $|BC|= (n+5)$ cm ve $|AC|= 7$ cm'dir. Bu üçgenin kenar uzunlukları birer tam sayı olduğuna göre, $n$ bir doğal sayı olmak üzere $n$'nin alabileceği en küçük ve en büyük tam sayı değerlerinin toplamı kaçtır?",
+                    "options": [
+                      "A) 8",
+                      "B) 9",
+                      "C) 10",
+                      "E) 12",
+                      "D) 11"
+                    ],
+                    "correctIndex": 4,
+                    "explanation": "Üçgen eşitsizliğine göre, $| (2n+1) - (n+5) | < 7 < (2n+1) + (n+5)$ olmalıdır. Bu da $| n-4 | < 7 < 3n+6$ anlamına gelir.\n1. Eşitsizlik: $|n-4| < 7 \\Rightarrow -7 < n-4 < 7 \\Rightarrow -3 < n < 11$.\n2. Eşitsizlik: $7 < 3n+6 \\Rightarrow 1 < 3n \\Rightarrow 1/3 < n$.\n$n$ bir doğal sayı olduğu için $n \\ge 0$ ve $n > 1/3$ koşulundan $n \\ge 1$ olmalıdır.\nBu koşulları birleştirirsek, $1 \\le n < 11$.\n$n$'nin alabileceği en küçük tam sayı değeri $n_{min}=1$.\n$n$'nin alabileceği en büyük tam sayı değeri $n_{max}=10$.\nBu değerlerin toplamı: $1+10=11$."
+                  },
+                  "topic": "Üçgen Kenar İlişkileri"
+                },
+                {
+                  "topic": "Üçgen Kenar İlişkileri",
+                  "question": {
+                    "options": [
+                      "A) 7",
+                      "B) 8",
+                      "C) 10",
+                      "D) 13",
+                      "E) 14"
+                    ],
+                    "text": "Bir ABCD dörtgeninde (bir dörtgen şekli düşünün), AC köşegeni iki üçgen oluşturur: ABC ve ADC. Eğer $|AB|= 6$ cm, $|BC|= 8$ cm, $|AD|= 5$ cm ve $|DC|= 9$ cm ise, AC köşegeninin uzunluğu (santimetre cinsinden) aşağıdaki tam sayı değerlerinden hangisi *olamaz*?",
+                    "correctIndex": 4,
+                    "explanation": "AC köşegeni hem ABC üçgeninin hem de ADC üçgeninin bir kenarıdır.\nABC üçgeni için üçgen eşitsizliği: $|8-6| < |AC| < 8+6 \\Rightarrow 2 < |AC| < 14$.\nADC üçgeni için üçgen eşitsizliği: $|9-5| < |AC| < 9+5 \\Rightarrow 4 < |AC| < 14$.\nHer iki eşitsizliğin kesişimi alınmalıdır: $4 < |AC| < 14$.\nYani $|AC|$'nin alabileceği tam sayı değerleri 5, 6, 7, 8, 9, 10, 11, 12, 13'tür.\nSeçeneklere baktığımızda, 14 bu aralığın dışında kalır, dolayısıyla AC'nin uzunluğu 14 cm *olamaz*."
+                  },
+                  "courseTopic": "LGS Geometri",
+                  "id": "card-phase3-1769717578139-3",
+                  "title": "Bilgi Kontrolü 4: Çoklu Üçgen Analizi",
+                  "phase": 3,
+                  "difficultyLevel": 4,
+                  "type": "QUIZ"
+                },
+                {
+                  "difficultyLevel": 5,
+                  "question": {
+                    "correctIndex": 2,
+                    "explanation": "Üçgenlerde kenar-açı ilişkisine göre, büyük kenarın karşısında büyük açı, küçük kenarın karşısında küçük açı bulunur.\nVerilen: $a > b > c$.\n$a$ kenarının karşısındaki açı $\\angle A$.\n$b$ kenarının karşısındaki açı $\\angle B$.\n$c$ kenarının karşısındaki açı $\\angle C$.\nBu durumda, $a > b > c$ olduğu için $\\angle A > \\angle B > \\angle C$ olmalıdır. Bu eşitsizliği küçükten büyüğe sıralarsak, $\\angle C < \\angle B < \\angle A$ elde ederiz.",
+                    "options": [
+                      "A) En büyük açı $\\angle C$'dir.",
+                      "B) En küçük açı $\\angle B$'dir.",
+                      "D) $\\angle C < \\angle B < \\angle A$",
+                      "C) $\\angle A < \\angle B < \\angle C$",
+                      "E) $\\angle B < \\angle C < \\angle A$"
+                    ],
+                    "text": "Bir ABC üçgeninde kenar uzunlukları $|BC|= a$, $|AC|= b$ ve $|AB|= c$'dir. Eğer $a > b > c$ olduğu biliniyorsa, bu üçgenin iç açıları ile ilgili aşağıdaki ifadelerden hangisi *kesinlikle* doğrudur?"
+                  },
+                  "topic": "Üçgen Kenar İlişkileri",
+                  "phase": 3,
+                  "type": "QUIZ",
+                  "title": "Bilgi Kontrolü 5: Açı-Kenar İlişkilerine Giriş",
+                  "id": "card-phase3-1769717578139-4",
+                  "courseTopic": "LGS Geometri"
+                }
+              ]
+            }
+          },
+          {
+            "conceptTitle": "Kenarortay, Açıortay, Yükseklik",
+            "title": "Üçgenin Yardımcı Elemanları",
+            "conceptId": "yardimci-elemanlar",
+            "isReview": false,
+            "isFinalExam": false,
+            "isAudio": false,
+            "status": "LOCKED",
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L01-STD",
+            "content": {
+              "phase": 1,
+              "isPartial": true,
+              "cards": [
+                {
+                  "type": "HOOK",
+                  "visualPrompt": "LGS Geometri üçgenin yardımcı elemanları (açıortay, kenarortay, yükseklik) tek bir üçgen üzerinde gösterimi",
+                  "id": "card-phase1-1769717588389-0",
+                  "content": "Merhaba sevgili LGS Geometri adayları! Geçen dersimizde üçgenlerin kenar ilişkilerini keşfederek onların dış dünyasını anlamıştık. Peki, bir üçgeni tam anlamıyla çözebilmek için sadece kenarlarına bakmak yeterli mi? LGS'de birçok öğrencinin gözden kaçırdığı, ancak aslında **soruların kilit noktalarını oluşturan gizli kahramanlar** var: Üçgenin yardımcı elemanları!\n\nBu elemanlar – açıortay, kenarortay (medyan) ve yükseklik – sadece rastgele çizgiler değildir. Onlar, üçgenin iç yapısını, simetrisini ve denge noktalarını belirleyen, adeta bir üçgenin 'DNA'sını' oluşturan bileşenlerdir. LGS Geometri sorularında karmaşık görünen şekillerin içinde bu elemanları tanımak ve özelliklerini doğru bir şekilde kullanmak, çözüm yolunu aydınlatan bir fener gibidir. Birçok zor LGS probleminde, çözüm, tam da bu elemanlardan birinin doğru bir şekilde çizilmesi veya özelliğinin fark edilmesiyle başlar.\n\nUnutmayın, LGS'de bu elemanlar sadece tanımlarıyla değil, **birbirleriyle olan ilişkileri ve oluşturdukları özel noktalarla** başarıda kritik rol oynar. Onları anlamak, geometrideki sezgilerinizi güçlendirir ve size çok değerli zaman kazandırır. Bu derste, üçgenlerin bu 'gizli kahramanlarını' derinlemesine inceleyecek, onların LGS'deki uygulama alanlarını ve size nasıl puan kazandıracaklarını göreceğiz.\n\n> [!NOTE]\n> LGS'de üçgen yardımcı elemanlarının sadece adlarını bilmek yeterli değildir. Onların özelliklerini ve birbiriyle ilişkilerini kavramak, size karmaşık problemlerde bile 'aha!' anları yaşatacak ve **başarı kapılarını aralayacaktır.**",
+                  "title": "Üçgenin Yardımcı Elemanları",
+                  "phase": 1
+                }
+              ],
+              "lessonId": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L01-STD"
+            }
+          },
+          {
+            "title": "Üçgen Çizim Şartları",
+            "status": "LOCKED",
+            "conceptTitle": "Belirli Üçgen Çizimi",
+            "conceptId": "ucgen-cizimi",
+            "isReview": false,
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L02-STD",
+            "isAudio": false,
+            "isFinalExam": false
+          },
+          {
+            "conceptTitle": "Üçgen Esasları Değerlendirmesi",
+            "isReview": false,
+            "status": "COMPLETED",
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L03-FNL",
+            "isFinalExam": true,
+            "isAudio": false,
+            "conceptId": "ucgen-final-exam",
+            "title": "Temel Üçgenler Sınavı",
+            "content": {
+              "phase": 3,
+              "cards": [
+                {
+                  "explanation": "Bu kural 'Üçgen Eşitsizliği' olarak bilinir; bir üçgenin çizilebilmesi için temel şarttır.",
+                  "type": "TRUE_FALSE",
+                  "content": "Bir üçgende iki kenar uzunluğunun toplamı, her zaman üçüncü kenar uzunluğundan büyüktür.",
+                  "id": "final-1769717615000-0",
+                  "isTrue": true
+                },
+                {
+                  "explanation": "Pisagor teoremine göre, 90 derecelik açının karşısındaki kenar olan hipotenüs, dik kenarlardan daima daha uzundur.",
+                  "isTrue": true,
+                  "type": "TRUE_FALSE",
+                  "content": "Dik açılı bir üçgende en uzun kenar hipotenüstür.",
+                  "id": "final-1769717615000-1"
+                },
+                {
+                  "explanation": "Geniş açılı üçgenlerde yüksekliklerin uzantıları üçgenin dış bölgesinde kesişir.",
+                  "type": "TRUE_FALSE",
+                  "content": "Bir üçgenin yükseklikleri her zaman üçgenin iç bölgesinde kesişir.",
+                  "id": "final-1769717615000-2",
+                  "isTrue": false
+                },
+                {
+                  "id": "final-1769717615000-3",
+                  "explanation": "Eş üçgenler, benzerlik oranı 1 olan özel benzer üçgenlerdir.",
+                  "isTrue": true,
+                  "type": "TRUE_FALSE",
+                  "content": "Tüm eş üçgenler aynı zamanda benzer üçgenlerdir."
+                },
+                {
+                  "explanation": "Benzer iki şeklin alanları oranı, benzerlik oranının karesine eşittir (3² = 9).",
+                  "isTrue": false,
+                  "type": "TRUE_FALSE",
+                  "id": "final-1769717615000-4",
+                  "content": "Benzerlik oranı 3 olan iki üçgenin alanları oranı 6'dır."
+                },
+                {
+                  "content": "Bir dik dairesel silindirin yan yüzeyinin açınımı bir dikdörtgendir.",
+                  "id": "final-1769717615000-5",
+                  "type": "TRUE_FALSE",
+                  "explanation": "Silindir açıldığında, yan yüzey bir kenarı taban çevresi, diğer kenarı yükseklik olan bir dikdörtgen oluşturur.",
+                  "isTrue": true
+                },
+                {
+                  "id": "final-1769717615000-6",
+                  "isTrue": false,
+                  "explanation": "3 + 4 = 7 < 8 olduğu için üçgen eşitsizliğini sağlamaz ve bu üçgen çizilemez.",
+                  "content": "Kenar uzunlukları 3 cm, 4 cm ve 8 cm olan bir üçgen çizilebilir.",
+                  "type": "TRUE_FALSE"
+                },
+                {
+                  "content": "Üçgenin bir köşesinden karşı kenarın orta noktasına çizilen doğru parçasına kenarortay denir.",
+                  "id": "final-1769717615000-7",
+                  "type": "TRUE_FALSE",
+                  "isTrue": true,
+                  "explanation": "Kenarortay, kenarı iki eşit parçaya bölen yardımcı elemandır."
+                },
+                {
+                  "type": "TRUE_FALSE",
+                  "content": "Bir dik dairesel koninin açınımında yan yüzey bir daire dilimidir.",
+                  "explanation": "Koninin yan yüzeyi açıldığında, yarıçapı ana doğru uzunluğu olan bir daire dilimi elde edilir.",
+                  "isTrue": true,
+                  "id": "final-1769717615000-8"
+                },
+                {
+                  "type": "TRUE_FALSE",
+                  "id": "final-1769717615000-9",
+                  "explanation": "Pisagor bağıntısı yalnızca dik açılı üçgenlerde (bir açısı 90 derece olan) geçerlidir.",
+                  "isTrue": false,
+                  "content": "Pisagor bağıntısı sadece dar açılı üçgenlerde uygulanabilir."
+                },
+                {
+                  "content": "İki üçgenin benzer olması için karşılıklı tüm açılarının ölçülerinin eşit olması yeterlidir.",
+                  "explanation": "Açı-Açı benzerlik kuralına göre, karşılıklı ikişer açısı eşit olan üçgenler benzerdir.",
+                  "id": "final-1769717615000-10",
+                  "type": "TRUE_FALSE",
+                  "isTrue": true
+                },
+                {
+                  "id": "final-1769717615000-11",
+                  "isTrue": true,
+                  "type": "TRUE_FALSE",
+                  "content": "Dik prizmalarda yan yüz sayısı, tabandaki çokgenin kenar sayısına eşittir.",
+                  "explanation": "Örneğin, bir üçgen prizmanın 3, kare prizmanın 4 tane yan yüzü vardır."
+                },
+                {
+                  "id": "final-1769717615000-12",
+                  "isTrue": false,
+                  "type": "TRUE_FALSE",
+                  "explanation": "Piramidin hacmi, aynı taban ve yüksekliğe sahip prizmanın hacminin üçte birine (1/3) eşittir.",
+                  "content": "Bir piramidin hacmi, aynı taban ve yüksekliğe sahip bir prizmanın hacminin yarısına eşittir."
+                },
+                {
+                  "type": "TRUE_FALSE",
+                  "content": "Eşkenar üçgenin her bir iç açısı 60 derecedir.",
+                  "explanation": "Tüm kenarları eşit olan üçgenin tüm iç açıları da eşittir (180/3 = 60).",
+                  "isTrue": true,
+                  "id": "final-1769717615000-13"
+                },
+                {
+                  "isTrue": true,
+                  "explanation": "Açıortayın temel tanımı, açıyı iki eşit ölçüye ayırmaktır.",
+                  "type": "TRUE_FALSE",
+                  "content": "Bir üçgende bir açının açıortayı, o açıyı iki eş parçaya böler.",
+                  "id": "final-1769717615000-14"
+                },
+                {
+                  "explanation": "Karelerin tüm iç açıları 90 derecedir ve kenar oranları her zaman sabittir.",
+                  "type": "TRUE_FALSE",
+                  "id": "final-1769717615000-15",
+                  "content": "Tüm kareler birbirine benzerdir.",
+                  "isTrue": true
+                },
+                {
+                  "id": "final-1769717615000-16",
+                  "explanation": "Pisagor teoremine göre hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir.",
+                  "content": "Dik bir üçgende hipotenüsün karesi, dik kenarların karelerinin farkına eşittir.",
+                  "type": "TRUE_FALSE",
+                  "isTrue": false
+                },
+                {
+                  "content": "Üç kenar uzunluğu verilen bir üçgen, pergel ve cetvel kullanılarak tek şekilde çizilebilir.",
+                  "isTrue": true,
+                  "explanation": "Kenar-Kenar-Kenar (KKK) çizim kuralına göre, üç kenarı bilinen bir üçgen belirli bir üçgendir.",
+                  "id": "final-1769717615000-17",
+                  "type": "TRUE_FALSE"
+                },
+                {
+                  "isTrue": false,
+                  "content": "Bir silindirin taban yarıçapı 2 katına çıkarılırsa hacmi de 2 katına çıkar.",
+                  "type": "TRUE_FALSE",
+                  "explanation": "Hacim formülü π.r².h olduğu için yarıçap 2 katına çıkarsa hacim r²'den dolayı 4 katına çıkar.",
+                  "id": "final-1769717615000-18"
+                },
+                {
+                  "type": "TRUE_FALSE",
+                  "content": "Üçgenin ağırlık merkezi, kenarortayların kesim noktasıdır.",
+                  "id": "final-1769717615000-19",
+                  "explanation": "Kenarortaylar üçgenin içinde tek bir noktada kesişir ve bu noktaya ağırlık merkezi denir.",
+                  "isTrue": true
+                },
+                {
+                  "question": {
+                    "options": [
+                      "3",
+                      "4",
+                      "5",
+                      "13"
+                    ],
+                    "correctIndex": 2,
+                    "text": "Bir üçgenin kenar uzunlukları 5 cm ve 9 cm'dir. Bu üçgenin üçüncü kenarının alabileceği en küçük tam sayı değeri kaç cm'dir?",
+                    "explanation": "Üçgen eşitsizliğine göre, bir kenar diğer iki kenarın farkından büyük olmalıdır (|9-5| < x < 9+5). 4 < x < 14 olduğu için en küçük tam sayı değeri 5'tir."
+                  },
+                  "id": "final-1769717615000-20",
+                  "type": "QUIZ"
+                },
+                {
+                  "type": "QUIZ",
+                  "id": "final-1769717615000-21",
+                  "question": {
+                    "correctIndex": 2,
+                    "text": "Üçgenin bir köşesini karşı kenarın orta noktasına birleştiren doğru parçasına ne ad verilir?",
+                    "explanation": "Kenarortay, bir üçgenin köşesini karşısındaki kenarın orta noktasına birleştirerek o kenarı iki eş parçaya böler.",
+                    "options": [
+                      "Yükseklik",
+                      "Açıortay",
+                      "Kenarortay",
+                      "Kenar orta dikme"
+                    ]
+                  }
+                },
+                {
+                  "question": {
+                    "options": [
+                      "7 cm, 8 cm, 10 cm",
+                      "4 cm, 4 cm, 7 cm",
+                      "2 cm, 5 cm, 8 cm",
+                      "6 cm, 6 cm, 6 cm"
+                    ],
+                    "correctIndex": 2,
+                    "text": "Aşağıdaki kenar uzunluklarından hangisi ile bir üçgen ÇİZİLEMEZ?",
+                    "explanation": "Üçgen eşitsizliğine göre iki kenarın toplamı üçüncüden büyük olmalıdır. 2+5=7 ve 7, 8'den küçük olduğu için bu ölçülerle üçgen çizilemez."
+                  },
+                  "id": "final-1769717615000-22",
+                  "type": "QUIZ"
+                },
+                {
+                  "type": "QUIZ",
+                  "question": {
+                    "explanation": "Pisagor teoremine göre a² + b² = c² formülünden 6² + 8² = 36 + 64 = 100 bulunur. √100 = 10 cm'dir (3-4-5 üçgeninin 2 katı).",
+                    "correctIndex": 0,
+                    "text": "Bir dik üçgende dik kenar uzunlukları 6 cm ve 8 cm ise, hipotenüs uzunluğu kaç cm'dir?",
+                    "options": [
+                      "10",
+                      "12",
+                      "14",
+                      "100"
+                    ]
+                  },
+                  "id": "final-1769717615000-23"
+                },
+                {
+                  "type": "QUIZ",
+                  "id": "final-1769717615000-24",
+                  "question": {
+                    "explanation": "İki benzer şeklin alanları oranı, benzerlik oranının karesine eşittir. (2/3)² = 4/9.",
+                    "correctIndex": 2,
+                    "options": [
+                      "2/3",
+                      "4/6",
+                      "4/9",
+                      "8/27"
+                    ],
+                    "text": "Benzerlik oranı 2/3 olan iki üçgenin alanları oranı kaçtır?"
+                  }
+                },
+                {
+                  "type": "QUIZ",
+                  "question": {
+                    "explanation": "Silindir hacmi V = πr²h formülüyle hesaplanır. V = 3 * 3² * 10 = 3 * 9 * 10 = 270 cm³.",
+                    "correctIndex": 2,
+                    "options": [
+                      "90",
+                      "180",
+                      "270",
+                      "300"
+                    ],
+                    "text": "Bir dik dairesel silindirin taban yarıçapı 3 cm ve yüksekliği 10 cm'dir. Bu silindirin hacmi kaç cm³'tür? (π = 3 alınız)"
+                  },
+                  "id": "final-1769717615000-25"
+                },
+                {
+                  "question": {
+                    "explanation": "5-12-13 özel bir dik üçgendir (5² + 12² = 25 + 144 = 169 = 13²).",
+                    "text": "Aşağıdakilerden hangisi bir dik üçgenin kenar uzunlukları olabilir?",
+                    "options": [
+                      "3 - 4 - 6",
+                      "5 - 12 - 13",
+                      "4 - 5 - 9",
+                      "7 - 24 - 26"
+                    ],
+                    "correctIndex": 1
+                  },
+                  "id": "final-1769717615000-26",
+                  "type": "QUIZ"
+                },
+                {
+                  "type": "QUIZ",
+                  "question": {
+                    "correctIndex": 1,
+                    "options": [
+                      "4",
+                      "8",
+                      "12",
+                      "16"
+                    ],
+                    "text": "Bir dik dairesel koninin ana doğrusu (s) 10 cm, taban yarıçapı (r) 6 cm ise bu koninin yüksekliği (h) kaç cm'dir?",
+                    "explanation": "Konide r, h ve s arasında r² + h² = s² bağıntısı vardır. 6² + h² = 10² ise 36 + h² = 100, h² = 64, h = 8 cm bulunur."
+                  },
+                  "id": "final-1769717615000-27"
+                },
+                {
+                  "question": {
+                    "text": "Eşlik ve benzerlik ile ilgili aşağıdakilerden hangisi HER ZAMAN doğrudur?",
+                    "options": [
+                      "Her benzer üçgen aynı zamanda eştir.",
+                      "Eş üçgenlerin benzerlik oranı 1'dir.",
+                      "Benzer üçgenlerin çevreleri eşittir.",
+                      "Eş üçgenlerin alanları farklı olabilir."
+                    ],
+                    "explanation": "Eş üçgenler, tüm kenarları ve açıları aynı olan üçgenlerdir, bu nedenle benzerlik oranları tam olarak 1'dir.",
+                    "correctIndex": 1
+                  },
+                  "type": "QUIZ",
+                  "id": "final-1769717615000-28"
+                },
+                {
+                  "id": "final-1769717615000-29",
+                  "question": {
+                    "text": "Taban alanı 24 cm² ve yüksekliği 10 cm olan bir dik piramidin hacmi kaç cm³'tür?",
+                    "options": [
+                      "240",
+                      "120",
+                      "80",
+                      "60"
+                    ],
+                    "correctIndex": 2,
+                    "explanation": "Piramidin hacmi V = (Taban Alanı * h) / 3 formülüyle bulunur. (24 * 10) / 3 = 240 / 3 = 80 cm³."
+                  },
+                  "type": "QUIZ"
+                },
+                {
+                  "type": "QUIZ",
+                  "id": "final-1769717615000-30",
+                  "question": {
+                    "correctIndex": 0,
+                    "text": "Bir ABC üçgeninde m(A) = 50° ve m(B) = 60° ise, kenar uzunlukları arasındaki doğru sıralama hangisidir?",
+                    "options": [
+                      "a < b < c",
+                      "c < b < a",
+                      "a < c < b",
+                      "b < a < c"
+                    ],
+                    "explanation": "İç açılar toplamından m(C) = 180 - (50+60) = 70° bulunur. Küçük açı karşısında kısa kenar bulunur: 50 < 60 < 70 olduğundan a < b < c'dir."
+                  }
+                },
+                {
+                  "id": "final-1769717615000-31",
+                  "type": "QUIZ",
+                  "question": {
+                    "text": "Bir silindirin yan yüzü açıldığında hangi geometrik şekil oluşur?",
+                    "explanation": "Bir dik silindirin yan yüzü açıldığında, bir kenarı yüksekliğe (h), diğer kenarı taban çevresine (2πr) eşit olan bir dikdörtgen oluşur.",
+                    "correctIndex": 2,
+                    "options": [
+                      "Üçgen",
+                      "Daire",
+                      "Dikdörtgen",
+                      "Yamuk"
+                    ]
+                  }
+                },
+                {
+                  "type": "QUIZ",
+                  "question": {
+                    "correctIndex": 1,
+                    "text": "Yarıçapı 4 cm olan bir silindirin taban çevresi kaç cm'dir? (π = 3 alınız)",
+                    "options": [
+                      "12",
+                      "24",
+                      "48",
+                      "16"
+                    ],
+                    "explanation": "Taban çevresi Ç = 2πr formülü ile hesaplanır. Ç = 2 * 3 * 4 = 24 cm."
+                  },
+                  "id": "final-1769717615000-32"
+                },
+                {
+                  "type": "QUIZ",
+                  "question": {
+                    "correctIndex": 3,
+                    "text": "Aşağıdakilerden hangisi bir üçgenin yardımcı elemanlarından biri DEĞİLDİR?",
+                    "options": [
+                      "Açıortay",
+                      "Yükseklik",
+                      "Kenarortay",
+                      "Kiriş"
+                    ],
+                    "explanation": "Açıortay, kenarortay ve yükseklik üçgenin yardımcı elemanlarıdır; kiriş ise çembere ait bir kavramdır."
+                  },
+                  "id": "final-1769717615000-33"
+                },
+                {
+                  "question": {
+                    "text": "Koordinat sisteminde A(0,0) ve B(3,4) noktaları arasındaki en kısa uzaklık kaç birimdir?",
+                    "explanation": "İki nokta arasındaki uzaklık Pisagor ile bulunur: √(3-0)² + (4-0)² = √9 + 16 = √25 = 5 birim.",
+                    "options": [
+                      "3",
+                      "4",
+                      "5",
+                      "7"
+                    ],
+                    "correctIndex": 2
+                  },
+                  "type": "QUIZ",
+                  "id": "final-1769717615000-34"
+                },
+                {
+                  "type": "QUIZ",
+                  "question": {
+                    "text": "Kare dik prizmanın kaç tane ayrıtı (kenarı) vardır?",
+                    "options": [
+                      "8",
+                      "10",
+                      "12",
+                      "6"
+                    ],
+                    "correctIndex": 2,
+                    "explanation": "Tüm prizmalar gibi kare dik prizmanın da 4 alt tabanda, 4 üst tabanda ve 4 yanlarda olmak üzere toplam 12 ayrıtı vardır."
+                  },
+                  "id": "final-1769717615000-35"
+                },
+                {
+                  "question": {
+                    "explanation": "Geniş açılı üçgenlerde, geniş açıyı oluşturan kenarlara ait yükseklikler üçgenin dış bölgesinde kesişir.",
+                    "correctIndex": 2,
+                    "options": [
+                      "Üçgenin içinde",
+                      "Üçgenin üzerinde (köşede)",
+                      "Üçgenin dışında",
+                      "Ağırlık merkezinde"
+                    ],
+                    "text": "Geniş açılı bir üçgende yüksekliklerin kesim noktası (diklik merkezi) nerede bulunur?"
+                  },
+                  "id": "final-1769717615000-36",
+                  "type": "QUIZ"
+                },
+                {
+                  "type": "QUIZ",
+                  "question": {
+                    "text": "Bir üçgenin sadece üç açısının ölçüsü biliniyorsa bu üçgen hakkında ne söylenebilir?",
+                    "correctIndex": 2,
+                    "explanation": "Açı-Açı-Açı (AAA) kuralı benzerlik içindir. Kenar uzunluğu bilinmediği sürece aynı açılara sahip sonsuz sayıda farklı büyüklükte üçgen çizilebilir.",
+                    "options": [
+                      "Tek bir üçgen çizilebilir.",
+                      "Üçgen çizilemez.",
+                      "Sonsuz farklı büyüklükte benzer üçgenler çizilebilir.",
+                      "Sadece eş üçgenler çizilebilir."
+                    ]
+                  },
+                  "id": "final-1769717615000-37"
+                },
+                {
+                  "question": {
+                    "explanation": "Eşkenar üçgende yükseklik kenarı ikiye böler (5, 5). Pisagor'dan h² + 5² = 10² -> h² = 75 -> h = 5√3.",
+                    "correctIndex": 1,
+                    "text": "Bir kenar uzunluğu 10 cm olan eşkenar üçgenin bir yüksekliği yaklaşık kaç cm'dir?",
+                    "options": [
+                      "5",
+                      "5√3",
+                      "10",
+                      "10√2"
+                    ]
+                  },
+                  "type": "QUIZ",
+                  "id": "final-1769717615000-38"
+                },
+                {
+                  "id": "final-1769717615000-39",
+                  "type": "QUIZ",
+                  "question": {
+                    "text": "Aşağıdakilerden hangisi üçgen çizimi için yeterli bir şart DEĞİLDİR?",
+                    "explanation": "Belirli bir üçgeni tek olarak çizebilmek için en az bir kenar uzunluğunun bilinmesi şarttır. Sadece açılar (AAA) belirli bir büyüklük tanımlamaz.",
+                    "correctIndex": 3,
+                    "options": [
+                      "Üç kenar uzunluğunun bilinmesi (SSS)",
+                      "İki kenar ve aradaki açının bilinmesi (SAS)",
+                      "Bir kenar ve iki açının bilinmesi (ASA)",
+                      "Sadece üç açısının bilinmesi (AAA)"
+                    ]
+                  }
+                }
+              ],
+              "isPartial": false,
+              "lessonId": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L03-FNL"
+            },
+            "masteryScore": 45
+          }
+        ],
+        "isLocked": false,
+        "isExpanded": true,
+        "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00",
+        "title": "Üçgenlerin Temel Esasları",
+        "worldOutline": {
+          "worldNarrative": "Bu modülde, geometrinin en temel yapı taşı olan üçgenin anatomisini ve varoluş şartlarını keşfedeceğiz. Her üç çubuğun neden bir üçgen oluşturamadığını sorgulayarak başlayacak, üçgenin içindeki 'görünmez' yardımcı elemanlarla derinleşecek ve nihayetinde bir üçgeni evrende eşsiz kılan çizim kodlarını çözümleyerek bu temel geometrik yolculuğu tamamlayacağız.",
+          "thematicFocus": "Üçgenin geometrik varoluş prensipleri ve yapısal dengesi",
+          "prerequisitesCovered": [
+            "Açı çeşitleri",
+            "Doğru parçası ölçümü",
+            "Temel geometrik şekiller"
+          ],
+          "masteryGoals": [
+            "Üçgen eşitsizliği kuralını farklı senaryolarda uygulayabilme",
+            "Üçgenin yardımcı elemanlarını tanımlayıp özelliklerini kıyaslayabilme",
+            "Verilen ölçülerin tek bir üçgen belirtip belirtmediğini analiz edebme"
+          ],
+          "lessonsOutline": [
+            {
+              "lessonIndex": 0,
+              "title": "Üçgen Kenar İlişkileri",
+              "plotPosition": "exposition",
+              "keyConceptsToTeach": [
+                "Üçgen Eşitsizliği (İki kenar toplamı üçüncüden büyük, farkı küçüktür)",
+                "Kenar-Açı İlişkisi (Büyük açı karşısında büyük kenar bulunur)"
+              ],
+              "prerequisiteConcepts": [
+                "Mutlak değer kavramı",
+                "Açı ölçümü"
+              ],
+              "leadsTo": [
+                "Üçgen çizim şartları",
+                "Pisagor bağıntısı"
+              ],
+              "estimatedCardCount": 6,
+              "cardBreakdown": {
+                "hookCards": 1,
+                "instructionCards": 2,
+                "practiceCards": 2,
+                "quizCards": 1
+              },
+              "visualizersNeeded": [
+                "flowchart"
+              ],
+              "assessmentFocus": [
+                "understand",
+                "apply"
+              ],
+              "openingStrategy": "mystery",
+              "closingStrategy": "preview",
+              "teachingApproach": "Somut çubuk örnekleri üzerinden üçgenin neden kapalı bir şekil oluşturamayabileceğini görselleştirerek anlatım.",
+              "commonMisconceptions": [
+                "Herhangi üç uzunluğun her zaman bir üçgen oluşturabileceği sanrısı."
+              ]
+            },
+            {
+              "lessonIndex": 1,
+              "title": "Üçgenin Yardımcı Elemanları",
+              "plotPosition": "rising_action",
+              "keyConceptsToTeach": [
+                "Kenarortay (Kenarı ikiye bölen, ağırlık merkezi ilişkisi)",
+                "Açıortay (Açıyı ikiye bölen, iç teğet çember merkezi)",
+                "Yükseklik (Dikme ve diklik merkezi)"
+              ],
+              "prerequisiteConcepts": [
+                "Diklik ve paralellik kavramları",
+                "Oran ve orantı"
+              ],
+              "leadsTo": [
+                "Üçgende alan hesaplamaları",
+                "Eşlik ve benzerlik"
+              ],
+              "estimatedCardCount": 7,
+              "cardBreakdown": {
+                "hookCards": 1,
+                "instructionCards": 3,
+                "practiceCards": 1,
+                "quizCards": 2
+              },
+              "visualizersNeeded": [
+                "mindmap"
+              ],
+              "assessmentFocus": [
+                "understand",
+                "analyze"
+              ],
+              "openingStrategy": "real_world",
+              "closingStrategy": "summary",
+              "teachingApproach": "Bir üçgenin dengesini sağlayan iç çizgilerin (V, n, h) fonksiyonel farklarını karşılaştırmalı olarak sunma.",
+              "commonMisconceptions": [
+                "Yükseklik ve kenarortayın her üçgende aynı doğru parçası olduğunun düşünülmesi."
+              ]
+            },
+            {
+              "lessonIndex": 2,
+              "title": "Üçgen Çizim Şartları",
+              "plotPosition": "climax",
+              "keyConceptsToTeach": [
+                "Belirli bir üçgen çizmek için gereken asgari 3 veri kuralı",
+                "Kenar-Kenar-Kenar (KKK) çizimi",
+                "Kenar-Açı-Kenar (KAK) ve Açı-Kenar-Açı (AKA) çizimleri"
+              ],
+              "prerequisiteConcepts": [
+                "Üçgen eşitsizliği",
+                "İletki ve cetvel kullanımı"
+              ],
+              "leadsTo": [
+                "Üçgenlerde eşlik",
+                "Pisagor teoremi"
+              ],
+              "estimatedCardCount": 6,
+              "cardBreakdown": {
+                "hookCards": 1,
+                "instructionCards": 2,
+                "practiceCards": 2,
+                "quizCards": 1
+              },
+              "visualizersNeeded": [
+                "flowchart"
+              ],
+              "assessmentFocus": [
+                "apply",
+                "analyze"
+              ],
+              "openingStrategy": "challenge",
+              "closingStrategy": "reflection",
+              "teachingApproach": "Kısıtlı verilerle (sadece açılar veya yetersiz kenarlar) 'hayali' vs 'gerçek' üçgen inşası üzerine odaklanma.",
+              "commonMisconceptions": [
+                "Sadece üç açısı verilen bir üçgenin tek bir benzersiz üçgen belirteceği hatası."
+              ]
+            },
+            {
+              "lessonIndex": 3,
+              "title": "Temel Üçgenler Sınavı",
+              "plotPosition": "resolution",
+              "keyConceptsToTeach": [
+                "Üçgen eşitsizliği ve kenar-açı sentezi",
+                "Yardımcı elemanların ayırt edici özellikleri",
+                "Çizilebilirlik kriterlerinin denetimi"
+              ],
+              "prerequisiteConcepts": [
+                "World 1'deki tüm önceki ders içerikleri"
+              ],
+              "leadsTo": [
+                "World 2: Pisagor ve Benzerlik"
+              ],
+              "estimatedCardCount": 6,
+              "cardBreakdown": {
+                "hookCards": 1,
+                "instructionCards": 0,
+                "practiceCards": 0,
+                "quizCards": 5
+              },
+              "visualizersNeeded": [
+                "mindmap"
+              ],
+              "assessmentFocus": [
+                "apply",
+                "analyze",
+                "evaluate"
+              ],
+              "openingStrategy": "question",
+              "closingStrategy": "preview",
+              "teachingApproach": "Öğrenilen tüm kavramların karma senaryolar içerisinde test edildiği bütünsel bir değerlendirme.",
+              "commonMisconceptions": [
+                "Bağımsız kuralların birbiriyle ilişkisiz olduğunun sanılması."
+              ]
+            }
+          ],
+          "worldConnections": {
+            "buildsupon": "Temel geometri ve açı bilgilerini kullanarak yapısal bir temel oluşturur.",
+            "preparesFor": "Bu world'de öğrenilen 'çizilebilirlik' ve 'anatomik elemanlar', bir sonraki world'deki Pisagor teoremi ve benzerlik analizleri için gerekli zemini hazırlar."
+          }
+        }
+      },
+      {
+        "finalExam": null,
+        "title": "Pisagor ve Benzerlik",
+        "isLocked": true,
+        "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W01",
+        "themeColor": "#ce82ff",
+        "isExpanded": true,
+        "description": "Dik üçgen teorisi, Pisagor bağıntısı ve geometrik şekiller arasındaki benzerlik oranları.",
+        "lessons": [
+          {
+            "isFinalExam": false,
+            "conceptTitle": "Pisagor Bağıntısı",
+            "title": "Pisagor Teoremi Kanıtı",
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W01-L00-STD",
+            "status": "LOCKED",
+            "conceptId": "pisagor-teoremi",
+            "isAudio": false,
+            "isReview": false,
+            "content": {
+              "lessonId": "lesson-1769716643801",
+              "cards": [
+                {
+                  "type": "HOOK",
+                  "visualPrompt": "LGS Geometri Pisagor Teoremi kanıtı görseli, karelerin alanları, dik üçgen",
+                  "phase": 1,
+                  "id": "card-phase1-1769716661165-0",
+                  "generatedImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+                  "content": "Merhaba gençler! LGS Geometri'nin en temel konularından birine, Pisagor Teoremi'ne dalıyoruz. Bu teoremin hikayesi M.Ö. 6. yüzyıla uzanır, ancak şaşırtıcı bir gerçek var: Babil ve Hint uygarlıkları, Pisagor'dan çok önce bu ilişkiyi biliyor ve kullanıyordu! Pisagor'un dehası, bu ilişkiyi **genel ve matematiksel olarak kanıtlayan** ilk kişi olmasıdır. Bu kanıt, geometriye yepyeni bir bakış açısı getirmiştir.\n\nLGS'de karşılaşılan birçok karmaşık geometri problemi, Pisagor Teoremi'nin basit prensiplerine dayanır. Bir bahçe duvarının yüksekliğini veya bir binanın gölgesini hesaplarken bile bu teorem kritik rol oynar. Bu, sadece \"a² + b² = c²\" diye ezberlenecek kuru bir formül değil; geometri dünyasında yeni kapılar açan güçlü bir anahtardır.\n\nBu derste formülü ezberlemek yerine, **\"Neden bu böyledir?\"** sorusunun peşine düşeceğiz. Pisagor Teoremi'nin farklı ve görsel kanıtlarını inceleyerek, ardındaki mantığı tam anlamıyla kavrayacağız. Bu sayede, LGS Geometri'de karşılaşabileceğiniz **her türlü dik üçgen problemine** özgüvenle yaklaşabileceksiniz.\n\n> [!NOTE] Unutmayın ki Pisagor Teoremi, sadece dik üçgenler için değil; koordinat sistemi, uzay geometri ve trigonometri gibi ileri konuların da temelini oluşturur. Kanıtları anlamak, geometriye bakış açınızı zenginleştirecek ve problem çözme becerilerinizi geliştirecek.",
+                  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+                  "visualType": "WIKIPEDIA",
+                  "title": "Pisagor Teoremi Kanıtı"
+                },
+                {
+                  "content": "Merhaba gençler! LGS Geometri'nin en temel konularından birine, Pisagor Teoremi'ne dalıyoruz. Bu teorem, geometrinin en güçlü ve en sık kullanılan araçlarından biridir ve onu tüm detaylarıyla anlamak, LGS yolculuğunuzda size büyük bir avantaj sağlayacaktır.\n\n## Pisagor Teoremi'nin Temel Taşları: Dik Üçgen ve Elemanları\n\nSevgili öğrencilerim, Pisagor Teoremi'nin derinliklerine inmeden önce, bu teoremin üzerinde yükseldiği temel yapı taşlarını eksiksiz bir şekilde kavramamız gerekiyor. Tıpkı bir binayı inşa etmeden önce sağlam bir temel atmak gibi, Pisagor'u anlamak için de dik üçgenin ve onun ana elemanlarının ne anlama geldiğini çok iyi bilmeliyiz.\n\n### 1. Dik Üçgen Nedir?\n\nGeometrinin en özel üçgen türlerinden biri olan **dik üçgen**, adından da anlaşılacağı gibi, iç açılarından birinin ölçüsü $90^\\circ$ olan üçgen demektir. Bu $90^\\circ$'lik açıya **dik açı** adını veririz. Dik üçgenler, sadece Pisagor Teoremi için değil, trigonometri ve birçok geometri probleminde kilit rol oynar. Onları tanımak ve özelliklerini bilmek, matematiksel düşünme becerinizin önemli bir parçasıdır.\n\n[DIAGRAM:geometry content=\"Sağ köşede 90°'lik dik açı işareti olan bir dik üçgen. Dik açının köşesi B, diğer köşeler A ve C olarak etiketlenmiş. AB kenarının uzunluğu 'c' olarak, BC kenarının uzunluğu 'a' olarak ve AC kenarının uzunluğu 'b' olarak gösterilmiş. AB ve BC kenarları üzerinde birer kare çizilmiş, bu karelerin alanları sırasıyla c² ve a² olarak belirtilmiş. AC kenarı üzerinde de bir kare çizilmiş, bu karenin alanı b² olarak belirtilmiş.\"]\n\n> [!IMPORTANT]\n> Bir üçgenin iç açılarının toplamı her zaman $180^\\circ$'dir. Dik üçgende bir açı $90^\\circ$ olduğu için, diğer iki açının toplamı da $90^\\circ$ olmak zorundadır. Bu iki açıya **tümler açılar** denir ve her ikisi de dar açıdır (yani $90^\\circ$'den küçüktür).\n\n### 2. Dik Kenarlar (Katetler)\n\nDik üçgende, $90^\\circ$'lik açıyı oluşturan kenarlara **dik kenarlar** denir. Yukarıdaki görselde, B köşesindeki dik açıyı oluşturan AB ve BC kenarları dik kenarlardır. Bu kenarlar, üçgenin \"bacakları\" gibi düşünülebilir. Pisagor Teoremi'nde bu kenarların kareleri toplamı büyük bir öneme sahiptir.\n\n### 3. Hipotenüs\n\nDik üçgenin en uzun kenarı, **hipotenüs** olarak adlandırılır. Hipotenüs, her zaman $90^\\circ$'lik dik açının karşısında yer alır. Görselde, AC kenarı hipotenüstür. Unutmayın, bir dik üçgende hipotenüs her zaman diğer iki kenardan daha uzundur. Bu, Pisagor Teoremi'nin temel mantığını oluşturan kritik bir özelliktir.\n\n### 4. Alan Kavramı ve Kareler\n\nPisagor Teoremi'nin kanıtlarını incelerken, genellikle kenarlar üzerine inşa edilen karelerin alanlarıyla karşılaşırız. Bu nedenle, bir karenin alanını nasıl hesapladığımızı hatırlamak önemlidir. Bir kenar uzunluğu $a$ olan bir karenin alanı $A = a^2$ formülüyle bulunur. Örneğin, kenar uzunluğu 3 birim olan bir karenin alanı $3^2 = 9$ birimkaredir.\n\n$$\\text{Karenin Alanı} = (\\text{Bir Kenar Uzunluğu})^2$$\n\nPisagor Teoremi, aslında dik kenarlar üzerine kurulan karelerin alanları ile hipotenüs üzerine kurulan karenin alanı arasındaki ilişkiyi ifade eder. Bu görsel bağlantı, teoremi anlamanın en güçlü yollarından biridir.\n\n| Temel Terim | Tanım | Özellik |\n|-------------|----------------------------------------------------|-----------------------------------------------------------------------|\n| Dik Üçgen   | Bir açısı $90^\\circ$ olan üçgen.                 | Diğer iki açının toplamı $90^\\circ$'dir.                               |\n| Dik Kenarlar| Dik açıyı oluşturan kenarlar.                     | Hipotenüsten her zaman daha kısadır.                                  |\n| Hipotenüs   | Dik açının karşısındaki kenar.                     | Dik üçgenin en uzun kenarıdır.                                        |\n| Dik Açı     | $90^\\circ$'lik açı.                               | Dik kenarların kesiştiği köşede bulunur.                              |\n\nBu temel tanımlar ve kavramlar, Pisagor Teoremi'nin kalbine giden yolu açıyor. Bir sonraki dersimizde, bu sağlam temelin üzerine Pisagor Teoremi'nin kendisini ve onun büyüleyici kanıtlarından birini inşa edeceğiz. Her bir terimi zihninizde netleştirdiğinizden emin olun, çünkü bu bilgiler sonraki adımlarımız için vazgeçilmezdir.",
+                  "id": "card-phase2-1769716675626-0",
+                  "title": "Pisagor Teoremi Kanıtı",
+                  "phase": 2,
+                  "type": "INSTRUCTION"
+                },
+                {
+                  "title": "Pisagor Teoremi'nin Mantıksal Temelleri ve Kanıt Yaklaşımları",
+                  "phase": 2,
+                  "type": "INSTRUCTION",
+                  "content": "## Pisagor Teoremi'nin Mantıksal Temelleri ve Kanıt Yaklaşımları\n\nPisagor Teoremi, bir dik üçgenin kenarları arasındaki ilişkiyi ifade eden, geometri dünyasının en temel ve güçlü önermelerinden biridir. Bu teorem, dik kenarların uzunluklarının kareleri toplamının, hipotenüsün uzunluğunun karesine eşit olduğunu belirtir: $a^2 + b^2 = c^2$. Ancak matematiğin güzelliği, bu tür bir ilişkinin sadece bir gözlemden ibaret olmaması, aksine mantıksal olarak kanıtlanabilir olmasıdır. Bir teoremi kanıtlamak, onun her zaman ve her koşulda doğru olduğunu göstermek demektir.\n\n### Alan Tabanlı Bir Kanıtın İncelenmesi\n\nPisagor Teoremi için birçok farklı kanıt yöntemi bulunmaktadır; bunlardan en sezgisel ve görsel olanlarından biri, alan ilişkilerine dayanan kanıttır. Bu kanıt, dört adet eş dik üçgeni kullanarak büyük bir kare oluşturma fikrine dayanır.\n\n[DIAGRAM:geometry content=\"Kenarları a ve b olan dört adet eş dik üçgen. Bu üçgenler, iç kısımda kenarı c olan bir kare oluşturacak şekilde düzenlenmiştir. En dışta ise kenarı (a+b) olan büyük bir kare oluşmaktadır. Tüm dik açılar ve kenar uzunlukları (a, b, c) etiketlenmiştir.\"]\n\nYukarıdaki şekli dikkatlice inceleyelim. Kenar uzunlukları $a$ ve $b$ olan dört adet eş dik üçgeni, hipotenüsleri ($c$) iç kısımda bir kare oluşturacak şekilde yerleştirdiğimizde, dışarıda kenar uzunluğu $(a+b)$ olan büyük bir kare elde ederiz. Bu düzenleme, teoremi kanıtlamanın anahtarını sunar.\n\nBüyük karenin alanını iki farklı yolla hesaplayabiliriz:\n\n1.  **Doğrudan kenar uzunluğundan:** Büyük karenin bir kenarı $(a+b)$ olduğundan, alanı $(a+b)^2$ olacaktır.\n    $$\\text{Büyük Karenin Alanı} = (a+b)^2$$\n    Bu ifadeyi açarsak:\n    $$(a+b)^2 = a^2 + 2ab + b^2$$\n\n2.  **İçindeki parçaların toplamından:** Büyük kare, dört adet eş dik üçgen ve bir adet iç kareden oluşmaktadır.\n    *   Bir dik üçgenin alanı: $\\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2}ab$.\n    *   Dört üçgenin toplam alanı: $4 \\times \\frac{1}{2}ab = 2ab$.\n    *   İçteki karenin bir kenarı $c$ olduğundan, alanı $c^2$dir. İçteki dörtgenin gerçekten bir kare olduğunu anlamak için, dik üçgenlerin dar açılarının toplamının $90^\\circ$ olduğunu hatırlayın. Bu durumda, içteki dörtgenin köşelerindeki açılar da $180^\\circ - 90^\\circ = 90^\\circ$ olacaktır.\n    $$\\text{Büyük Karenin Alanı} = (\\text{Dört Üçgenin Alanı}) + (\\text{İç Karenin Alanı})$$\n    $$\\text{Büyük Karenin Alanı} = 2ab + c^2$$\n\nŞimdi bu iki farklı hesaplamayı birbirine eşitleyebiliriz, çünkü her ikisi de aynı büyük karenin alanını temsil etmektedir:\n$$a^2 + 2ab + b^2 = 2ab + c^2$$\n\nDenklemin her iki tarafından $2ab$ terimini çıkardığımızda, Pisagor Teoremi'nin o zarif ifadesine ulaşırız:\n$$a^2 + b^2 = c^2$$\n\n> [!IMPORTANT]\n> Bu kanıtın gücü, herhangi bir özel sayısal değer kullanmadan, yalnızca genel cebirsel ifadeler ve alan kavramları üzerinden yapılmış olmasından gelir. Bu, teoremin sadece belirli dik üçgenler için değil, *tüm* dik üçgenler için geçerli olduğunu gösterir. Matematiksel bir kanıtın temel amacı da budur: evrensel geçerliliği ispatlamak.\n\nBu kanıt, geometri ile cebirin ne kadar iç içe olduğunu ve temel alan formüllerinin nasıl güçlü matematiksel ilişkileri ortaya çıkarabileceğini gösterir. Bir sonraki aşamada, bu teoremin LGS sınavında karşımıza çıkabilecek farklı uygulama alanlarını ve problem çözme stratejilerini derinlemesine inceleyeceğiz.",
+                  "id": "card-phase2-1769716689590-1"
+                },
+                {
+                  "title": "Pisagor Teoremi'nin Gerçek Hayattaki Uygulamaları",
+                  "type": "INSTRUCTION",
+                  "phase": 2,
+                  "content": "## Pisagor Teoremi'nin Gerçek Hayattaki Uygulamaları\n\nPisagor Teoremi'nin sadece soyut bir matematiksel kanıttan ibaret olmadığını, aksine günlük yaşantımızda ve birçok meslek dalında ne kadar kritik bir araç olduğunu derinlemesine inceleyelim. Bu teoremi anlamak, sadece LGS'de başarılı olmanızı sağlamakla kalmaz, aynı zamanda çevrenizdeki dünyayı geometrik bir bakış açısıyla yorumlama yeteneğinizi de geliştirir. Bir dik üçgenin kenarları arasındaki $a^2 + b^2 = c^2$ ilişkisi, düşündüğünüzden çok daha fazla yerde karşımıza çıkar.\n\n### İnşaat ve Mimarlık Alanındaki Temel Rolü\n\nİnşaat mühendisleri, mimarlar ve hatta basit bir marangoz bile Pisagor Teoremi'ni sürekli kullanır. Bir yapının sağlam ve düzgün olması, köşelerin tam olarak dik açılı olmasına bağlıdır. Dik açıyı kontrol etmek veya oluşturmak için en pratik yöntemlerden biri Pisagor Teoremi'dir. Örneğin, bir duvarın tam olarak dik olduğundan emin olmak için, yerden belirli bir yükseklikte ve duvardan belirli bir mesafede iki nokta seçilir. Bu iki nokta arasındaki uzaklık Pisagor Teoremi ile hesaplanan değere eşitse, duvarın dik olduğu doğrulanmış olur.\n\n[DIAGRAM:geometry content=\"Dikdörtgen bir duvar çerçevesi. Yatay kenarı 3 birim, dikey kenarı 4 birim. Köşegen boyunca yerleştirilen destek çubuğunun uzunluğunu gösteren kesikli çizgi. Sağ alt köşede dik açı işareti. Yatay kenar 'a', dikey kenar 'b', köşegen 'c' olarak etiketlenmiş.\"]\n\nYukarıdaki diyagramda gördüğünüz gibi, bir duvar çerçevesinin ya da bir kapının tam olarak dikdörtgen olduğundan emin olmak için köşegen uzunluğunu hesaplarız. Eğer yatay kenar 3 birim ve dikey kenar 4 birim ise, köşegen uzunluğu $c$ şu şekilde bulunur:\n\n$$3^2 + 4^2 = c^2$$\n$$9 + 16 = c^2$$\n$$25 = c^2$$\n$$c = \\sqrt{25} = 5$$\n\nBu durumda köşegenin tam olarak 5 birim olması gerekir. Eğer ölçtüğümüz değer 5 birim değilse, çerçevede bir yamukluk, yani bir açısal bozukluk var demektir. Bu basit kontrol, yapıların temelden sağlam atılması için hayati öneme sahiptir.\n\n### Navigasyon ve Haritacılık Uygulamaları\n\nDenizcilikte, havacılıkta ve kara taşımacılığında rotaları belirlerken veya iki nokta arasındaki en kısa mesafeyi hesaplarken Pisagor Teoremi devreye girer. Bir geminin mevcut konumundan belirli bir doğu ve belirli bir kuzey mesafesindeki yeni bir limana ulaşması için kat etmesi gereken doğrudan mesafeyi bulmak, Pisagor Teoremi ile mümkündür. Haritalarda koordinat sistemleri genellikle dik açılıdır, bu da Pisagor Teoremi'nin doğrudan uygulanabileceği ortamlar yaratır. Modern GPS sistemleri bile, temelinde bu tür geometrik hesaplamaları barındırır.\n\n> [!TIP]\n> Gerçek hayatta Pisagor Teoremi'ni kullanabileceğiniz durumları tespit etmek için \"dik açı\" ve \"en kısa mesafe\" anahtar kelimelerine odaklanın. Bir merdivenin duvara dayalı hali, bir direğin gölgesi, bir çatının eğimi gibi senaryolarda genellikle bir dik üçgen gizlidir. Problemi görselleştirmeye çalışın ve dik açıyı bulun.\n\n### Spor ve Günlük Hayatımızdaki Yansımaları\n\nSpor alanında da Pisagor Teoremi'nin izlerini görmek mümkündür. Bir bilardo oyuncusu, topun banttan sekerek hedefe ulaşacağı açıyı ve mesafeyi hesaplarken farkında olmadan Pisagor prensiplerini kullanır. Bir futbol sahasının veya basketbol sahasının çizgileri çekilirken, köşelerin dik açı olduğundan emin olmak için yine bu teoremden faydalanılır. Hatta evinizdeki televizyonun veya monitörün boyutunu belirtirken kullanılan \"inç\" değeri, ekranın köşegen uzunluğunu ifade eder ki bu da ekranın en boy oranına göre Pisagor Teoremi ile hesaplanabilir.\n\nPisagor Teoremi, sadece bir matematik dersi konusu değil, aynı zamanda mühendislikten tasarıma, navigasyondan günlük basit ölçümlere kadar geniş bir yelpazede pratik çözümler sunan evrensel bir araçtır. Bu teoremi ne kadar iyi anlar ve içselleştirirseniz, çevrenizdeki dünyayı o kadar bilinçli bir şekilde yorumlayabilir ve problemlerinize geometrik çözümler üretebilirsiniz.\n\nBir sonraki dersimizde, Pisagor Teoremi'nin farklı türdeki problem çözümlerinde nasıl kullanılabileceğine ve LGS'de karşımıza çıkabilecek soru tiplerine odaklanacağız.",
+                  "id": "card-phase2-1769716706052-2"
+                },
+                {
+                  "content": "## LGS Geometri Vaka Çalışması: Dikdörtgen İçindeki Gizli Pisagor\n\nLGS Geometri'de Pisagor Teoremi'nin doğrudan karşımıza çıktığı durumların yanı sıra, çoğu zaman daha karmaşık şekillerin içinde gizlenmiş dik üçgenleri fark etmemiz beklenir. İşte bu tür bir vaka çalışmasıyla, teorem bilgimizi problem çözme becerisine dönüştürme pratiği yapacağız. Bu, sınavda karşılaşabileceğiniz tipik bir soru formatıdır ve doğru stratejiyle kolayca üstesinden gelinebilir.\n\n**Problem:** ABCD bir dikdörtgendir. AB kenarının uzunluğu 8 cm, BC kenarının uzunluğu ise 6 cm'dir. AD kenarı üzerinde, AE uzunluğu 2 cm olacak şekilde bir E noktası işaretleniyor. Buna göre, C noktasından E noktasına çizilen EC doğru parçasının uzunluğu kaç cm'dir?\n\n[DIAGRAM:geometry content=\"ABCD dikdörtgeni. AB kenarı 8 cm, BC kenarı 6 cm. AD kenarı üzerinde AE uzunluğu 2 cm olacak şekilde bir E noktası işaretlenmiştir. C noktasından E noktasına bir doğru parçası (EC) çizilmiştir. A, B, C, D köşelerindeki dik açılar belirtilmiştir. Oluşan CDE dik üçgeni vurgulanmış, CD kenarı 8 cm, DE kenarı 4 cm olarak etiketlenmiştir. EC kenarı bilinmeyen olarak gösterilmiştir.\"]\n\n### Problemin Analizi ve Çözüm Adımları\n\nBu tür bir problemde ilk adım, verilen şekli ve bilgileri dikkatlice inceleyerek bir dik üçgen oluşturma veya var olan bir dik üçgeni belirleme yolunu aramaktır. Dikdörtgenin temel özelliklerini hatırlayalım: tüm iç açıları 90 derecedir ve karşılıklı kenarları birbirine eşittir.\n\n1.  **Dik Üçgeni Belirleme:** Şekle baktığımızda, CDE üçgeninin bir dik üçgen olduğunu görebiliriz. Çünkü ABCD bir dikdörtgen olduğundan, D köşesindeki açı 90 derecedir. Bu durumda, CDE üçgeni D noktasında dik açılı bir üçgendir. EC doğru parçası da bu dik üçgenin hipotenüsüdür.\n\n2.  **Kenar Uzunluklarını Hesaplama:**\n    *   CDE dik üçgeninin dik kenarlarından biri CD'dir. Dikdörtgenin karşılıklı kenarları eşit olduğundan, CD = AB = 8 cm'dir.\n    *   Diğer dik kenar ise DE'dir. AD kenarı BC kenarına eşit olduğundan AD = 6 cm'dir. E noktası AD üzerinde ve AE = 2 cm olduğuna göre, DE uzunluğunu AD - AE olarak buluruz:\n        $$DE = AD - AE = 6 \\text{ cm} - 2 \\text{ cm} = 4 \\text{ cm}$$\n\n3.  **Pisagor Teoremini Uygulama:** Artık CDE dik üçgeninin dik kenarlarının uzunluklarını biliyoruz: CD = 8 cm ve DE = 4 cm. Hipotenüs EC'nin uzunluğunu bulmak için Pisagor Teoremi'ni kullanabiliriz:\n    $$(EC)^2 = (CD)^2 + (DE)^2$$\n    Değerleri yerine koyarsak:\n    $$(EC)^2 = (8)^2 + (4)^2$$\n    $$(EC)^2 = 64 + 16$$\n    $$(EC)^2 = 80$$\n    Her iki tarafın karekökünü alarak EC'nin uzunluğunu buluruz:\n    $$EC = \\sqrt{80}$$\n    $\\sqrt{80}$ ifadesini $16 \\times 5$ olarak yazabiliriz, dolayısıyla:\n    $$EC = \\sqrt{16 \\times 5} = \\sqrt{16} \\times \\sqrt{5} = 4\\sqrt{5} \\text{ cm}$$\n\n> [!IMPORTANT]\n> LGS'de geometri problemlerini çözerken, temel geometrik şekillerin (dikdörtgen, kare, üçgen vb.) özelliklerini çok iyi bilmek ve bu şekillerin içinde gizlenmiş dik üçgenleri fark edebilmek kritik öneme sahiptir. Çoğu zaman, bir yardımcı çizgi çekerek veya mevcut bir şekli parçalara ayırarak bir dik üçgen oluşturabiliriz.\n\nBu vaka çalışması, Pisagor Teoremi'nin sadece soyut bir formül olmadığını, aynı zamanda somut problemleri çözmek için güçlü bir araç olduğunu göstermektedir. LGS'de başarılı olmak için bu tür problem çözme yaklaşımlarını içselleştirmek şarttır. Bir sonraki dersimizde, Pisagor Teoremi'nin daha ileri uygulamalarına ve özel dik üçgenlere odaklanacağız.",
+                  "type": "CASE_STUDY",
+                  "title": "LGS Geometri Vaka Çalışması: Dikdörtgen İçindeki Gizli Pisagor",
+                  "id": "card-phase2-1769716721506-3",
+                  "phase": 2
+                },
+                {
+                  "type": "INSTRUCTION",
+                  "title": "Pisagor Teoremi'nin Özü ve Gelecek Konularla Bağlantısı",
+                  "id": "card-phase2-1769716733934-4",
+                  "phase": 2,
+                  "content": "## Pisagor Teoremi'nin Özü ve Gelecek Konularla Bağlantısı\n\nPisagor Teoremi'nin derinliklerine inerek hem mantıksal temellerini hem de çeşitli kanıt yaklaşımlarını inceledik. Bu süreçte, teoremin sadece bir formülden ibaret olmadığını, aksine geometrik bir gerçeğin zarif bir ifadesi olduğunu görmüş olmalısınız. Bir dik üçgende dik kenarların uzunluklarının karelerinin toplamının, hipotenüsün uzunluğunun karesine eşit olması ($a^2 + b^2 = c^2$), matematik dünyasının en temel ve güçlü denkliklerinden biridir.\n\n### Temel Çıkarımlar ve Kavramsal Güçlendirme\n\nBu ders serisinden edindiğimiz en önemli çıkarımlardan biri, matematiksel bir ifadenin doğruluğunu kanıtlamanın, onu sadece ezberlemekten çok daha değerli olduğudur. Kanıt süreci, soyut düşünme becerilerimizi geliştirir, problem çözme yaklaşımlarımızı zenginleştirir ve matematiğin tutarlı yapısını anlamamızı sağlar.\n\n[DIAGRAM:geometry content=\"Dik üçgen ABC. C köşesinde 90° dik açı işareti. Kenarlar a, b ve c olarak etiketlenmiş. a kenarı üzerinde bir kare, b kenarı üzerinde bir kare ve hipotenüs c üzerinde bir kare gösteriliyor. Karelerin alanları $a^2$, $b^2$ ve $c^2$ olarak belirtilmiş, $a^2 + b^2 = c^2$ ilişkisini vurgulayacak şekilde.\"]\n\n> [!IMPORTANT]\n> Pisagor Teoremi'nin kanıtlarını anlamak, size sadece formülü değil, aynı zamanda bu formülün neden doğru olduğunu gösterir. Bu \"neden\" sorusunun cevabı, LGS Geometri'deki daha karmaşık problemleri çözerken sezgisel bir güç sağlar. Alan ilişkileri, benzer üçgenler veya cebirsel manipülasyonlarla yapılan kanıtlar, farklı bakış açıları sunarak teoremin çok yönlülüğünü ortaya koyar.\n\n### LGS Geometri ve Sınav Stratejileri\n\nLGS Geometri'de Pisagor Teoremi, adeta bir köprü görevi görür. Doğrudan soru olarak karşımıza çıkabileceği gibi, çoğu zaman başka geometrik konuların içinde gizlenmiş bir araç olarak kullanılır. Dikdörtgenler, kareler, yamuklar, hatta çember problemleri içinde bile bir dik üçgen oluşturarak Pisagor'u uygulama ihtiyacı doğabilir. Bu nedenle, teoremi sadece formül düzeyinde bilmek yeterli değildir; onu farklı şekillerin içinde \"görebilme\" yeteneği geliştirmek kritiktir.\n\n> [!TIP]\n> Bir LGS geometri problemiyle karşılaştığınızda, eğer bir dik açı veya dik üçgen potansiyeli varsa, Pisagor Teoremi'ni uygulamayı düşünmek ilk reflekslerinizden biri olmalıdır. Özellikle köşegenler, yükseklikler veya yardımcı çizgiler çizerek gizli dik üçgenler oluşturma stratejisi, birçok sorunun anahtarını sunar.\n\n### Gelecek Konularla Bağlantı: Pisagor'un Mirası\n\nPisagor Teoremi, geometrinin ve matematiğin birçok ileri konusu için sağlam bir temel oluşturur. İşte Pisagor'un gelecekteki çalışmalarımızla nasıl bağlantı kurduğuna dair bazı örnekler:\n\n1.  **Özel Üçgenler:** 30-60-90 ve 45-45-90 üçgenleri gibi özel dik üçgenlerin kenar oranları, doğrudan Pisagor Teoremi'nden türetilir. Bu üçgenleri bilmek, LGS'de zaman kazandırır ve hesaplama yükünü azaltır.\n2.  **Koordinat Geometrisi:** İki nokta arasındaki uzaklık formülü, aslında Pisagor Teoremi'nin koordinat düzlemindeki bir uygulamasıdır. Koordinatları verilen iki nokta arasındaki mesafeyi bulmak için bir dik üçgen oluşturup Pisagor'u kullanırız.\n3.  **Trigonometri:** Sinüs, kosinüs ve tanjant gibi trigonometrik oranlar, sadece dik üçgenler üzerinde tanımlanır. Bu oranlar, bir açının karşısındaki, komşusundaki dik kenar ve hipotenüs arasındaki ilişkileri ifade eder. Pisagor Teoremi, trigonometrik özdeşliklerin ve değerlerin temelini oluşturur.\n4.  **Katı Cisimler Geometrisi:** Küp, dikdörtgenler prizması gibi katı cisimlerde cisim köşegeni veya yüzey köşegeni gibi uzunlukları hesaplarken, üç boyutlu uzayda Pisagor Teoremi'ni defalarca kullanırız.\n\nBu ders serisiyle, Pisagor Teoremi'nin sadece bir formül olmanın ötesinde, geometrik düşüncenin temel taşı olduğunu ve matematiksel keşifler için bir başlangıç noktası teşkil ettiğini umuyorum. Gelecek derslerimizde, bu güçlü temeli kullanarak özel üçgenler ve trigonometrik oranlar gibi konulara daha derinlemesine dalacağız. Pisagor'un açtığı bu kapıdan geçmeye hazır olun!"
+                },
+                {
+                  "type": "QUIZ",
+                  "topic": "Pisagor Teoremi Kanıtı",
+                  "title": "Knowledge Check 1",
+                  "difficultyLevel": 1,
+                  "phase": 3,
+                  "courseTopic": "LGS Geometri",
+                  "id": "card-phase3-1769716755881-0",
+                  "question": {
+                    "options": [
+                      "A) Dik kenarların kareleri toplamı hipotenüsün karesine eşittir.",
+                      "B) Tüm kenar uzunlukları birbirine eşittir.",
+                      "C) İç açıları toplamı $180^\\circ$'dir.",
+                      "D) Kenarortayların kesişim noktası ağırlık merkezidir.",
+                      "E) Alanı, taban çarpı yüksekliğin yarısına eşittir."
+                    ],
+                    "text": "Pisagor Teoremi, bir dik üçgenin kenar uzunlukları arasındaki hangi temel ilişkiyi ifade eder?",
+                    "correctIndex": 0,
+                    "explanation": "Pisagor Teoremi'nin temel tanımı, bir dik üçgende dik kenarların (a ve b) karelerinin toplamının hipotenüsün (c) karesine eşit olduğunu belirtir: $a^2 + b^2 = c^2$."
+                  }
+                },
+                {
+                  "type": "QUIZ",
+                  "courseTopic": "LGS Geometri",
+                  "question": {
+                    "correctIndex": 1,
+                    "options": [
+                      "A) İkizkenar üçgen olması",
+                      "B) Dik açılı üçgen olması",
+                      "C) Eşkenar üçgen olması",
+                      "D) Dar açılı üçgen olması",
+                      "E) Geniş açılı üçgen olması"
+                    ],
+                    "text": "LGS Geometri dersinde öğrenildiği üzere, Pisagor Teoremi'nin bir üçgende uygulanabilmesi için bu üçgenin hangi özelliğe sahip olması zorunludur?",
+                    "explanation": "Pisagor Teoremi sadece ve sadece dik açılı üçgenler için geçerlidir. Teorem, dik açının karşısındaki kenara hipotenüs denilen en uzun kenar ile diğer iki dik kenar arasındaki ilişkiyi inceler."
+                  },
+                  "difficultyLevel": 2,
+                  "topic": "Pisagor Teoremi Kanıtı",
+                  "title": "Knowledge Check 2",
+                  "phase": 3,
+                  "id": "card-phase3-1769716755881-1"
+                },
+                {
+                  "phase": 3,
+                  "type": "QUIZ",
+                  "title": "Knowledge Check 3",
+                  "courseTopic": "LGS Geometri",
+                  "difficultyLevel": 3,
+                  "question": {
+                    "explanation": "Pisagor Teoremi'ne göre, dik kenarlar $a=6$ cm ve $b=8$ cm ise, hipotenüs $c$ için $a^2 + b^2 = c^2$ formülünü kullanırız. $6^2 + 8^2 = c^2 \\Rightarrow 36 + 64 = c^2 \\Rightarrow 100 = c^2 \\Rightarrow c = \\sqrt{100} = 10$ cm'dir.",
+                    "text": "Bir LGS Geometri öğrencisi, dik kenarlarından biri 6 cm, diğeri 8 cm olan bir dik üçgenin hipotenüs uzunluğunu hesaplamak istiyor. Pisagor Teoremi'ne göre bu üçgenin hipotenüs uzunluğu kaç cm'dir?",
+                    "options": [
+                      "A) 8 cm",
+                      "B) 9 cm",
+                      "C) 10 cm",
+                      "D) 12 cm",
+                      "E) 14 cm"
+                    ],
+                    "correctIndex": 2
+                  },
+                  "id": "card-phase3-1769716755881-2",
+                  "topic": "Pisagor Teoremi Kanıtı"
+                },
+                {
+                  "question": {
+                    "correctIndex": 3,
+                    "text": "Kenar uzunlukları 5 cm ve 12 cm olan bir dikdörtgenin köşegen uzunluğunu hesaplamak isteyen bir LGS öğrencisi, Pisagor Teoremi'ni kullanabilir. Buna göre, bu dikdörtgenin bir köşegeninin uzunluğu kaç cm'dir?",
+                    "explanation": "Bir dikdörtgenin köşegeni, dikdörtgeni iki adet dik üçgene ayırır. Dikdörtgenin kenarları bu dik üçgenlerin dik kenarlarını oluştururken, köşegen ise hipotenüsü oluşturur. Dik kenarlar 5 cm ve 12 cm olduğuna göre, $5^2 + 12^2 = c^2 \\Rightarrow 25 + 144 = c^2 \\Rightarrow 169 = c^2 \\Rightarrow c = \\sqrt{169} = 13$ cm'dir.",
+                    "options": [
+                      "A) 10 cm",
+                      "B) 11 cm",
+                      "C) 12 cm",
+                      "D) 13 cm",
+                      "E) 14 cm"
+                    ]
+                  },
+                  "difficultyLevel": 4,
+                  "topic": "Pisagor Teoremi Kanıtı",
+                  "courseTopic": "LGS Geometri",
+                  "id": "card-phase3-1769716755881-3",
+                  "phase": 3,
+                  "type": "QUIZ",
+                  "title": "Knowledge Check 4"
+                },
+                {
+                  "difficultyLevel": 5,
+                  "type": "QUIZ",
+                  "id": "card-phase3-1769716755881-4",
+                  "courseTopic": "LGS Geometri",
+                  "phase": 3,
+                  "topic": "Pisagor Teoremi Kanıtı",
+                  "question": {
+                    "explanation": "Pisagor Teoremi'nin alan bazlı kanıtlarından (örneğin Bhaskara'nın kanıtı veya Euclid'in kanıtı) biri, büyük bir karenin alanının, içerdiği diğer şekillerin (küçük kare ve dik üçgenler) alanları toplamına eşit olması ilkesine dayanır. Bu, temelde alan korunum ilkesini ve bu alanları temsil eden cebirsel ifadelerin manipülasyonunu içerir. Örneğin, $(a+b)^2 = c^2 + 4 \\times (\\frac{1}{2}ab)$ ifadesi bu tür bir kanıtın matematiksel temelidir.",
+                    "correctIndex": 4,
+                    "options": [
+                      "A) Üçgenlerin iç açıları toplamının $180^\\circ$ olması",
+                      "B) Paralel doğrular arasındaki uzaklığın sabit olması",
+                      "C) Benzer üçgenlerin kenar oranlarının eşitliği",
+                      "D) Bir açının sinüs değerinin karşı dik kenar bölü hipotenüs olması",
+                      "E) Alan korunum ilkesi ve cebirsel ifade kullanılması"
+                    ],
+                    "text": "Pisagor Teoremi'nin kanıtlarından biri, bir dik üçgenin etrafına çizilen dört adet özdeş dik üçgen ile büyük bir kare oluşturma yöntemine dayanır. Bu yöntemde, büyük karenin alanı ile içteki küçük karenin ve dört dik üçgenin alanları arasındaki ilişki incelenerek teorem ispatlanır. Bu kanıt yaklaşımının temelinde yatan geometrik ilke aşağıdakilerden hangisidir?"
+                  },
+                  "title": "Knowledge Check 5"
+                }
+              ],
+              "isPartial": false,
+              "phase": 3
+            }
+          },
+          {
+            "isAudio": false,
+            "isReview": false,
+            "status": "LOCKED",
+            "title": "Üçgenlerde Benzerlik Analizi",
+            "conceptId": "benzerlik-orani",
+            "isFinalExam": false,
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W01-L01-STD",
+            "conceptTitle": "Benzerlik ve Eşlik",
+            "content": {
+              "isPartial": false,
+              "lessonId": "lesson-1769716776027",
+              "cards": [
+                {
+                  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+                  "type": "HOOK",
+                  "title": "Üçgenlerde Benzerlik Analizi",
+                  "visualType": "WIKIPEDIA",
+                  "id": "card-phase1-1769716789646-0",
+                  "generatedImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+                  "content": "Geçen ders Pisagor Teoremi'nin sarsılmaz mantığını keşfetmiş, dik üçgenlerin kenarları arasındaki o 'mükemmel uyumu' çözümlemiştik. Şimdi ise, bu uyumun ötesine geçme zamanı! Peki, bir üçgenin tam olarak aynısı değil de, sadece büyütülmüş veya küçültülmüş bir kopyasıyla karşılaştığımızda ne yaparız? LGS Geometri'nin en sevdiği tuzaklardan biri, bizi tam da bu noktada yakalamaya çalışır: iki farklı boyuttaki şeklin aslında 'aynı oranda' küçülüp büyüdüğünü fark edemememiz.\n\nAslında, Antik Mısırlılar bile piramitlerin yüksekliğini benzerlik ilkesini kullanarak, bir çubuğun gölgesiyle piramidin gölgesini karşılaştırarak hesaplamışlardı. Bugün de LGS'de, bir binanın gölgesi ile bir direğin gölgesi arasındaki oranlama soruları, bu temel prensibi anlamanızı gerektirir. Bu derste, bu tür zorlukların üstesinden gelmek için kritik bir araca odaklanacağız: **Üçgenlerde Benzerlik Analizi**.\n\nBu, sadece şekillerin birbirine benzemesini incelemek değil, aynı zamanda aralarındaki **Benzerlik Oranı (k sabiti)** ile onları birbirine bağlayan matematiksel bir köprü kurmaktır. Göreceğiz ki, **Açı-Açı (A.A) Benzerlik Teoremi** ve **Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı** gibi güçlü araçlarla, iki üçgenin benzer olup olmadığını hızla anlayabileceğiz. Bu sayede, LGS'deki görsel algı ve çıkarım becerilerinizi en üst düzeye çıkaracaksınız.\n\n> [!NOTE] LGS Geometri'de 'Benzerlik', sadece matematiksel bir kural değil, aynı zamanda çok boyutlu düşünme ve karmaşık problemleri basitleştirme yeteneğinizi test eden temel bir beceridir. Hazırlanın, çünkü bu dersle geometriye bakış açınız değişecek!",
+                  "visualPrompt": "LGS Geometri tarzı, gölge ve bina ile benzer üçgen problem örneği, ölçekli çizimler, farklı boyutlarda aynı açılara sahip üçgenler",
+                  "phase": 1
+                },
+                {
+                  "title": "Üçgenlerde Benzerlik Analizi",
+                  "id": "card-phase2-1769716809200-0",
+                  "phase": 2,
+                  "type": "INSTRUCTION",
+                  "content": "Geçen ders Pisagor Teoremi'nin sarsılmaz mantığını keşfetmiş, dik üçgenlerin kenarları arasındaki o eşsiz uyumu anlamıştık. Bugün ise, üçgenlerin adeta birer yansıması olan benzerlik kavramına derinlemesine bir yolculuğa çıkıyoruz.\n\n## Üçgenlerde Benzerliğin Temelleri: Oran ve Açıların Rolü\n\nDeğerli öğrencilerim, geometri, şekillerin ve uzayın dilini anlamak demektir. Üçgenlerde benzerlik, bu dildeki en güçlü ifadelerden biridir. Bir üçgenin sadece \"büyütülmüş\" veya \"küçültülmüş\" bir kopyasını düşünün; bu, benzerliğin özüdür. Tıpkı bir fotoğrafı fotokopi makinesinde büyüttüğünüzde, görüntünün şekli bozulmaz, sadece boyutu değişir. Geometride de benzer üçgenler tam olarak böyledir: şekilleri aynı, boyutları farklıdır.\n\n### Benzerlik Kavramı ve Benzerlik Oranı ($k$)\n\nİki üçgenin benzer olabilmesi için, karşılıklı açılarının eşit olması ve karşılıklı kenarlarının orantılı olması gerekir. Bu orantı sabiti, bizim için **benzerlik oranı** olarak adlandırılır ve genellikle küçük $k$ harfiyle gösterilir.\n\nBir $\\triangle ABC$ üçgeni ile bir $\\triangle DEF$ üçgeni benzer ise, bu durumu $\\triangle ABC \\sim \\triangle DEF$ şeklinde ifade ederiz. Bu gösterim, A köşesinin D'ye, B köşesinin E'ye ve C köşesinin F'ye karşılık geldiğini belirtir. Karşılıklı kenarların oranları ise benzerlik oranını verir:\n\n$$\\frac{|AB|}{|DE|} = \\frac{|BC|}{|EF|} = \\frac{|AC|}{|DF|} = k$$\n\nBuradaki $k$ sabiti, bir üçgenin kenarlarının diğer üçgenin karşılıklı kenarlarına oranını gösterir. Eğer $k=1$ ise, bu üçgenler aslında eş üçgenlerdir; yani hem şekilleri hem de boyutları aynıdır. Eğer $k > 1$ ise, ilk üçgen ikinci üçgenden daha küçüktür (veya ikinci üçgen ilkinin büyütülmüş halidir). Eğer $0 < k < 1$ ise, ilk üçgen ikinci üçgenden daha büyüktür (veya ikinci üçgen ilkinin küçültülmüş halidir).\n\n> [!IMPORTANT]\n> Benzerlik oranı $k$, sadece kenar uzunlukları için geçerlidir. Karşılıklı açıların eşitliği benzerliğin temel şartıdır, ancak bu açılar benzerlik oranıyla **büyümez** veya **küçülmez**. Açıların ölçüleri sabittir. Bu, benzerlikteki en kritik ayrımlardan biridir.\n\n[DIAGRAM:geometry content=\"İki adet ABC ve DEF üçgeni çiz. ABC üçgeni daha küçük olsun. DEF üçgeni ABC üçgeninin benzeri ve daha büyük olsun. A açısı D açısına, B açısı E açısına, C açısı F açısına eşit olarak işaretlensin. Bu eşit açılar aynı sembollerle gösterilsin (örneğin, A ve D tek yay, B ve E çift yay, C ve F üçlü yay). AB kenarı c, BC kenarı a, AC kenarı b olarak etiketlensin. DE kenarı kc, EF kenarı ka, DF kenarı kb olarak etiketlensin. Benzerlik oranı k > 1 gösterilsin. Karşılıklı kenarlar ve açılar açıkça eşleşecek şekilde gösterilsin.\"]\n\n### Açı-Açı (A.A) Benzerlik Teoremi\n\nBenzerliği tespit etmek için her zaman tüm kenar uzunluklarını bilmek zorunda değiliz. Geometrideki en zarif teoremlerden biri olan Açı-Açı (A.A) Benzerlik Teoremi bize pratik bir yol sunar:\n\n> \"İki üçgenin karşılıklı ikişer açısı eşit ise, bu üçgenler benzerdir.\"\n\nBu teorem neden bu kadar güçlü? Çünkü bir üçgenin iç açıları toplamı $180^\\circ$ olduğundan, iki açının eşitliği otomatik olarak üçüncü açının da eşit olmasını garantiler. Yani, $\\angle A = \\angle D$ ve $\\angle B = \\angle E$ ise, kaçınılmaz olarak $\\angle C = \\angle F$ olmak zorundadır. Bu durumda, tüm karşılıklı açılar eşit olduğundan, kenarlar da orantılı olmak zorundadır.\n\n> [!WARNING]\n> Öğrencilerimin sıkça düştüğü bir yanılgı, benzerlik oranının açılar için de geçerli olduğunu düşünmektir. Örneğin, \"eğer kenarlar 2 kat büyüdüyse, açılar da mı 2 kat büyür?\" diye sorarlar. Kesinlikle hayır! Açıların ölçüleri, benzerlik dönüşümünde sabittir. Şeklin \"şekil\" kalmasını sağlayan budur. Açıların büyümesi, üçgenin şeklini de değiştirir ve benzerlik ortadan kalkar.\n\n### Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı\n\nAçı-Açı teoremi kadar olmasa da, Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı da üçgenlerin benzerliğini saptamada çok etkilidir:\n\n> \"İki üçgenin karşılıklı ikişer kenarı orantılı ve bu kenarlar arasındaki açılar eşit ise, bu üçgenler benzerdir.\"\n\nBuradaki kilit nokta, eşit olan açının, orantılı olan iki kenar arasında kalmasıdır. Örneğin, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde, eğer $\\frac{|AB|}{|DE|} = \\frac{|AC|}{|DF|} = k$ ve $\\angle A = \\angle D$ ise, bu üçgenler benzerdir. Bu kural, bize sadece kenarlar ve aralarındaki açı bilgisinin yeterli olduğunu gösterir.\n\n> [!WARNING]\n> K.A.K. kuralını uygularken yapılan yaygın bir hata, orantılı kenarlar arasındaki açıyı değil de, başka bir açıyı eşit olarak almaktır. Örneğin, $|AB|$ ile $|AC|$ orantılı iken $\\angle B$ açısının eşit olması benzerlik için yeterli değildir. Eşit olan açı, mutlaka orantılı olan kenarların **arasındaki** açı olmalıdır. Doğru kenarları doğru açıyla eşleştirmek, benzerlik analizinde kritik öneme sahiptir.\n\nBenzerlik kavramı, sadece LGS geometri müfredatında değil, mühendislikten mimariye, sanattan doğadaki fraktallara kadar pek çok alanda karşımıza çıkar. Bir sonraki adımda, bu temel tanımları kullanarak gerçek problemler üzerinde benzerlik analizleri yapmaya başlayacak, bu kavramın ne denli güçlü bir araç olduğunu somut örneklerle pekiştireceğiz. Hazır mısınız?"
+                },
+                {
+                  "content": "## Üçgenlerde Benzerliğin Derin Mantığı ve Temel Kuralları\n\nGeçen ders Pisagor Teoremi'nin sarsılmaz mantığını keşfetmiş, dik üçgenlerin kenarları arasındaki o eşsiz uyumu görmüştük. Şimdi ise geometri dünyasında yepyeni bir kapı aralıyor, şekillerin birbirine olan 'akrabalık' ilişkisini, yani **benzerliği** inceliyoruz. Benzerlik, günlük hayatımızda da sıkça karşılaştığımız bir olgudur. Bir haritanın gerçek araziye oranı, bir model arabanın gerçek arabaya oranı, hatta bir fotoğrafı büyütüp küçültmemiz... Tüm bunlar benzerlik kavramının somut yansımalarıdır.\n\nBir şekli bir fotokopi makinesinde belirli bir oranda büyüttüğümüzde ya da küçülttüğümüzde ne olur? Şeklin genel formu, hatları değişmez; sadece boyutu değişir. İşte benzerlik tam da budur: bir şeklin belirli bir oranda büyütülmüş veya küçültülmüş hali. Bu büyüme veya küçülme oranına **benzerlik oranı** deriz ve genellikle $k$ harfiyle gösteririz. Eğer $k > 1$ ise şekil büyümüş, $0 < k < 1$ ise küçülmüştür. $k=1$ ise şekiller eşittir, yani özel bir benzerlik durumudur.\n\n> [!IMPORTANT]\n> Benzer üçgenlerde karşılıklı açılar eşittir. Ancak kenar uzunlukları, yükseklikler, kenarortaylar ve çevre uzunlukları gibi tüm uzunluk ölçüleri benzerlik oranı $k$ ile orantılıdır. Yani, kenarlar benzerlik oranıyla büyür veya küçülürken, **açılar ASLA benzerlik oranıyla büyümez veya küçülmez; açılar korunur!** Bu, benzerliğin en temel ve en kritik ayrımıdır.\n\n### Açı-Açı (A.A) Benzerlik Teoremi\n\nBenzerlik kuralları arasında belki de en sezgisel ve en sık kullanılanı **Açı-Açı (A.A) Benzerlik Teoremi**'dir. Bu teorem der ki: Eğer iki üçgenin karşılıklı ikişer açısı eşitse, bu üçgenler benzerdir. Neden sadece iki açı? Çünkü bir üçgenin iç açılarının toplamı $180^\\circ$ olduğu için, iki açının eşit olması durumunda üçüncü açının da otomatik olarak eşit olması zorunludur. Örneğin, bir üçgenin açıları $A, B, C$ ve diğerinin açıları $D, E, F$ olsun. Eğer $\\angle A = \\angle D$ ve $\\angle B = \\angle E$ ise, o zaman $\\angle C$ de kesinlikle $\\angle F$'ye eşit olacaktır. Bu durumda, $\\triangle ABC \\sim \\triangle DEF$ şeklinde gösteririz ve \"üçgen ABC, üçgen DEF'ye benzerdir\" diye okuruz.\n\n[DIAGRAM:geometry content=\"İki üçgen yan yana çizilmiş. Birinci üçgen $\\triangle ABC$ olarak etiketlenmiş, ikinci üçgen $\\triangle DEF$ olarak etiketlenmiş. $\\angle A$ ve $\\angle D$ aynı sembolle (örneğin tek yay), $\\angle B$ ve $\\angle E$ aynı sembolle (örneğin çift yay) eşit olarak işaretlenmiş. Bu, A.A. benzerliğini görselleştirir. Karşılıklı kenarların $AB/DE = BC/EF = CA/FD = k$ oranını vurgulayan metin eklenmiş.\"]\n\nBu durumda, karşılıklı kenarların oranları birbirine eşit olacaktır:\n$$\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{CA}{FD} = k$$\nBuradaki $k$ değeri, bizim benzerlik oranımızdır.\n\n### Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı\n\nBir diğer güçlü benzerlik kuralı ise **Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı**'dır. Bu kural, adından da anlaşılacağı gibi, iki kenar ve bu iki kenar arasındaki açı üzerine kuruludur: Eğer iki üçgenin karşılıklı ikişer kenarının oranları eşit ve bu kenarlar arasında kalan açılar da eşitse, bu üçgenler benzerdir. Buradaki \"arasında kalan açı\" ifadesi kritiktir. Kenarların oranlı olması yetmez, bu oranlı kenarların oluşturduğu açının da eşit olması gerekir.\n\nÖrneğin, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde $AB/DE = BC/EF = k$ ve $\\angle B = \\angle E$ ise, bu üçgenler benzerdir. Burada $\\angle B$ ve $\\angle E$ açılarının, oranları alınan $AB, BC$ ve $DE, EF$ kenarları arasında kalmasına dikkat edin.\n\n> [!WARNING]\n> K.A.K. benzerlik kuralını uygularken en sık yapılan hata, oranlanan kenarların arasında kalmayan bir açıyı eşitlemeye çalışmaktır. Unutmayın, \"K.A.K.\" kısaltmasındaki \"A\" harfi, iki \"K\" harfinin *arasında* yer alır; bu da açının konumunun önemini vurgular. Yanlış kenarları oranlamak veya yanlış açıyı eşleştirmek, sizi hatalı sonuçlara götürecektir. Her zaman karşılıklı kenarları ve açıları dikkatlice eşleştirin.\n\nBu temel kurallar, üçgenler arasındaki derin ilişkileri anlamamız için bize güçlü araçlar sunar. Bir sonraki adımda, benzerlik kavramının alan ve hacim gibi diğer geometrik özellikler üzerindeki etkilerini inceleyeceğiz. Bu kuralları iyi kavramak, ileri düzey geometri problemlerini çözmenin anahtarıdır.",
+                  "title": "Üçgenlerde Benzerliğin Derin Mantığı ve Temel Kuralları",
+                  "type": "INSTRUCTION",
+                  "phase": 2,
+                  "id": "card-phase2-1769716829409-1"
+                },
+                {
+                  "phase": 2,
+                  "content": "## Üçgenlerde Benzerliğin Temel Kriterleri ve Oran Sabiti\n\nGeçen ders, Pisagor Teoremi'nin dik üçgenlerdeki eşsiz gücünü ve kenar ilişkilerini derinlemesine incelemiştik. Şimdi ise, geometri dünyasının en zarif ve güçlü kavramlarından biri olan üçgenlerde benzerliğin kapılarını aralıyoruz. Benzerlik, bir şeklin \"fotokopi makinesinde büyütülmesi\" veya \"küçültülmesi\" gibi düşünülebilir; şekil aynı kalır, sadece boyutu değişir. Bu, açıların sabit kalması, kenar uzunluklarının ise belirli bir oranda artması veya azalması anlamına gelir.\n\n### Benzerlik Oranı (k) ve Anlamı\n\nİki üçgenin benzer olması durumunda, karşılıklı kenarlarının uzunlukları oranı sabittir. İşte bu sabit orana **benzerlik oranı** adı verilir ve genellikle $k$ harfi ile gösterilir. Eğer $\\triangle ABC \\sim \\triangle DEF$ ise (buradaki \"$\\sim$\" sembolü \"benzerdir\" anlamına gelir), bu durumda karşılıklı kenarların oranları eşittir:\n\n$$ \\frac{|AB|}{|DE|} = \\frac{|BC|}{|EF|} = \\frac{|CA|}{|FD|} = k $$\n\nBu $k$ sabiti, bir üçgenin diğer üçgenin kaç katı büyüklüğünde olduğunu gösterir. Eğer $k=1$ ise, üçgenler eş demektir; yani hem şekilleri hem de boyutları aynıdır. $k > 1$ ise büyütme, $0 < k < 1$ ise küçültme söz konusudur.\n\n> [!WARNING]\n> En yaygın yanılgılardan biri, benzerlik oranının açıları da aynı oranda etkilediğini düşünmektir. **Asla unutmayın:** Benzer üçgenlerde karşılıklı açılar **eşittir**, benzerlik oranıyla büyümez veya küçülmezler. Kenarların oranı değişirken, şeklin \"açısal yapısı\" korunur.\n\n### Temel Benzerlik Kriterleri\n\nÜçgenlerin benzer olduğunu kanıtlamak için her zaman tüm kenar uzunluklarını veya tüm açıları bilmemize gerek yoktur. Belirli kriterler, bu tespiti çok daha pratik hale getirir.\n\n#### 1. Açı-Açı (A.A) Benzerlik Teoremi\n\nBu, benzerlik için en temel ve en sık kullanılan kriterdir. İki üçgenin karşılıklı ikişer açısı eşit ise, bu üçgenler benzerdir. Üçüncü açı da otomatik olarak eşit olacağından, aslında iki açının eşitliği benzerlik için yeterlidir.\n\nÖrneğin, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde:\n*   $m(\\angle A) = m(\\angle D)$\n*   $m(\\angle B) = m(\\angle E)$\n\nise, bu durumda $\\triangle ABC \\sim \\triangle DEF$ diyebiliriz. Bu teorem, özellikle LGS sınavlarında sıklıkla karşımıza çıkan paralel doğrular ve kesenler arasındaki ilişkilerle oluşturulan benzer üçgenleri tespit etmede hayati öneme sahiptir. Yöndeş açılar veya iç ters açılar aracılığıyla kolayca eşit açılar bulunabilir.\n\n[DIAGRAM:geometry content=\"Triangle ABC with angle A at top, angle B at bottom left, angle C at bottom right. Triangle DEF, smaller than ABC, with angle D at top, angle E at bottom left, angle F at bottom right. Mark angle A and D with single arc. Mark angle B and E with double arc. Indicate that sides AB and DE are proportional, BC and EF are proportional, AC and DF are proportional.\"]\n\n#### 2. Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı\n\nBu kural, adından da anlaşılacağı gibi, iki kenarın ve bu kenarlar arasında kalan açının ilişkisine dayanır. İki üçgenin karşılıklı ikişer kenarının uzunlukları oranı eşit ve bu kenarlar arasında kalan açılar da eşit ise, bu üçgenler benzerdir.\n\nÖrneğin, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde:\n*   $\\frac{|AB|}{|DE|} = \\frac{|BC|}{|EF|} = k$ (Kenar oranları eşit)\n*   $m(\\angle B) = m(\\angle E)$ (Bu kenarlar arasında kalan açılar eşit)\n\nise, bu durumda $\\triangle ABC \\sim \\triangle DEF$ diyebiliriz. Burada önemli olan, açının oranlanan kenarlar arasında kalmasıdır. Başka bir deyişle, $\\angle B$ kenarları $AB$ ve $BC$ arasında kalırken, $\\angle E$ de $DE$ ve $EF$ arasında kalmalıdır.\n\n> [!TIP]\n> K.A.K. benzerlik kuralını uygularken, hangi kenarın hangi kenarla oranlanacağını doğru belirlemek çok önemlidir. Oranladığınız kenarlar arasındaki açının eşitliğini kontrol etmeyi unutmayın. Yanlış kenarları oranlamak veya oranlanan kenarlar arasında olmayan bir açıyı kullanmak, hatalı sonuçlara yol açar.\n\nBenzerlik kavramı, sadece soyut bir matematik konusu olmanın ötesinde, mimariden sanata, haritacılıktan mühendisliğe kadar pek çok alanda temel bir araçtır. Bir sonraki dersimizde, benzerliğin en güçlü uygulamalarından biri olan Kenar-Kenar-Kenar (K.K.K.) Benzerlik Kuralı'nı ve benzerlik ile alan ve çevre arasındaki büyüleyici ilişkileri keşfedeceğiz. Geometrideki bu derin bağlantıları anlamak, problem çözme yeteneğinizi bambaşka bir seviyeye taşıyacaktır.",
+                  "id": "card-phase2-1769716843342-2",
+                  "title": "Üçgenlerde Benzerliğin Temel Kriterleri ve Oran Sabiti",
+                  "type": "INSTRUCTION"
+                },
+                {
+                  "phase": 2,
+                  "title": "Benzer Üçgenlerde Oran Sabiti ve Temel Benzerlik Kriterleri",
+                  "content": "## Benzer Üçgenlerde Oran Sabiti ve Temel Benzerlik Kriterleri\n\nGeçen ders Pisagor Teoremi'nin sarsılmaz mantığını keşfetmiş, dik üçgenlerin kenarları arasındaki o eşsiz ilişkiyi derinlemesine incelemiştik. Şimdi ise, geometri dünyasının en zarif ve güçlü kavramlarından biri olan üçgenlerde benzerlik konusunu, ana kriterleri ve \"neden\"lerini anlamaya odaklanacağız. Benzerlik, bir şeklin bir diğerinin \"ölçekli bir kopyası\" olması durumudur. Bunu bir fotokopi makinesinde bir resmi büyütmek veya küçültmek gibi düşünebilirsiniz; şekil aynı kalır, sadece boyutu değişir.\n\n### Benzerlik Oranı (k Sabiti): Ölçek Faktörünün Anlamı\n\nİki üçgenin benzer olması demek, karşılıklı açılarının ölçülerinin eşit olması ve karşılıklı kenar uzunluklarının oranlarının birbirine eşit olması demektir. İşte bu eşit orana **benzerlik oranı** adı verilir ve genellikle $k$ harfiyle gösterilir. Eğer $\\triangle ABC \\sim \\triangle DEF$ ise (yani ABC üçgeni DEF üçgenine benzerse), karşılıklı kenarların oranları sabittir:\n\n$$\\frac{|AB|}{|DE|} = \\frac{|BC|}{|EF|} = \\frac{|CA|}{|FD|} = k$$\n\nBuradaki $k$ sabiti, bir üçgenin diğerine göre ne kadar büyütüldüğünü veya küçültüldüğünü gösteren ölçek faktörüdür. Örneğin, $k=2$ ise, birinci üçgenin kenarları, ikinci üçgenin karşılıklı kenarlarının iki katı uzunluğundadır.\n\n> [!WARNING]\n> Öğrencilerin sıklıkla düştüğü bir yanılgı, benzerlik oranının sadece kenarları değil, açıları da etkilediğini düşünmektir. Oysa benzerlikte açılar **değişmez**, sadece kenar uzunlukları bu $k$ oranıyla orantılı olarak büyür veya küçülür. Fotokopi metaforunu hatırlayın: bir fotoğrafı büyüttüğünüzde içindeki nesnelerin açıları değişmez, sadece boyutları artar.\n\n### Açı-Açı (A.A) Benzerlik Teoremi\n\nÜçgenlerde benzerliği tespit etmenin en temel ve en sık kullanılan yolu Açı-Açı (A.A) Benzerlik Teoremi'dir. Bu teorem der ki:\n\n**İki üçgenin ikişer açısı karşılıklı olarak eşit ise, bu üçgenler benzerdir.**\n\nNeden mi? Çünkü bir üçgenin iç açıları toplamı $180^\\circ$ olduğundan, iki açının eşit olması durumunda üçüncü açının da otomatik olarak eşit olması kaçınılmazdır. Bu durumda, üçgenlerin şekilleri aynıdır, sadece boyutları farklı olabilir.\n\n[DIAGRAM:geometry content=\"İki üçgen çizin: Birinci üçgen ABC, A tepe noktası yukarıda. İkinci üçgen DEF, D tepe noktası yukarıda ve ABC üçgeninden daha küçük boyutta. A açısı ile D açısı, B açısı ile E açısı ve C açısı ile F açısı eşit olarak işaretlenmelidir. AB kenarı 6 birim, BC kenarı 9 birim, CA kenarı 12 birim olarak etiketlensin. DE kenarı 3 birim, EF kenarı 4.5 birim, FD kenarı 6 birim olarak etiketlensin. Tüm açılar ve kenarlar netçe gösterilmeli ve etiketlenmelidir.\"]\n\nYukarıdaki görselde $\\angle A = \\angle D$, $\\angle B = \\angle E$ ve $\\angle C = \\angle F$ olduğunu varsayalım. Bu durumda A.A. Benzerlik Teoremi gereği $\\triangle ABC \\sim \\triangle DEF$ olacaktır. Kenar oranlarına baktığımızda:\n$\\frac{|AB|}{|DE|} = \\frac{6}{3} = 2$\n$\\frac{|BC|}{|EF|} = \\frac{9}{4.5} = 2$\n$\\frac{|CA|}{|FD|} = \\frac{12}{6} = 2$\nBenzerlik oranı $k=2$'dir.\n\n### Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı\n\nA.A. Teoremi kadar güçlü bir diğer benzerlik kriteri de Kenar-Açı-Kenar (K.A.K) Benzerlik Kuralı'dır:\n\n**İki üçgenin karşılıklı iki kenarının uzunlukları oranı eşit ve bu kenarlar arasındaki açılar da eşit ise, bu üçgenler benzerdir.**\n\nBu kuralda kritik olan nokta, eşit olan açının, oranları eşit olan iki kenar arasında kalmasıdır. Yani, bir kenar, bir açı ve bir kenar sırasıyla birbiriyle eşleşmelidir.\n\nÖrneğin, $\\triangle KML$ ve $\\triangle PQR$ üçgenlerini düşünelim. Eğer $\\frac{|KM|}{|PQ|} = \\frac{|ML|}{|QR|} = k$ ve $\\angle M = \\angle Q$ ise, o zaman $\\triangle KML \\sim \\triangle PQR$'dir. Buradaki $\\angle M$ ve $\\angle Q$ açılarının, oranları eşit olan kenarlar arasında yer alması hayati önem taşır. Eğer bu açı başka bir yerde olsaydı, benzerlikten söz edemezdik.\n\nBu üç temel kriter, LGS Geometri'de benzerlik sorularını çözerken en sık başvuracağınız araçlar olacaktır. Her birini derinlemesine kavramak, karmaşık problemleri basitleştirmenize olanak tanır. Bir sonraki adımda, bu benzerlik kurallarını kullanarak nasıl problem çözeceğimizi ve bu bilgiyi daha da derinleştireceğimizi keşfedeceğiz.",
+                  "id": "card-phase2-1769716857369-3",
+                  "type": "CASE_STUDY"
+                },
+                {
+                  "title": "Üçgenlerde Benzerliğin Kilit Çıkarımları ve Gelecek Adımlar",
+                  "type": "INSTRUCTION",
+                  "content": "## Üçgenlerde Benzerliğin Kilit Çıkarımları ve Gelecek Adımlar\n\nÜçgenlerde benzerlik kavramını derinlemesine incelediğimiz bu yolculukta, geometrinin en temel ama aynı zamanda en güçlü araçlarından birini keşfettik. Benzerlik, sadece şekillerin birbirine benzemesi değil, aynı zamanda aralarındaki matematiksel ilişkinin de titizlikle tanımlanması anlamına gelir. Bir şeklin \"fotokopi makinesinde büyütülmesi\" metaforunu kullanarak zihninizde canlandırdığımız gibi, benzerlik aslında açıların korunarak, kenar uzunluklarının belirli bir oranda artması veya azalmasıdır.\n\n### Benzerlik Oranı (k Sabiti): Şeklin Ölçeği\n\nBenzerlik oranını ($k$) anlamak, benzer üçgenler arasındaki ilişkinin anahtarıdır. Bu oran, iki benzer üçgenin karşılıklı kenarlarının uzunlukları arasındaki sabittir. Yani, bir üçgenin bir kenarını, ona karşılık gelen diğer üçgenin kenarına böldüğümüzde elde ettiğimiz değer, tüm karşılıklı kenar çiftleri için aynıdır.\n\n$$k = \\frac{\\text{Birinci Üçgenin Kenarı}}{\\text{İkinci Üçgenin Karşılık Gelen Kenarı}}$$\n\nBu $k$ sabiti, şeklin ne kadar büyüdüğünü veya küçüldüğünü gösterir. Eğer $k > 1$ ise şekil büyümüş, $0 < k < 1$ ise küçülmüştür. $k = 1$ ise üçgenler eş üçgenlerdir ve bu, benzerliğin özel bir durumudur.\n\n> [!WARNING]\n> En yaygın yanılgılardan biri, benzerlik oranıyla sadece kenarların değil, açıların da değiştiğini düşünmektir. Oysa benzerlikte açılar sabittir, değişmez! İki üçgenin benzer olması için karşılıklı açılarının eşit olması şarttır. Kenarlar orantılı değişirken, açılar aynı kalır. Bir diğer hata ise, benzer kenarları doğru eşleştirmeden oranlamaktır. Hangi açının karşısındaki kenarın diğer üçgende hangi açının karşısındaki kenarla oranlanacağını dikkatle belirlemelisiniz.\n\n### Temel Benzerlik Kriterleri: Üçgenlerin Benzerliğini Kanıtlama Yöntemleri\n\nÜçgenlerin benzerliğini kanıtlamak için kullandığımız başlıca kriterleri net bir şekilde anlamak, LGS geometri sorularında başarı için kritik öneme sahiptir.\n\n#### 1. Açı-Açı (A.A.) Benzerlik Teoremi\n\nBu, en sık kullanılan ve en sezgisel benzerlik teoremidir. Eğer iki üçgenin karşılıklı iki açısı eşitse, üçüncü açıları da otomatik olarak eşit olacaktır. Çünkü bir üçgenin iç açıları toplamı her zaman 180 derecedir. Bu durumda, iki üçgen benzerdir.\n\n*   **Uygulama:** Genellikle bir üçgenin içinde, paralel doğrularla kesilmiş küçük bir üçgen oluştuğunda veya \"gölge boyu\" gibi gerçek dünya problemlerinde kullanılır. Örneğin, bir ağacın gölgesinin boyunu ölçerek ağacın gerçek boyunu bulmak.\n\n#### 2. Kenar-Açı-Kenar (K.A.K.) Benzerlik Kuralı\n\nBu kural biraz daha spesifiktir ve dikkat gerektirir. Eğer iki üçgenin karşılıklı iki kenarının uzunlukları oranı eşit ve bu kenarlar arasında kalan açıları da eşit ise, bu üçgenler benzerdir. Buradaki \"arada kalan açı\" ifadesi çok önemlidir. Açının, oranladığımız kenarların arasında olması zorunludur.\n\n*   **Uygulama:** Genellikle bir açının ortak olduğu veya kolayca belirlenebildiği durumlarda, kenar uzunlukları arasındaki ilişkiyi kurarak benzerliği kanıtlamak için kullanılır.\n\n### Benzerlik Kriterlerinin Karşılaştırılması\n\n| Kriter           | Açıklama                                                  | Anahtar Nokta                                        |\n| :--------------- | :-------------------------------------------------------- | :--------------------------------------------------- |\n| **Açı-Açı (A.A.)** | İki üçgenin karşılıklı iki açısı eşitse benzerdirler.     | Üçüncü açı otomatikman eşittir.                      |\n| **Kenar-Açı-Kenar (K.A.K.)** | İki kenar oranı eşit ve bu kenarlar arasındaki açı eşitse benzerdirler. | Açı, oranlanan kenarların **arasında** olmalıdır.   |\n\n[DIAGRAM:geometry content=\"İki üçgen çiziniz: ABC ve DEF. A açısı 70 derece, B açısı 50 derece olarak işaretlenmiş. AB kenarı 6 birim, AC kenarı 9 birim. DEF üçgeninde D açısı 70 derece, E açısı 50 derece olarak işaretlenmiş. DE kenarı 10 birim, DF kenarı 15 birim. A ile D ve B ile E açılarının eşit olduğu sembollerle gösterilmiş. AB/DE = 6/10 = 3/5 ve AC/DF = 9/15 = 3/5 oranlarının eşit olduğu metin olarak belirtilsin. Bu iki üçgenin hem A.A. hem de K.A.K. kriterlerine göre benzerliğini görsel olarak vurgulayınız.\"]\n\nBu temel benzerlik kriterlerini ve benzerlik oranının ne anlama geldiğini kavramak, geometrik akıl yürütme yeteneğinizin gelişiminde çok önemli bir adımdır. Bir üçgenin sadece şeklini değil, aynı zamanda ölçeksel özelliklerini de anlamanızı sağlar.\n\nBu ders, benzerliğin temel taşlarını zihnimize sağlamca yerleştirdi. Şimdi bu güçlü temelin üzerine inşa etme zamanı. Bir sonraki adımımız, benzerlik prensiplerini daha karmaşık geometrik yapılar üzerinde, özellikle de Thales Teoremi ve benzerlik uygulamaları aracılığıyla nasıl kullanacağımızı derinlemesine incelemek olacak. Benzerlik, sadece üçgenlerle sınırlı kalmayıp, çokgenler ve hatta hacimsel cisimler arasındaki ilişkileri anlamamıza da kapı aralayacaktır. Bu derinlemesine anlayışla, LGS'deki en zorlu geometri sorularına bile meydan okumaya hazır olacaksınız.",
+                  "id": "card-phase2-1769716882245-4",
+                  "phase": 2
+                },
+                {
+                  "difficultyLevel": 1,
+                  "type": "QUIZ",
+                  "phase": 3,
+                  "id": "card-phase3-1769716931864-0",
+                  "question": {
+                    "text": "Bir hücrenin mikroskop altındaki iki farklı büyütmedeki görüntüsü, benzer üçgenler prensibiyle modellendiğinde, benzer iki üçgen için temel şart nedir?",
+                    "correctIndex": 1,
+                    "options": [
+                      "A) Karşılıklı kenar uzunluklarının eşit olması.",
+                      "B) Karşılıklı açılarının ölçülerinin eşit olması.",
+                      "C) Alanlarının birbirine eşit olması.",
+                      "D) Çevre uzunluklarının aynı olması.",
+                      "E) Sadece bir açılarının eşit olması yeterlidir."
+                    ],
+                    "explanation": "İki üçgenin benzer olmasının temel şartı, karşılıklı açılarının ölçülerinin birbirine eşit olmasıdır. Bu durumda kenar uzunlukları arasında orantılı bir ilişki kurulur. Kenar uzunluklarının eşit olması üçgenlerin eş olması (kongrüent) anlamına gelir, benzer olması değil."
+                  },
+                  "courseTopic": "LGS Geometri",
+                  "topic": "Üçgenlerde Benzerlik Analizi",
+                  "title": "Bilgi Kontrolü 1: Benzerlik Temelleri"
+                },
+                {
+                  "courseTopic": "LGS Geometri",
+                  "topic": "Üçgenlerde Benzerlik Analizi",
+                  "id": "card-phase3-1769716931864-1",
+                  "difficultyLevel": 2,
+                  "phase": 3,
+                  "type": "QUIZ",
+                  "question": {
+                    "options": [
+                      "A) Büyük koloninin iç açıları, küçük koloninin iç açılarının $2$ katıdır.",
+                      "B) Büyük koloninin karşılıklı kenar uzunlukları, küçük kolonininkilerin $2$ katıdır.",
+                      "C) Büyük koloninin alanı, küçük koloninin alanının $2$ katıdır.",
+                      "D) Küçük koloninin çevresi, büyük koloninin çevresinin $2$ katıdır.",
+                      "E) Her iki koloninin de kesinlikle birer dik açısı vardır."
+                    ],
+                    "text": "Bir bakterinin büyümesini inceleyen LGS öğrencisi Ayşe, farklı zamanlardaki iki üçgen şeklindeki koloninin benzer olduğunu fark etmiştir. Eğer bu benzerlik oranı (küçükten büyüğe) $k = \\frac{1}{2}$ ise, bu durum kolonilerin geometrik özellikleri hakkında ne anlama gelir?",
+                    "explanation": "Benzerlik oranı $k$ ise, karşılıklı kenar uzunlukları oranı $k$'ye eşittir. Eğer küçükten büyüğe oran $k=\\frac{1}{2}$ ise, büyükten küçüğe oran $1/k = 2$'dir. Yani büyük koloninin kenarları, küçük kolonininkilerin $2$ katıdır. Açıların benzerlik oranıyla büyümesi yanlış bir yanılgıdır; benzer üçgenlerin açıları eşittir. Alanlar oranı $k^2$ ve çevreler oranı $k$'dir.",
+                    "correctIndex": 1
+                  },
+                  "title": "Bilgi Kontrolü 2: Benzerlik Oranı Yorumlama"
+                },
+                {
+                  "phase": 3,
+                  "topic": "Üçgenlerde Benzerlik Analizi",
+                  "id": "card-phase3-1769716931864-2",
+                  "difficultyLevel": 3,
+                  "courseTopic": "LGS Geometri",
+                  "title": "Bilgi Kontrolü 3: Kenar Uzunluğu Hesaplama",
+                  "type": "QUIZ",
+                  "question": {
+                    "explanation": "Üçgenler benzer olduğundan, karşılıklı kenarların oranları eşittir. Yani $\\frac{AB}{DE} = \\frac{BC}{EF}$ olmalıdır. Verilen değerleri yerine koyarsak: $\\frac{4}{10} = \\frac{6}{EF}$. Bu denklemi çözdüğümüzde $4 \\times EF = 10 \\times 6 \\Rightarrow 4 \\times EF = 60 \\Rightarrow EF = \\frac{60}{4} = 15$ cm bulunur. Yanlış kenarları oranlamak veya hatalı matematiksel işlem yapmak yaygın bir yanılgıdır.",
+                    "text": "Bir biyomedikal mühendisi, LGS Geometri dersinde öğrendiği benzer üçgenler prensibini kullanarak, yeni bir cerrahi aletin küçültülmüş prototipini tasarlamaktadır. Prototip $\\triangle ABC$ ve gerçek alet $\\triangle DEF$ üçgeni biçimindedir. Eğer $\\triangle ABC \\sim \\triangle DEF$ ise, $AB = 4$ cm, $BC = 6$ cm ve $DE = 10$ cm olduğuna göre, $EF$ kenarının uzunluğu kaç cm'dir?",
+                    "options": [
+                      "A) $10$ cm",
+                      "B) $12$ cm",
+                      "C) $15$ cm",
+                      "D) $18$ cm",
+                      "E) $20$ cm"
+                    ],
+                    "correctIndex": 2
+                  }
+                },
+                {
+                  "difficultyLevel": 4,
+                  "courseTopic": "LGS Geometri",
+                  "topic": "Üçgenlerde Benzerlik Analizi",
+                  "title": "Bilgi Kontrolü 4: Alan Oranları Analizi",
+                  "type": "QUIZ",
+                  "phase": 3,
+                  "question": {
+                    "explanation": "Benzer iki üçgenin alanlarının oranı, benzerlik oranının karesine eşittir. Eğer küçük üçgenden büyüğe benzerlik oranı $k = \\frac{1}{4}$ ise, alan oranı $k^2 = (\\frac{1}{4})^2 = \\frac{1}{16}$ olur. Küçük üçgenin alanı $16 \\text{ cm}^2$ olduğundan, $\\frac{\\text{Küçük Üçgen Alanı}}{\\text{Büyük Üçgen Alanı}} = \\frac{1}{16}$ bağıntısından $\\frac{16}{\\text{Büyük Üçgen Alanı}} = \\frac{1}{16}$ elde ederiz. Buradan Büyük Üçgen Alanı $= 16 \\times 16 = 256 \\text{ cm}^2$ olarak bulunur. Alanı benzerlik oranıyla çarpmak ($16 \\times 4 = 64$) yaygın bir hatadır.",
+                    "correctIndex": 3,
+                    "options": [
+                      "A) $32 \\text{ cm}^2$",
+                      "B) $64 \\text{ cm}^2$",
+                      "C) $128 \\text{ cm}^2$",
+                      "D) $256 \\text{ cm}^2$",
+                      "E) $512 \\text{ cm}^2$"
+                    ],
+                    "text": "Bir organın büyütülmüş bir modeli üzerinde çalışan LGS öğrencisi Can, benzer iki üçgenin benzerlik oranının $k = \\frac{1}{4}$ olduğunu belirlemiştir. Eğer küçük üçgenin alanı $16 \\text{ cm}^2$ ise, büyük üçgenin alanı kaç $\\text{cm}^2$'dir?"
+                  },
+                  "id": "card-phase3-1769716931864-3"
+                },
+                {
+                  "title": "Bilgi Kontrolü 5: Benzerlik Uygulama ve Sentez",
+                  "topic": "Üçgenlerde Benzerlik Analizi",
+                  "type": "QUIZ",
+                  "phase": 3,
+                  "id": "card-phase3-1769716931864-4",
+                  "difficultyLevel": 5,
+                  "question": {
+                    "text": "Bir LGS Geometri öğrencisi, bir bitkinin yaprak damarlarındaki büyüme desenlerini incelerken aşağıdaki geometrik yapıyı fark etmiştir: Bir $\\triangle ABC$ içinde, $DE \\parallel BC$ olacak şekilde $D$ noktası $AB$ üzerinde ve $E$ noktası $AC$ üzerindedir. Eğer $AD = 5$ birim, $DB = 10$ birim ve $DE = 6$ birim ise, $BC$ uzunluğu kaç birimdir?",
+                    "options": [
+                      "A) $12$ birim",
+                      "B) $15$ birim",
+                      "C) $18$ birim",
+                      "D) $20$ birim",
+                      "E) $24$ birim"
+                    ],
+                    "explanation": "$DE \\parallel BC$ olduğundan, $\\triangle ADE$ ve $\\triangle ABC$ üçgenleri benzerdir (Temel Benzerlik Teoremi). Bu durumda kenar oranları eşit olacaktır. $AD = 5$ birim ve $DB = 10$ birim olduğuna göre, $AB$ kenarının uzunluğu $AD + DB = 5 + 10 = 15$ birimdir. $\\triangle ADE \\sim \\triangle ABC$ benzerliğinden, $\\frac{AD}{AB} = \\frac{DE}{BC}$ bağıntısını yazabiliriz. Verilen değerleri yerine koyarsak: $\\frac{5}{15} = \\frac{6}{BC} \\Rightarrow \\frac{1}{3} = \\frac{6}{BC}$. Denklemi çözdüğümüzde $BC = 6 \\times 3 = 18$ birim bulunur. Benzerlik oranını hesaplarken $AD/DB$ oranını kullanmak ($5/10=1/2$) ve buradan $BC=12$ sonucuna ulaşmak yaygın bir yanılgıdır.",
+                    "correctIndex": 2
+                  },
+                  "courseTopic": "LGS Geometri"
+                }
+              ],
+              "phase": 3
+            }
+          },
+          {
+            "status": "LOCKED",
+            "title": "Eşlik Kuralları İncelemesi",
+            "isReview": false,
+            "conceptTitle": "Kenar-Açı-Kenar İlişkileri",
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W01-L02-STD",
+            "isFinalExam": false,
+            "conceptId": "eslik-kurallari",
+            "isAudio": false,
+            "content": {
+              "cards": [
+                {
+                  "id": "card-phase1-1769716951554-0",
+                  "phase": 1,
+                  "title": "Eşlik Kuralları İncelemesi",
+                  "visualPrompt": "LGS Geometri eş üçgenler, Kenar-Açı-Kenar kuralı, geometrik şekiller",
+                  "type": "HOOK",
+                  "content": "Bugüne kadar \"Üçgenlerde Benzerlik Analizi\" dersinde üçgenlerin dünyasında benzerlik kavramıyla tanışmıştık. Şekilleri aynı ama boyutları farklı olabilen \"ikizler\" hakkında konuştuk. Peki ya boyutları da tıpatıp aynı olan ikizler olsaydı? İşte \"Eşlik Kuralları İncelemesi\" dersimiz, geometrinin mükemmel kopyalarını, yani **eş üçgenleri bulma sanatını** keşfe çıkıyor! LGS Geometri'de karşımıza çıkan karmaşık görünen birçok problem, aslında birebir aynı, eş parçaların ustaca gizlenmesiyle oluşur. Bu parçaları fark etmek, zorlu bir denklemi saniyeler içinde çözmek gibi bir his verir.\n\nDüşünün, bir LGS deneme sınavında gördüğünüz iki üçgenin sadece benzer değil, aynı zamanda **tüm karşılıklı kenarlarının ve açılarının da birebir aynı** olduğunu anlamak, size o sorunun anahtarını anında sunar. Bu ders, geometrideki bu \"mükemmel uyumu\" nasıl tespit edeceğimizi, farklı eşlik kriterleri (Kenar-Açı-Kenar, Açı-Kenar-Açı, Kenar-Kenar-Kenar) aracılığıyla öğretecek. LGS sınavlarında öğrenciler genellikle benzerlik özelliklerine odaklanırken, eşliğin sunduğu mutlak kesinliği ve problem çözmedeki gücünü gözden kaçırabilirler.\n\nOysa eş üçgenler, bir yapbozun kayıp parçası gibi, sorunun eksik kısımlarını tamamlayarak doğru cevaba giden en kısa yolu gösterir. **Eşlik, geometrinin \"aynı kopyayı bulma\" sanatıdır** ve bu sanatta ustalaşmak, LGS'deki geometri başarınızı doğrudan etkileyecektir.\n\n> [!NOTE] Unutmayın, eş üçgenleri doğru ve hızlı bir şekilde tanımak, LGS geometri sorularında zaman yönetimi açısından kritik bir avantaj sağlar."
+                },
+                {
+                  "type": "INSTRUCTION",
+                  "id": "card-phase2-1769717042795-0",
+                  "content": "Değerli öğrencilerim, bugünkü dersimize hoş geldiniz. Bugüne kadar \"Üçgenlerde Benzerlik Analizi\" dersinde üçgenlerin dünyasında benzerlik kavramıyla tanıştık; şekilleri aynı olup boyutları farklı olabilen üçgenleri inceledik. Şimdi ise, bu ilginç yolculuğumuzda bir adım daha ileri giderek, üçgenlerin \"tıpatıp aynı\" olma halini, yani **eşlik** kavramını derinlemesine keşfedeceğiz.\n\n## Eşlik: Üçgenlerin Tıpatıp Aynı Olma Hali\n\nHatırlarsanız, iki üçgenin benzer olması için karşılıklı açılarının eşit ve karşılıklı kenar uzunluklarının oranının sabit, $k$ gibi bir sayı olması gerektiğini öğrenmiştik. Peki ya bu $k$ oranı özel bir değer alırsa ne olur? İşte tam da bu noktada **eşlik** devreye girer.\n\n### Eşlik ve Benzerlik Farkı: $k=1$ Durumu\n\nİki üçgenin benzerlik oranı $k=1$ olduğunda, bu üçgenler sadece şekil olarak değil, aynı zamanda boyut olarak da birbirinin aynısı demektir. Yani, karşılıklı kenar uzunlukları da eşit olur. Bu duruma matematikte **eşlik** denir.\n\n> [!IMPORTANT]\n> İki üçgenin birbirine **eş** olması, onların birbirinin kopyası olduğu anlamına gelir. Birini diğerinin üzerine tam olarak çakıştırabiliriz. Bu, benzerliğin çok özel bir halidir; iki üçgen hem benzerdir hem de benzerlik oranı $k=1$'dir.\n\nEşlik, $\\cong$ sembolü ile gösterilir. Örneğin, $\\triangle ABC$ üçgeni ile $\\triangle DEF$ üçgeni eş ise bunu $\\triangle ABC \\cong \\triangle DEF$ şeklinde yazarız.\n\n### Eşlik Sembolü ve Yazım Sırası\n\nEşlik yazımında sıra çok önemlidir. $\\triangle ABC \\cong \\triangle DEF$ ifadesi bize şu bilgileri verir:\n*   Köşeler arasında birebir bir eşleme vardır: $A \\leftrightarrow D$, $B \\leftrightarrow E$, $C \\leftrightarrow F$.\n*   Bu eşlemeye göre karşılıklı kenar uzunlukları eşittir:\n    *   $|AB| = |DE|$\n    *   $|BC| = |EF|$\n    *   $|AC| = |DF|$\n*   Karşılıklı açı ölçüleri eşittir:\n    *   $m(\\angle A) = m(\\angle D)$\n    *   $m(\\angle B) = m(\\angle E)$\n    *   $m(\\angle C) = m(\\angle F)$\n\n> [!WARNING] **Yaygın Hata**\n> Benzer olan her üçgenin aynı zamanda eş olduğunu düşünmek büyük bir yanılgıdır. Benzerlik, şeklin aynı olmasını gerektirirken, eşlik hem şeklin hem de boyutun aynı olmasını gerektirir. Unutmayın, eşlik benzerliğin özel bir durumudur ($k=1$), ancak her benzer üçgen eş değildir. Örneğin, bir kare ile daha büyük bir kare benzerdir ama eş değildir.\n\n### Eşlik Kuralları: Minimum Kriterler\n\nPeki, iki üçgenin eş olduğunu anlamak için tüm kenarlarının ve tüm açılarının eşit olduğunu bilmemiz şart mı? Hayır! Matematikte daima minimum bilgiyle maksimum sonuca ulaşmayı hedefleriz. İşte size iki üçgenin eş olduğunu kanıtlamak için gereken minimum kriterlerden ikisi:\n\n#### 1. Kenar-Kenar-Kenar (K.K.K.) Eşlik Kuralı\n\nBir üçgenin kenar uzunlukları, o üçgenin şeklini ve boyutunu tek başına belirler. Eğer iki üçgenin karşılıklı kenar uzunlukları birbirine eşitse, bu üçgenler eş olmak zorundadır. Bu kurala **K.K.K. Eşlik Kuralı** denir.\n\n**Kuralın Mantığı:** Üç kenar uzunluğunu bildiğimizde, bu kenarları kullanarak oluşturabileceğimiz tek bir üçgen vardır (üçgen eşitsizliğini sağladığı sürece). Dolayısıyla, aynı üç kenara sahip başka bir üçgen, sadece konum ve yönelim farkıyla ilk üçgenin aynısı olacaktır.\n\n[DIAGRAM:geometry content=\"İki üçgen, $\\triangle ABC$ ve $\\triangle DEF$ çizilir. $AB$ kenarı $DE$ kenarına, $BC$ kenarı $EF$ kenarına, $AC$ kenarı $DF$ kenarına eşit uzunlukta işaretlenir. Kenarların eşitliğini gösteren aynı sayıda çizgi işaretleri kullanılır. Örneğin, $AB$ ve $DE$ üzerinde tek çizgi, $BC$ ve $EF$ üzerinde çift çizgi, $AC$ ve $DF$ üzerinde üç çizgi.\"]\n\nBu kuralı matematiksel olarak ifade edersek:\nEğer $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde;\n$|AB| = |DE|$\n$|BC| = |EF|$\n$|AC| = |DF|$\nise, o zaman $\\triangle ABC \\cong \\triangle DEF$ olur.\n\n#### 2. Açı-Kenar-Açı (A.K.A.) Eşlik Kuralı\n\nİki üçgenin karşılıklı iki açısı ve bu açılar arasında kalan kenar uzunlukları eşitse, bu üçgenler eştir. Bu kurala **A.K.A. Eşlik Kuralı** denir.\n\n**Kuralın Mantığı:** Bir kenarın uzunluğunu ve bu kenarın uçlarındaki iki açıyı bildiğimizde, üçgenin diğer tüm özellikleri benzersiz bir şekilde belirlenir. Kenarın uzunluğu sabit olduğu ve uç açılar da sabitlendiği için, üçüncü açı da otomatik olarak sabitlenir ($180^\\circ$ kuralı). Bu da üçgenin şeklini ve boyutunu tamamen kilitler.\n\n[DIAGRAM:geometry content=\"İki üçgen, $\\triangle ABC$ ve $\\triangle DEF$ çizilir. $\\angle B$ açısı $\\angle E$ açısına, $\\angle C$ açısı $\\angle F$ açısına eşit işaretlenir. Bu açılar arasında kalan $BC$ kenarı ile $EF$ kenarı eşit uzunlukta işaretlenir. Açı eşitlikleri yaylarla, kenar eşitliği çizgiyle gösterilir.\"]\n\nBu kuralı matematiksel olarak ifade edersek:\nEğer $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde;\n$m(\\angle B) = m(\\angle E)$\n$|BC| = |EF|$\n$m(\\angle C) = m(\\angle F)$\nise, o zaman $\\triangle ABC \\cong \\triangle DEF$ olur.\n\n> [!WARNING] **Yaygın Hata**\n> A.A.A. (Açı-Açı-Açı) durumunun eşlik için yeterli olduğunu sanmak da sıkça yapılan bir hatadır. Üç açısı eşit olan üçgenler sadece **benzerdir**, eş olmak zorunda değildir. Örneğin, eşkenar üçgenlerin tüm açıları $60^\\circ$'dir, ancak bir kenarı $3 \\text{ cm}$ olan eşkenar üçgen ile bir kenarı $5 \\text{ cm}$ olan eşkenar üçgen eş değildir, sadece benzerdir. Eşlik için en az bir kenar uzunluğunun da eşit olması gerekir.\n\nBu dersimizle, eşliğin temel tanımlarını ve K.K.K. ile A.K.A. eşlik kurallarını anlamış olduk. Bir sonraki dersimizde, eşlik için diğer kritik kuralları, yani Kenar-Açı-Kenar (K.A.K.) ve Açı-Açı-Kenar (A.A.K.) kurallarını detaylı bir şekilde inceleyeceğiz.",
+                  "title": "Eşlik Kuralları İncelemesi",
+                  "phase": 2
+                },
+                {
+                  "id": "card-phase2-1769717064093-1",
+                  "type": "INSTRUCTION",
+                  "title": "Üçgenlerde Eşlik: Tıpatıp Aynı Olmanın Matematiği",
+                  "content": "## Üçgenlerde Eşlik: Tıpatıp Aynı Olmanın Matematiği\n\nBugüne kadar \"Üçgenlerde Benzerlik Analizi\" dersinde üçgenlerin dünyasında benzerlik kavramıyla tanıştık; şekilleri aynı olup boyutları farklı olabilen üçgenleri inceledik. Şimdi ise, bu ilginç dünyanın özel bir köşesine, \"eşlik\" kavramına derinlemesine bir bakış atacağız. Eşlik, benzerliğin en özel halidir. İki üçgenin birebir aynı, tıpatıp kopyası olması durumunu ifade eder.\n\n### Eşlik ve Benzerlik Arasındaki Temel Fark: $k=1$ Durumu\n\nBenzerlik kavramını hatırlayalım. İki üçgen benzer ise, karşılıklı kenar uzunlukları oranı sabit bir $k$ değerine eşittir ve karşılıklı açıları eşittir. Yani, $\\triangle ABC \\sim \\triangle DEF$ ise, $\\frac{|AB|}{|DE|} = \\frac{|BC|}{|EF|} = \\frac{|CA|}{|FD|} = k$ ve $\\angle A = \\angle D$, $\\angle B = \\angle E$, $\\angle C = \\angle F$ idi.\n\nEşlik ise, bu $k$ oranının tam olarak $1$ olduğu durumdur. Diğer bir deyişle, iki üçgenin eş olması, onların hem şekillerinin hem de boyutlarının tamamen aynı olması demektir. Kenar uzunlukları da karşılıklı olarak eşittir.\n$$\n\\text{Eğer } \\triangle ABC \\cong \\triangle DEF \\text{ ise, o zaman } |AB|=|DE|, |BC|=|EF|, |CA|=|FD| \\text{ ve } \\angle A = \\angle D, \\angle B = \\angle E, \\angle C = \\angle F \\text{ olur.}\n$$\nEşlik durumunu göstermek için $\\cong$ sembolünü kullanırız. Örneğin, $\\triangle ABC$ üçgeni $\\triangle DEF$ üçgenine eş ise, bunu $\\triangle ABC \\cong \\triangle DEF$ şeklinde yazarız. Buradaki yazım sırası hayati önem taşır. Köşelerin sıralaması, hangi köşenin hangi köşeye, hangi kenarın hangi kenara karşılık geldiğini belirtir. Yani $A$ köşesi $D$'ye, $B$ köşesi $E$'ye, $C$ köşesi $F$'ye karşılık gelir.\n\n> [!IMPORTANT] **Eşlik Sembolü ve Yazım Sırası**\n> $\\triangle ABC \\cong \\triangle DEF$ ifadesinde, $A \\leftrightarrow D$, $B \\leftrightarrow E$, $C \\leftrightarrow F$ eşleşmeleri vardır. Bu, $|AB|=|DE|$, $|BC|=|EF|$, $|CA|=|FD|$ ve $\\angle A = \\angle D$, $\\angle B = \\angle E$, $\\angle C = \\angle F$ anlamına gelir. Sıralama değişirse, eşlik ilişkisi de değişebilir veya yanlış ifade edilmiş olur.\n\n### Üçgenlerde Eşlik Kuralları: Minimum Kriterler\n\nİki üçgenin eş olduğunu anlamak için tüm kenar ve açılarını tek tek ölçmemiz gerekmez. Matematik bize bu işi kolaylaştıran minimum kriterler sunar. Şimdi bu temel kurallardan ikisini inceleyelim:\n\n#### 1. Kenar-Kenar-Kenar (K.K.K.) Eşlik Kuralı\n\nEğer iki üçgenin karşılıklı tüm kenar uzunlukları birbirine eşitse, bu üçgenler eştir.\n$$\n\\text{Eğer } |AB|=|DE|, |BC|=|EF|, |CA|=|FD| \\text{ ise } \\triangle ABC \\cong \\triangle DEF \\text{ olur.}\n$$\nBunun mantığı oldukça sezgiseldir: Üç kenar uzunluğu verilen bir üçgenin şekli ve boyutu benzersizdir. Cetvelinizle üç belirli uzunlukta çubuk alıp bunları bir üçgen oluşturacak şekilde birleştirdiğinizde, her zaman aynı üçgeni elde edersiniz. Farklı bir üçgen inşa etmeniz mümkün değildir.\n\n[DIAGRAM:geometry content=\"İki adet eş üçgen göster. Birinci üçgen ABC, kenar uzunlukları |AB|=5, |BC|=7, |CA|=6. İkinci üçgen DEF, kenar uzunlukları |DE|=5, |EF|=7, |FD|=6. Her iki üçgende de kenar uzunlukları belirtilmiş.\"]\n\n#### 2. Açı-Kenar-Açı (A.K.A.) Eşlik Kuralı\n\nEğer iki üçgenin karşılıklı iki açısı ve bu açılar arasında kalan (ortak kenar) kenar uzunluğu birbirine eşitse, bu üçgenler eştir.\n$$\n\\text{Eğer } \\angle B = \\angle E, \\angle C = \\angle F \\text{ ve } |BC|=|EF| \\text{ ise } \\triangle ABC \\cong \\triangle DEF \\text{ olur.}\n$$\nBu kuralın arkasındaki mantık da oldukça güçlüdür: Bir kenarın uzunluğu ve bu kenarın uçlarındaki iki açı sabitlendiğinde, üçüncü açının değeri de otomatik olarak sabitlenir (üçgenin iç açıları toplamı $180^\\circ$ olduğu için). Dolayısıyla, üçgenin tüm açıları ve bir kenarı belirlenmiş olur. Bu da üçgenin şeklini ve boyutunu tekil olarak belirler.\n\n[DIAGRAM:geometry content=\"İki adet eş üçgen göster. Birinci üçgen ABC, açılar B=60°, C=70° ve bu açılar arasındaki kenar |BC|=8. İkinci üçgen DEF, açılar E=60°, F=70° ve bu açılar arasındaki kenar |EF|=8. Eş açıları ve eş kenarı işaretle.\"]\n\n### Yaygın Yanılgılar ve Dikkat Edilmesi Gerekenler\n\n> [!WARNING] **Yaygın Yanılgı 1: Benzerlik ve Eşliği Karıştırmak**\n> Bazı öğrenciler, benzer olan her üçgenin aynı zamanda eş olduğunu düşünebilir. Bu doğru değildir. Benzerlik, şekillerin aynı, boyutların farklı olabileceği geniş bir kavramdır. Eşlik ise, benzerlik oranının $k=1$ olduğu, yani şekil ve boyutların tamamen aynı olduğu özel bir durumdur. Örneğin, kenarları $(3,4,5)$ olan bir üçgen ile kenarları $(6,8,10)$ olan bir üçgen benzerdir ($k=2$), ancak eş değildir.\n\n> [!WARNING] **Yaygın Yanılgı 2: A.A.A. Kuralının Eşlik İçin Yeterli Olduğunu Sanmak**\n> Üç açısı eşit olan iki üçgen, benzer olmak zorundadır (A.A.A. Benzerlik Kuralı). Ancak, bu üçgenlerin eş olması gerekmez. Örneğin, tüm açıları $60^\\circ$ olan bir eşkenar üçgen ile kenarları iki katı olan başka bir eşkenar üçgen benzerdir, ancak eş değildir. Eşlik için en az bir kenar uzunluğunun da eşit olması gerekir. A.A.A. kuralı sadece benzerlik için yeterlidir, eşlik için değil.\n\n### Gerçek Dünya Uygulamaları\n\nEşlik, mühendislik ve mimaride temel bir prensiptir. Bir yapıdaki tüm aynı parçaların (örneğin, bir kirişin ya da bir pencere çerçevesinin) tam olarak eş olması gerekir. Üretim süreçlerinde, bir kalıptan çıkan her parçanın diğerleriyle eş olması, montajın sorunsuz yapılabilmesi için kritik öneme sahiptir. Mimarlar, bir binanın simetrik bölümlerini tasarlarken eşlik prensiplerini kullanırlar.\n\n### Örnek Uygulama: K.K.K. Eşlik Kuralı\n\n> **Örnek**: Aşağıda kenar uzunlukları verilen $\\triangle XYZ$ ve $\\triangle PRQ$ üçgenlerinin eş olup olmadığını belirleyiniz.\n> $|XY|=7 \\text{ cm}$, $|YZ|=10 \\text{ cm}$, $|ZX|=8 \\text{ cm}$\n> $|PR|=8 \\text{ cm}$, $|RQ|=7 \\text{ cm}$, $|QP|=10 \\text{ cm}$\n>\n> **Çözüm**:\n> Öncelikle, her iki üçgenin kenar uzunluklarını karşılaştıralım:\n> $|XY|=7 \\text{ cm}$ ve $|RQ|=7 \\text{ cm}$ olduğundan, $|XY|=|RQ|$.\n> $|YZ|=10 \\text{ cm}$ ve $|QP|=10 \\text{ cm}$ olduğundan, $|YZ|=|QP|$.\n> $|ZX|=8 \\text{ cm}$ ve $|PR|=8 \\text{ cm}$ olduğundan, $|ZX|=|PR|$.\n>\n> Tüm karşılıklı kenar uzunlukları birbirine eşit olduğundan, K.K.K. Eşlik Kuralı'na göre bu üçgenler eştir. Yazım sırasına dikkat edersek: $X$ köşesi $R$'ye, $Y$ köşesi $Q$'ya ve $Z$ köşesi $P$'ye karşılık gelmektedir. Dolayısıyla, $\\triangle XYZ \\cong \\triangle RQP$ şeklinde yazabiliriz.\n>\n> **Cevap**: $\\boxed{\\triangle XYZ \\cong \\triangle RQP}$\n\n### 🎯 **Meydan Okuma**\nKenar uzunlukları $|KL|=6 \\text{ cm}$, $\\angle L = 50^\\circ$, $\\angle M = 70^\\circ$ olan bir $\\triangle KLM$ üçgeni ile, kenar uzunluğu $|ST|=6 \\text{ cm}$, $\\angle T = 50^\\circ$, $\\angle S = 60^\\circ$ olan bir $\\triangle RST$ üçgeninin eş olup olmadığını A.K.A. kuralını kullanarak inceleyiniz.\n\n*İpucu: Üçgenin iç açıları toplamını hatırlayın ve doğru kenarın açılar arasında olup olmadığını kontrol edin.*\n\n<details>\n<summary>Çözüm</summary>\n$\\triangle KLM$ üçgeninde $\\angle K + \\angle L + \\angle M = 180^\\circ$ olduğundan $\\angle K + 50^\\circ + 70^\\circ = 180^\\circ \\implies \\angle K = 60^\\circ$.\n$\\triangle RST$ üçgeninde $\\angle R + \\angle S + \\angle T = 180^\\circ$ olduğundan $\\angle R + 60^\\circ + 50^\\circ = 180^\\circ \\implies \\angle R = 70^\\circ$.\n\nŞimdi A.K.A. kuralı için eşleşen kenar ve açılara bakalım:\nKenar $|KL|=6 \\text{ cm}$ ve kenar $|ST|=6 \\text{ cm}$ (eş kenarlar).\nBu kenarların uçlarındaki açılar:\n$\\triangle KLM$ için $|KL|$ kenarının uçlarındaki açılar $\\angle K=60^\\circ$ ve $\\angle L=50^\\circ$.\n$\\triangle RST$ için $|ST|$ kenarının uçlarındaki açılar $\\angle S=60^\\circ$ ve $\\angle T=50^\\circ$.\n\nGörüldüğü üzere, karşılıklı iki açı ($\\angle K = \\angle S = 60^\\circ$ ve $\\angle L = \\angle T = 50^\\circ$) ve bu açılar arasında kalan kenar ($|KL|=|ST|=6 \\text{ cm}$) birbirine eşittir. Bu durumda, A.K.A. Eşlik Kuralı'na göre $\\triangle KLM \\cong \\triangle STR$ (köşelerin eşleşme sırasına dikkat!) olur.\n</details>\n\nBu derste, eşliğin ne anlama geldiğini, benzerlikten farkını ve K.K.K. ile A.K.A. eşlik kurallarını derinlemesine inceledik. Bir sonraki dersimizde, eşliğin diğer önemli kuralları olan Kenar-Açı-Kenar (K.A.K.) ve Açı-Açı-Kenar (A.A.K.) kurallarını ele alacağız. Bu kurallar, üçgenlerin eşliğini daha farklı minimum bilgi setleriyle nasıl doğrulayabileceğimizi gösterecek.",
+                  "phase": 2
+                },
+                {
+                  "phase": 2,
+                  "title": "Eşlik Kurallarının Derinlemesine Analizi ve Gerçek Dünya Uygulamaları",
+                  "content": "## Eşlik Kurallarının Derinlemesine Analizi ve Gerçek Dünya Uygulamaları\n\nÜçgenlerde benzerlik kavramını daha önceki derslerimizde detaylıca ele almıştık. İki üçgenin benzer olması, onların aynı şekle sahip olması ancak boyutlarının farklı olabilmesi anlamına geliyordu. Bu durumu, benzerlik oranı $k$ ile ifade etmiştik. Şimdi, bu benzerlik kavramının çok özel bir durumunu, yani eşliği inceleyeceğiz. Eşlik, $k=1$ olduğu durumdur; yani iki üçgenin sadece şekilleri değil, boyutları da tıpatıp aynıdır. Onları üst üste koyduğunuzda, tam olarak çakışırlar.\n\n### Eşlik Sembolü ve Köşe Sırasının Önemi\n\nİki üçgenin eşliğini göstermek için $\\cong$ sembolünü kullanırız. Örneğin, $\\triangle ABC \\cong \\triangle DEF$ şeklinde bir ifade, $A$ köşesinin $D$ köşesiyle, $B$ köşesinin $E$ köşesiyle ve $C$ köşesinin $F$ köşesiyle eşleştiği anlamına gelir. Bu yazım sırası hayati önem taşır çünkü hangi kenarların ve hangi açıların birbirine eşit olduğunu belirtir:\n*   $|AB| = |DE|$\n*   $|BC| = |EF|$\n*   $|CA| = |FD|$\n*   $m(\\angle A) = m(\\angle D)$\n*   $m(\\angle B) = m(\\angle E)$\n*   $m(\\angle C) = m(\\angle F)$\n\nBu, matematiğin kesinlik gerektiren doğasının bir yansımasıdır. Sıralamayı değiştirmek, eşleşmeyi de değiştirir ve yanlış bir ifadeye yol açar.\n\n### Kenar-Kenar-Kenar (K.K.K.) Eşlik Kuralı\n\nBir üçgenin üç kenar uzunluğu bilindiğinde, bu üçgenin şekli ve boyutu tek bir şekilde belirlenir. Bu, üçgenin \"katı\" yapısından gelir; kenarları sabitlendiğinde, açılar da otomatik olarak sabitlenir. Dolayısıyla, eğer iki üçgenin karşılıklı kenar uzunlukları birbirine eşitse, bu üçgenler eştir.\n\n**Kural**: İki üçgenin karşılıklı üç kenarı da birbirine eşit uzunlukta ise, bu üçgenler eştir.\nEğer $\\triangle ABC$ ve $\\triangle DEF$ üçgenleri için $|AB|=|DE|$, $|BC|=|EF|$ ve $|CA|=|FD|$ ise, o zaman $\\triangle ABC \\cong \\triangle DEF$ olur.\n\n[DIAGRAM:geometry content=\"İki adet üçgen, $\\triangle ABC$ ve $\\triangle DEF$. $\\triangle ABC$'nin kenarları $AB=5\\text{ cm}$, $BC=6\\text{ cm}$, $CA=7\\text{ cm}$. $\\triangle DEF$'nin kenarları $DE=5\\text{ cm}$, $EF=6\\text{ cm}$, $FD=7\\text{ cm}$. Eşit kenarlar aynı işaretlerle belirtilmiş.\"]\n\n> **Örnek 1**:\n> Kenar uzunlukları $3\\text{ cm}$, $4\\text{ cm}$ ve $5\\text{ cm}$ olan bir $\\triangle PQR$ üçgeni ile kenar uzunlukları $3\\text{ cm}$, $4\\text{ cm}$ ve $5\\text{ cm}$ olan bir $\\triangle XYZ$ üçgeni veriliyor. Bu iki üçgen eş midir?\n>\n> **Çözüm**:\n> Verilen bilgilere göre, $\\triangle PQR$ ve $\\triangle XYZ$ üçgenlerinin karşılıklı kenar uzunlukları şöyledir:\n> $|PQ| = 3\\text{ cm}$, $|QR| = 4\\text{ cm}$, $|RP| = 5\\text{ cm}$\n> $|XY| = 3\\text{ cm}$, $|YZ| = 4\\text{ cm}$, $|ZX| = 5\\text{ cm}$\n>\n> Tüm karşılıklı kenarlar eşit olduğundan, K.K.K. eşlik kuralına göre:\n> $$ \\triangle PQR \\cong \\triangle XYZ $$\n>\n> **Cevap**: Eştirler.\n\n### Açı-Kenar-Açı (A.K.A.) Eşlik Kuralı\n\nBu kural, bir üçgenin iki açısı ve bu iki açı arasında kalan kenar bilindiğinde, üçgenin benzersiz bir şekilde belirlendiğini ifade eder. Üçüncü açı, üçgenin iç açıları toplamı $180^\\circ$ olduğu için otomatik olarak belirlenir. Bu durumda, kenarın uzunluğu ve ona komşu olan iki açı, üçgeni sabitler. Açıların kenarı \"sıkıştırması\" gibi düşünebilirsiniz.\n\n**Kural**: İki üçgenin karşılıklı iki açısı ve bu iki açı arasında kalan kenarı birbirine eşit ise, bu üçgenler eştir.\nEğer $\\triangle ABC$ ve $\\triangle DEF$ üçgenleri için $m(\\angle B) = m(\\angle E)$, $m(\\angle C) = m(\\angle F)$ ve $|BC|=|EF|$ ise, o zaman $\\triangle ABC \\cong \\triangle DEF$ olur.\n\n> **Örnek 2**:\n> Bir $\\triangle KLM$ üçgeninde $m(\\angle K) = 50^\\circ$, $m(\\angle L) = 70^\\circ$ ve $|KL| = 8\\text{ cm}$. Başka bir $\\triangle NRS$ üçgeninde $m(\\angle N) = 50^\\circ$, $m(\\angle R) = 70^\\circ$ ve $|NR| = 8\\text{ cm}$. Bu üçgenler eş midir?\n>\n> **Çözüm**:\n> Verilen bilgilere göre, $\\triangle KLM$ ve $\\triangle NRS$ üçgenlerinin karşılıklı iki açısı ve bu açılar arasındaki kenar şöyledir:\n> $m(\\angle K) = m(\\angle N) = 50^\\circ$\n> $m(\\angle L) = m(\\angle R) = 70^\\circ$\n> $|KL| = |NR| = 8\\text{ cm}$\n>\n> Bu durum A.K.A. eşlik kuralını sağladığından:\n> $$ \\triangle KLM \\cong \\triangle NRS $$\n>\n> **Cevap**: Eştirler.\n\n### Ortak Yanılgı: A.A.A. Eşlik Kuralı mı?\n\n> [!WARNING] **Ortak Yanılgı**\n> Öğrenciler genellikle A.A.A. (Açı-Açı-Açı) durumunun eşlik için yeterli olduğunu düşünürler. Ancak bu doğru değildir. İki üçgenin tüm açıları eşitse, bu üçgenler **benzerdir**, ancak eş olmak zorunda değildirler. Örneğin, küçük bir eşkenar üçgen ile büyük bir eşkenar üçgenin tüm açıları $60^\\circ$'dir, ancak bunlar eş değildir, sadece benzerdir. Eşlik için en az bir kenar uzunluğunun da eşitliğini bilmemiz gerekir.\n\n### Gerçek Dünya Uygulamaları\n\nEşlik kuralları, soyut matematiksel kavramlar olmaktan öte, mühendislikten mimariye, tasarımdan üretime kadar birçok alanda temel prensiplerden biridir.\n*   **Mimarlık ve İnşaat**: Simetrik binaların, köprülerin veya diğer yapıların tasarımında, eşlik kuralları temel alınır. Bir yapının bir tarafındaki elemanların diğer taraftaki elemanlarla tıpatıp aynı olması, hem estetik hem de yapısal bütünlük açısından kritik öneme sahiptir.\n*   **Makine Mühendisliği ve Üretim**: Seri üretimde parçaların birbiriyle uyumlu olması esastır. Bir otomobilin motorundaki her bir dişli, diğer dişlilerle eş olacak şekilde tasarlanır ve üretilir. Bu, parçaların değiştirilebilirliğini ve sistemin doğru çalışmasını sağlar. Eşlik, toleransların belirlenmesinde yol gösterir.\n*   **Robotik ve Otomasyon**: Robot kolları veya hareketli sistemlerin hassas konumlandırılmasında, geometrik eşlik prensipleri kullanılır. Aynı hareketin farklı noktalarda tekrarlanabilirliği, eş üçgenlerin temel aldığı dönüşümlerle sağlanır.\n*   **Bilgisayar Grafikleri ve Oyun Geliştirme**: 3D modellemede ve animasyonlarda, bir nesnenin kopyalanması veya simetrik olarak yansıtılması, eşlik kavramının dijital bir uygulamasıdır. Karakterlerin veya ortam elemanlarının tutarlı bir şekilde çoğaltılması için eşlik esastır.\n\n### Eşlik Kurallarına Genel Bakış\n\nAşağıdaki akış şeması, iki üçgenin eş olup olmadığını belirlemek için kullanılabilecek temel kuralları özetlemektedir:\n\n[DIAGRAM:flowchart data='{ \"title\": \"Üçgenlerde Eşlik Kararı Akış Şeması\", \"nodes\": [ {\"id\": \"baslangic\", \"text\": \"İki Üçgenin Eşliğini Kontrol Et\", \"shape\": \"diamond\"}, {\"id\": \"kkk_soru\", \"text\": \"Karşılıklı Üç Kenar Eşit mi?\", \"shape\": \"diamond\"}, {\"id\": \"aka_soru\", \"text\": \"Karşılıklı İki Açı ve Aradaki Kenar Eşit mi?\", \"shape\": \"diamond\"}, {\"id\": \"evet\", \"text\": \"Üçgenler Eştir\", \"shape\": \"roundRect\"}, {\"id\": \"hayir\", \"text\": \"Üçgenler Eş Değildir (veya Yetersiz Bilgi)\", \"shape\": \"roundRect\"} ], \"edges\": [ {\"from\": \"baslangic\", \"to\": \"kkk_soru\"}, {\"from\": \"kkk_soru\", \"to\": \"evet\", \"text\": \"Evet\"}, {\"from\": \"kkk_soru\", \"to\": \"aka_soru\", \"text\": \"Hayır\"}, {\"from\": \"aka_soru\", \"to\": \"evet\", \"text\": \"Evet\"}, {\"from\": \"aka_soru\", \"to\": \"hayir\", \"text\": \"Hayır\"} ]}' options='{\"direction\":\"TB\"}']\n\n🎯 **Challenge**\nBir $\\triangle XYZ$ üçgeninde $m(\\angle X) = 60^\\circ$, $|XY| = 10\\text{ cm}$ ve $|XZ| = 10\\text{ cm}$ olarak veriliyor. Başka bir $\\triangle RST$ üçgeninde ise $m(\\angle R) = 60^\\circ$, $|RS| = 10\\text{ cm}$ ve $|RT| = 10\\text{ cm}$ olduğu biliniyor. Bu iki üçgenin eş olup olmadığını belirleyiniz ve hangi eşlik kuralını kullandığınızı belirtiniz.\n\n*Hint: Açı hangi kenarlar arasında kalıyor?*\n\n<details>\n<summary>Çözüm</summary>\nVerilen bilgilere göre, $\\triangle XYZ$ ve $\\triangle RST$ üçgenlerinde:\n1.  $|XY| = |RS| = 10\\text{ cm}$\n2.  $m(\\angle X) = m(\\angle R) = 60^\\circ$\n3.  $|XZ| = |RT| = 10\\text{ cm}$\n\nBurada, iki kenar ($XY$ ve $XZ$) ve bu iki kenar arasında kalan açı ($X$) diğer üçgendeki karşılıklarına eşittir. Bu durum K.A.K. (Kenar-Açı-Kenar) eşlik kuralını (henüz tam olarak işlemesek de, bu problemde bu kurala işaret edilmektedir) sağlar.\nDolayısıyla, $\\triangle XYZ \\cong \\triangle RST$.\n\n**Cevap**: Evet, üçgenler K.A.K. eşlik kuralına göre eştir.\n</details>\n\nBu dersimizde, üçgenlerde eşliğin ne anlama geldiğini, K.K.K. ve A.K.A. gibi temel eşlik kurallarını ve bu kuralların neden geçerli olduğunu derinlemesine inceledik. Ayrıca, eşliğin günlük hayattaki ve çeşitli disiplinlerdeki pratik uygulamalarını gördük. Bir sonraki dersimizde, K.A.K. (Kenar-Açı-Kenar) gibi diğer önemli eşlik kurallarını ve bunların problem çözümlerinde nasıl kullanıldığını keşfedeceğiz.",
+                  "type": "INSTRUCTION",
+                  "id": "card-phase2-1769717090610-2"
+                },
+                {
+                  "id": "card-phase2-1769717126157-3",
+                  "title": "Eşlik Kurallarının Derinlemesine Analizi: K.K.K. ve A.K.A. Durumları",
+                  "phase": 2,
+                  "type": "CASE_STUDY",
+                  "content": "## Eşlik Kurallarının Derinlemesine Analizi: K.K.K. ve A.K.A. Durumları\n\nÖnceki derslerimizde üçgenlerde benzerlik kavramını ve benzerlik oranının önemini kapsamlı bir şekilde incelemiştik. Şimdi ise, benzerliğin çok özel ve kritik bir durumuna odaklanacağız: Eşlik. Eşlik, basitçe, iki üçgenin \"tıpatıp aynı\" olması halidir. Matematiksel olarak ifade etmek gerekirse, eşlik, benzerlik oranının $k=1$ olduğu özel bir benzerlik durumudur. Bu, sadece şekillerinin aynı olduğu anlamına gelmez; aynı zamanda karşılıklı tüm kenar uzunluklarının ve tüm açı ölçülerinin de birbirine eşit olduğu anlamına gelir.\n\n> [!IMPORTANT] **Eşlik ve Benzerlik Arasındaki Temel Fark**\n> Benzer üçgenler aynı şekle sahip olabilir ancak farklı boyutlarda olabilirken, eş üçgenler hem şekil hem de boyut olarak tamamen aynıdır. Benzerlik oranı $k=1$ ise eşlik söz konusudur. Dolayısıyla, her eş üçgen aynı zamanda benzerdir; fakat her benzer üçgen eş olmak zorunda değildir.\n\nBir üçgeni benzersiz bir şekilde tanımlamak için belirli minimum bilgilere ihtiyacımız vardır. Bu bilgiler, iki üçgenin tıpatıp aynı olduğunu kanıtlamamızı sağlayan eşlik kurallarının temelini oluşturur. Şimdi bu kurallardan ikisini, K.K.K. ve A.K.A. kurallarını derinlemesine inceleyelim.\n\n### 1. K.K.K. (Kenar-Kenar-Kenar) Eşlik Kuralı\n\nBu kural, adından da anlaşılacağı gibi, iki üçgenin karşılıklı tüm kenar uzunlukları birbirine eşitse, bu üçgenlerin eş olduğunu ifade eder.\n\n**Kuralın Mantığı:**\nBir üçgenin üç kenar uzunluğu bilindiğinde, bu üçgenin şekli ve boyutu benzersiz bir şekilde sabittir. Kenar uzunluklarını değiştirmeden, farklı bir üçgen oluşturmanız mümkün değildir. Bu, üçgenin rijit (katı) yapısından kaynaklanır. Örneğin, bir marangoz aynı üç kenar uzunluğuna sahip iki tahta üçgeni bir araya getirdiğinde, bu iki üçgenin birbiriyle tam olarak örtüşeceğinden emin olabilir.\n\n**Kural:** İki üçgenin karşılıklı kenar uzunlukları birbirine eşitse, bu üçgenler eştir.\nEşlik, $\\cong$ sembolü ile gösterilir. Örneğin, $\\triangle ABC$ üçgeni ile $\\triangle DEF$ üçgeni eş ise, bunu $\\triangle ABC \\cong \\triangle DEF$ şeklinde yazarız. Buradaki yazım sırası kritik öneme sahiptir. $A$ köşesi $D$ köşesine, $B$ köşesi $E$ köşesine ve $C$ köşesi $F$ köşesine karşılık gelir. Bu eşleşme, aynı zamanda $m(\\angle A) = m(\\angle D)$, $m(\\angle B) = m(\\angle E)$, $m(\\angle C) = m(\\angle F)$ ve $AB=DE$, $BC=EF$, $CA=FD$ olduğunu da belirtir.\n\n[DIAGRAM:geometry content=\"İki adet eş üçgen, ABC ve DEF. AB kenarı DE kenarına, BC kenarı EF kenarına, CA kenarı FD kenarına eşittir. Eş kenarlar tek, çift, üçlü çizgilerle işaretlenmiştir. Köşeler A, B, C ve D, E, F olarak etiketlenmiştir. Üçgenler boyut ve şekil olarak tamamen aynı görünmelidir.\"]\n\n> **Örnek 1**:\n> Kenar uzunlukları $5 \\text{ cm}, 7 \\text{ cm}, 10 \\text{ cm}$ olan bir $\\triangle PQR$ üçgeni ile kenar uzunlukları $10 \\text{ cm}, 5 \\text{ cm}, 7 \\text{ cm}$ olan bir $\\triangle STU$ üçgeni verilmiştir. Bu üçgenler eş midir?\n>\n> **Çözüm**:\n> İki üçgenin kenar uzunluklarını karşılaştıralım:\n> $\\triangle PQR$'nin kenarları: $PQ = 5 \\text{ cm}$, $QR = 7 \\text{ cm}$, $RP = 10 \\text{ cm}$.\n> $\\triangle STU$'nun kenarları: $ST = 5 \\text{ cm}$, $TU = 7 \\text{ cm}$, $US = 10 \\text{ cm}$.\n>\n> Görüldüğü gibi, karşılıklı kenar uzunlukları eşleşmektedir: $PQ = ST$, $QR = TU$, $RP = US$.\n> K.K.K. eşlik kuralına göre, bu üçgenler eştir. Eşlik yazımında, karşılıklı kenarların eşleştiği köşelere dikkat etmeliyiz. Örneğin, $PQ$ kenarı $ST$ kenarına eşitse, $P$ ve $Q$ köşeleri $S$ ve $T$ köşelerine karşılık gelebilir.\n>\n> **Cevap**: $\\triangle PQR \\cong \\triangle STU$.\n\n### 2. A.K.A. (Açı-Kenar-Açı) Eşlik Kuralı\n\nBu kural, iki üçgenin karşılıklı iki açısı ve bu iki açı arasında kalan kenar uzunlukları birbirine eşitse, bu üçgenlerin eş olduğunu belirtir.\n\n**Kuralın Mantığı:**\nBir kenar uzunluğunu ve bu kenarın iki ucundaki açıları belirlediğinizde, üçüncü köşe otomatik olarak ve tek bir şekilde sabitlenir. Bu verilerle farklı bir üçgen çizmeye çalışırsanız, başarılı olamazsınız; her zaman tıpatıp aynı üçgeni elde edersiniz. Kenarı bir taban olarak düşünüp, açılarla yan kenarları uzattığınızda, bu yan kenarların kesiştiği nokta tek bir konumda olacaktır.\n\n**Kural:** İki üçgenin karşılıklı iki açısı ve bu açılar arasında kalan kenar uzunlukları birbirine eşitse, bu üçgenler eştir.\n\n[DIAGRAM:geometry content=\"İki adet eş üçgen, KLM ve NOP. K açısı N açısına, M açısı P açısına eşittir. KM kenarı NP kenarına eşittir. Eş açılar tek ve çift yaylarla, eş kenar tek çizgiyle işaretlenmiştir. KM ve NP kenarları, eş açılar arasında kalan kenarlardır. Köşeler K, L, M ve N, O, P olarak etiketlenmiştir. Üçgenler boyut ve şekil olarak tamamen aynı görünmelidir.\"]\n\n> **Örnek 2**:\n> $\\triangle ABC$'de $m(\\angle B) = 70^\\circ$, $m(\\angle C) = 50^\\circ$ ve $BC = 6 \\text{ cm}$ verilmiştir. $\\triangle DEF$'de $m(\\angle E) = 70^\\circ$, $m(\\angle F) = 50^\\circ$ ve $EF = 6 \\text{ cm}$ verilmiştir. Bu üçgenler eş midir?\n>\n> **Çözüm**:\n> Verilenleri inceleyelim:\n> $m(\\angle B) = m(\\angle E) = 70^\\circ$\n> $m(\\angle C) = m(\\angle F) = 50^\\circ$\n> $BC = EF = 6 \\text{ cm}$\n>\n> Görüldüğü gibi, iki üçgenin karşılıklı iki açısı ($B$ ve $C$ açıları ile $E$ ve $F$ açıları) ve bu açılar arasında kalan kenar uzunlukları ($BC$ ve $EF$ kenarları) birbirine eşittir.\n> A.K.A. eşlik kuralına göre, bu üçgenler eştir.\n>\n> **Cevap**: $\\triangle ABC \\cong \\triangle DEF$.\n\n### Ortak Yanılgılar ve İpuçları\n\nGeometri derslerinde sıkça karşılaşılan bazı yanılgıları gidermek, konuları daha sağlam bir zemine oturtmanızı sağlayacaktır.\n\n> [!WARNING] **Yaygın Yanılgı: A.A.A. (Açı-Açı-Açı) Eşlik İçin Yeterli midir?**\n> Üç açısı da eşit olan iki üçgen, birbirine benzerdir (A.A.A. benzerlik kuralı). Ancak bu üçgenlerin eş olması için yeterli değildir. Sadece şeklinin aynı olmasını garantiler, boyutun değil. Örneğin, tüm açıları $60^\\circ$ olan bir eşkenar üçgen, kenar uzunluğu $3 \\text{ cm}$ de olabilir, $10 \\text{ cm}$ de olabilir. Bu iki üçgen benzerdir ama eş değildir.\n\n> [!TIP] **Eşlik Sembolü ve Köşe Sırası**\n> Eşlik yazarken, örneğin $\\triangle ABC \\cong \\triangle DEF$ şeklinde, karşılıklı gelen köşelerin sırasına dikkat etmek kritik öneme sahiptir. $A$ köşesi $D$ köşesine, $B$ köşesi $E$ köşesine ve $C$ köşesi $F$ köşesine karşılık gelir. Bu, hangi kenarların ve açıların eş olduğunu doğrudan belirtir ve olası karışıklıkları önler.\n\n### Karşılaştırma Tablosu\n\nAşağıdaki tablo, benzerlik ve eşlik arasındaki temel farkları özetlemektedir:\n\n| Özellik           | Benzer Üçgenler                                 | Eş Üçgenler                                     |\n|-------------------|-------------------------------------------------|-------------------------------------------------|\n| Şekil             | Aynıdır                                         | Aynıdır                                         |\n| Boyut             | Farklı olabilir (orantılıdır)                   | Aynıdır                                         |\n| Benzerlik Oranı ($k$) | Herhangi pozitif bir değer ($k \\neq 1$ olabilir) | $k=1$                                           |\n| Karşılıklı Açılar | Eşittir                                         | Eşittir                                         |\n| Karşılıklı Kenarlar | Orantılıdır                                     | Eşittir                                         |\n\n### Eşlik Kuralları Karar Akışı\n\nİki üçgenin eş olup olmadığını belirlerken hangi kuralı uygulayacağınıza karar vermek için aşağıdaki akış şemasını kullanabilirsiniz:\n\n[DIAGRAM:flowchart data='{\"title\":\"Üçgenlerde Eşlik Karar Akışı\",\"steps\":[{\"label\":\"Başlangıç\",\"shape\":\"oval\"},{\"label\":\"İki Üçgenin Eşliğini Belirle\",\"shape\":\"rectangle\"},{\"label\":\"Tüm Karşılıklı Kenarlar Eşit mi?\",\"shape\":\"diamond\",\"yes\":\"K.K.K. Eşliği\",\"no\":\"Açılar ve Kenarlar Kontrol Et\"},{\"label\":\"İki Karşılıklı Açı ve Aradaki Kenar Eşit mi?\",\"shape\":\"diamond\",\"yes\":\"A.K.A. Eşliği\",\"no\":\"Diğer Eşlik Kurallarını İncele (K.A.K., A.A.K.)\"},{\"label\":\"Sonuç\",\"shape\":\"oval\"}],\"connections\":[{\"from\":\"Başlangıç\",\"to\":\"İki Üçgenin Eşliğini Belirle\"},{\"from\":\"İki Üçgenin Eşliğini Belirle\",\"to\":\"Tüm Karşılıklı Kenarlar Eşit mi?\"},{\"from\":\"Tüm Karşılıklı Kenarlar Eşit mi?\",\"to\":\"K.K.K. Eşliği\",\"label\":\"Evet\"},{\"from\":\"Tüm Karşılıklı Kenarlar Eşit mi?\",\"to\":\"Açılar ve Kenarlar Kontrol Et\",\"label\":\"Hayır\"},{\"from\":\"Açılar ve Kenarlar Kontrol Et\",\"to\":\"İki Karşılıklı Açı ve Aradaki Kenar Eşit mi?\"},{\"from\":\"İki Karşılıklı Açı ve Aradaki Kenar Eşit mi?\",\"to\":\"A.K.A. Eşliği\",\"label\":\"Evet\"},{\"from\":\"İki Karşılıklı Açı ve Aradaki Kenar Eşit mi?\",\"to\":\"Diğer Eşlik Kurallarını İncele (K.A.K., A.A.K.)\",\"label\":\"Hayır\"},{\"from\":\"K.K.K. Eşliği\",\"to\":\"Sonuç\"},{\"from\":\"A.K.A. Eşliği\",\"to\":\"Sonuç\"},{\"from\":\"Diğer Eşlik Kurallarını İncele (K.A.K., A.A.K.)\",\"to\":\"Sonuç\"}]}' options='{\"orientation\":\"vertical\"}']\n\n### Gerçek Dünya Uygulamaları\n\nEşlik kavramı, günlük hayatımızda ve mühendislikte hayati öneme sahiptir. Mimarlar, bir binanın tüm pencerelerinin veya kapılarının aynı boyutta olmasını sağlamak için eşlik prensibini kullanır. Makine mühendisleri, seri üretimde üretilen tüm parçaların (örneğin, bir motorun dişlileri) tıpatıp aynı olmasını, yani eş olmasını garanti etmek zorundadırlar. Aksi takdirde, sistem düzgün çalışmaz. LGS Geometri'deki bu temel prensipler, etrafımızdaki dünyayı anlamamız ve tasarlamamız için bize sağlam bir temel sunar.\n\n---\n\n🎯 **Challenge**\n$\\triangle XYZ$'de $XY = 8 \\text{ cm}$, $YZ = 11 \\text{ cm}$ ve $XZ = 15 \\text{ cm}$'dir. $\\triangle LMN$'de $LM = 8 \\text{ cm}$, $MN = 11 \\text{ cm}$ ve $LN = 13 \\text{ cm}$'dir. Bu üçgenler eş midir? Neden?\n\n*Hint: Eşlik için tüm karşılıklı kenarların birebir aynı olması gerektiğini hatırlayın.*\n\n<details>\n<summary>Çözüm</summary>\n$\\triangle XYZ$ ve $\\triangle LMN$ üçgenlerinin kenar uzunluklarını karşılaştırdığımızda: $XY = LM = 8 \\text{ cm}$ ve $YZ = MN = 11 \\text{ cm}$'dir. Ancak $XZ = 15 \\text{ cm}$ iken $LN = 13 \\text{ cm}$'dir. Tüm karşılıklı kenarlar eşit olmadığından, bu üçgenler K.K.K. eşlik kuralına göre eş değildir. Eşlik için tüm karşılıklı kenar uzunluklarının eşit olması gerekmektedir.\n</details>\n\n---\n\nBu dersimde K.K.K. ve A.K.A. eşlik kurallarını derinlemesine inceledik. Bir sonraki dersimizde, eşlik için gerekli olan diğer minimum koşulları, yani K.A.K. (Kenar-Açı-Kenar) ve A.A.K. (Açı-Açı-Kenar) kurallarını detaylı olarak ele alacak ve eşlik konusundaki anlayışımızı pekiştireceğiz."
+                },
+                {
+                  "phase": 2,
+                  "title": "Eşlik Kurallarının Özeti ve Gelecek Konuya Köprü",
+                  "id": "card-phase2-1769717147444-4",
+                  "type": "INSTRUCTION",
+                  "content": "## Eşlik Kurallarının Özeti ve Gelecek Konuya Köprü\n\nBugüne kadar üçgenlerin dünyasında benzerlik kavramıyla tanıştık ve ardından eşlik kavramının derinliklerine indik. Eşlik, geometride 'tıpatıp aynı' olma durumunu ifade eder ve bu dersin zirve noktasında, öğrendiklerimizi bir araya getirerek temel çıkarımları netleştireceğiz.\n\n### Eşlik ve Benzerlik Arasındaki Kritik Fark\n\nEşlik (kongrüans), aslında benzerliğin özel bir durumudur. Hatırlarsanız, iki üçgenin benzer olması için karşılıklı açılarının eşit olması ve karşılıklı kenar uzunlukları oranının (benzerlik oranı $k$) sabit olması gerekiyordu. Eşlik durumunda ise, bu benzerlik oranı $k=1$ olur. Yani, karşılıklı kenar uzunlukları birbirine eşittir.\n\n> [!IMPORTANT] **Eşlik ve Benzerlik İlişkisi**\n> Her eş üçgen aynı zamanda benzerdir, ancak her benzer üçgen eş değildir. Benzerlik yalnızca şeklin aynı olmasını sağlarken, eşlik hem şeklin hem de boyutun aynı olmasını sağlar. İki üçgenin eş olması, birinin diğerinin üzerine tam olarak çakışabileceği anlamına gelir.\n\n### Eşlik Kurallarının Temel Taşları: K.K.K., A.K.A. ve K.A.K.\n\nİki üçgenin eş olduğunu anlamak için tüm kenarlarının ve tüm açılarının eşit olduğunu tek tek kontrol etmemize gerek yoktur. Geometrinin zarafeti, bizi bu durumdan kurtaran minimum koşulları sunar. Bu koşullar, üçgenlerin benzersiz bir şekilde tanımlanmasını sağlar:\n\n1.  **K.K.K. (Kenar-Kenar-Kenar) Eşlik Kuralı**:\n    Eğer bir üçgenin üç kenarının uzunluğu, başka bir üçgenin üç kenarının uzunluğuna karşılıklı olarak eşitse, bu iki üçgen eştir.\n    Örneğin, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde $a=d$, $b=e$ ve $c=f$ ise, bu üçgenler eştir.\n    Bu kural, üçgenin kenar uzunluklarının, o üçgenin şeklini ve boyutunu tek başına belirlediği gerçeğine dayanır.\n\n2.  **A.K.A. (Açı-Kenar-Açı) Eşlik Kuralı**:\n    Eğer bir üçgenin iki açısı ve bu açılar arasındaki kenarın uzunluğu, başka bir üçgenin karşılıklı iki açısı ve bu açılar arasındaki kenarın uzunluğuna eşitse, bu iki üçgen eştir.\n    Örneğin, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde $m(\\widehat{A}) = m(\\widehat{D})$, $m(\\widehat{B}) = m(\\widehat{E})$ ve $AB = DE$ ise, bu üçgenler eştir.\n    Bu kural, bir kenar ve bu kenarın uçlarındaki açıların üçgeni tekil olarak inşa etmemizi sağladığını gösterir.\n\n3.  **K.A.K. (Kenar-Açı-Kenar) Eşlik Kuralı**:\n    Eğer bir üçgenin iki kenarının uzunluğu ve bu kenarlar arasındaki açının ölçüsü, başka bir üçgenin karşılıklı iki kenarının uzunluğuna ve bu kenarlar arasındaki açının ölçüsüne eşitse, bu iki üçgen eştir.\n    Örneğin, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde $AB = DE$, $m(\\widehat{B}) = m(\\widehat{E})$ ve $BC = EF$ ise, bu üçgenler eştir.\n    Bu kural, bir üçgenin iki kenarı ve bu kenarların oluşturduğu açının, üçgenin geri kalanını eşsiz bir şekilde belirlediğini vurgular.\n\n> [!WARNING] **Yaygın Yanılgı: A.A.A. Eşlik Kuralı Değildir!**\n> Öğrenciler sıklıkla A.A.A. (Açı-Açı-Açı) durumunun eşlik için yeterli olduğunu düşünürler. Ancak A.A.A. yalnızca üçgenlerin benzer olduğunu garanti eder, eş olduğunu değil. Açılar eşit olsa bile, kenar uzunlukları farklı oranlarda büyüyebilir veya küçülebilir. Örneğin, tüm açıları $60^\\circ$ olan bir üçgen eşkenar üçgendir, ancak kenarları $3 \\text{ cm}$ olan bir eşkenar üçgen ile kenarları $5 \\text{ cm}$ olan bir eşkenar üçgen benzerdir ama eş değildir.\n\n### Eşlik Sembolü ve Yazım Sırasının Önemi\n\nİki üçgenin eş olduğunu matematiksel olarak ifade ederken $\\cong$ sembolünü kullanırız. Örneğin, $\\triangle ABC \\cong \\triangle DEF$ şeklinde yazarız. Bu yazımda köşe noktalarının sırası kritik öneme sahiptir. Karşılıklı gelen, yani eş olan köşe noktaları aynı sırada yazılmalıdır.\n\nEğer $\\triangle ABC \\cong \\triangle DEF$ ise:\n*   $A$ köşesi $D$ köşesine karşılık gelir, dolayısıyla $m(\\widehat{A}) = m(\\widehat{D})$.\n*   $B$ köşesi $E$ köşesine karşılık gelir, dolayısıyla $m(\\widehat{B}) = m(\\widehat{E})$.\n*   $C$ köşesi $F$ köşesine karşılık gelir, dolayısıyla $m(\\widehat{C}) = m(\\widehat{F})$.\n*   $AB$ kenarı $DE$ kenarına karşılık gelir, dolayısıyla $|AB| = |DE|$.\n*   $BC$ kenarı $EF$ kenarına karşılık gelir, dolayısıyla $|BC| = |EF|$.\n*   $AC$ kenarı $DF$ kenarına karşılık gelir, dolayısıyla $|AC| = |DF|$.\n\nYanlış yazım sırası, örneğin $\\triangle ABC \\cong \\triangle FDE$, geometrik olarak tamamen farklı bir ilişkiyi ifade edebilir ve bu da hatalı sonuçlara yol açar.\n\n[DIAGRAM:geometry content=\"İki eş üçgen, ABC ve DEF. Üçgen ABC'nin A köşesi yukarıda, BC tabanı yatay. Üçgen DEF, ABC'nin aynısı ancak sağa kaydırılmış ve hafifçe döndürülmüş. Karşılıklı eş kenarlar aynı renklerle işaretlenmeli (örneğin, AB kenarı kırmızı, DE kenarı kırmızı; BC kenarı mavi, EF kenarı mavi; AC kenarı yeşil, DF kenarı yeşil). Karşılıklı eş açılar da aynı sembollerle işaretlenmeli (örneğin, A açısı tek yay, D açısı tek yay; B açısı çift yay, E açısı çift yay; C açısı üç yay, F açısı üç yay).\"]\n\n### Uygulamalı Örnek: A.K.A. Kuralının Gücü\n\n> **Örnek**: Bir nehrin karşı kıyısındaki bir ağacın uzaklığını ölçmek istiyorsunuz. Nehrin bir kıyısında $A$, $B$, $C$ noktalarını işaretlediniz. $AB$ kenarı boyunca $100 \\text{ m}$ ilerlediniz. $A$ noktasında ağaca olan açı $m(\\widehat{CAB}) = 70^\\circ$ olarak ölçüldü. $B$ noktasında, $AB$ doğrusu ile ağaca olan doğru arasındaki açı $m(\\widehat{ABC}) = 60^\\circ$ olarak ölçüldü. Eğer nehrin diğer kıyısında bir $D$ noktası seçip, $DE$ uzunluğunu $100 \\text{ m}$ yapıp, $m(\\widehat{EDF}) = 70^\\circ$ ve $m(\\widehat{DEF}) = 60^\\circ$ olacak şekilde bir $\\triangle DEF$ üçgeni oluşturursanız, $DF$ kenarının uzunluğu $AC$ kenarının uzunluğuna eşit olur mu?\n\n> **Çözüm**:\n> Verilen bilgilere göre, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinde:\n> 1.  $m(\\widehat{CAB}) = 70^\\circ$ ve $m(\\widehat{EDF}) = 70^\\circ \\implies m(\\widehat{A}) = m(\\widehat{D})$\n> 2.  $m(\\widehat{ABC}) = 60^\\circ$ ve $m(\\widehat{DEF}) = 60^\\circ \\implies m(\\widehat{B}) = m(\\widehat{E})$\n> 3.  $|AB| = 100 \\text{ m}$ ve $|DE| = 100 \\text{ m} \\implies |AB| = |DE|$\n>\n> Bu üçgenler, A.K.A. (Açı-Kenar-Açı) eşlik kuralına göre eştir. Yani $\\triangle ABC \\cong \\triangle DEF$.\n> Eş üçgenlerde karşılıklı kenarların uzunlukları eşit olduğundan, $AC$ kenarının uzunluğu $DF$ kenarının uzunluğuna eşit olacaktır. Nehrin karşı kıyısındaki ağacın uzaklığını ($AC$) böylece $DF$ uzunluğunu ölçerek bulabiliriz.\n\n> **Cevap**: Evet, A.K.A. eşlik kuralına göre $|AC| = |DF|$ olur.\n\n### Gelecek Konulara Köprü: Özel Üçgenlerin Keşfi\n\nEşlik kurallarını derinlemesine anlamak, geometrinin daha karmaşık yapıtaşlarını çözümlemek için vazgeçilmez bir temel oluşturur. Bir sonraki derslerimizde, bu güçlü araçları kullanarak ikizkenar üçgen, eşkenar üçgen, dik üçgen gibi özel üçgenlerin benzersiz özelliklerini ve bu özelliklerin ispatlarını keşfedeceğiz. Eşlik, bu özel üçgenlerin simetrik yapılarının ve kenar-açı ilişkilerinin temelini oluşturur. Örneğin, ikizkenar üçgenin taban açılarının neden eşit olduğunu veya eşkenar üçgenin tüm açılarının neden $60^\\circ$ olduğunu eşlik kavramı üzerinden çok daha net anlayacağız. Bu bilgiler, LGS'de karşınıza çıkacak daha ileri düzeydeki geometri problemlerini çözme yeteneğinizi pekiştirecektir."
+                },
+                {
+                  "topic": "Eşlik Kuralları İncelemesi",
+                  "type": "QUIZ",
+                  "difficultyLevel": 1,
+                  "question": {
+                    "options": [
+                      "A) Karşılıklı kenar uzunlukları ve karşılıklı açı ölçüleri eşit olmalıdır.",
+                      "B) Sadece karşılıklı açı ölçüleri eşit olmalıdır.",
+                      "C) Sadece karşılıklı kenar uzunlukları orantılı olmalıdır.",
+                      "D) Benzerlik oranları $\\frac{1}{2}$ olmalıdır.",
+                      "E) Alanları birbirine eşit olmalıdır."
+                    ],
+                    "correctIndex": 0,
+                    "text": "LGS Geometri dersinde \"Eşlik Kuralları İncelemesi\" konusuna göre, iki üçgenin eş olması için aşağıdaki özelliklerden hangisi kesinlikle sağlanmalıdır?",
+                    "explanation": "Eşlik, üçgenlerin hem şekil hem de boyut olarak tıpatıp aynı olması durumudur. Bu durum, karşılıklı kenar uzunluklarının ve karşılıklı açı ölçülerinin eşit olmasıyla sağlanır. Diğer seçenekler ya benzerliği tanımlar ya da eşlik için yeterli koşul değildir."
+                  },
+                  "title": "Eşliğin Temel Tanımı",
+                  "phase": 3,
+                  "id": "card-phase3-1769717302166-0",
+                  "courseTopic": "LGS Geometri"
+                },
+                {
+                  "phase": 3,
+                  "title": "Benzerlik ve Eşlik Arasındaki Fark",
+                  "topic": "Eşlik Kuralları İncelemesi",
+                  "courseTopic": "LGS Geometri",
+                  "question": {
+                    "explanation": "A.A.A. (Açı-Açı-Açı) durumu, iki üçgenin tüm açılarının eşit olması durumunda benzer olduğunu gösterir. Ancak kenar uzunlukları farklı olabilir, dolayısıyla şekilleri aynı olsa da boyutları farklı olabileceği için eş oldukları söylenemez. Eşlik için kenar uzunluklarının da eşit olması gerekir.",
+                    "options": [
+                      "A) A.A.A. durumu sadece üçgenlerin benzer olduğunu gösterir, eş olduğunu değil. Benzer üçgenlerin kenar uzunlukları farklı olabilir.",
+                      "B) A.A.A. durumu yalnızca ikizkenar üçgenler için eşlik koşulu sağlar.",
+                      "C) A.A.A. durumu, üçgenlerin alanlarının eşit olduğunu garanti etmez, bu yüzden eşlik için yeterli değildir.",
+                      "D) A.A.A. durumu sadece dik üçgenlerde geçerlidir, diğer üçgenlerde eşliği sağlamaz.",
+                      "E) A.A.A. durumu, üçgenlerin çevresinin eşit olduğunu garanti etmediği için eşlik için yetersizdir."
+                    ],
+                    "correctIndex": 0,
+                    "text": "\"LGS Geometri\" dersinde işlediğimiz eşlik kuralları bağlamında, iki üçgenin karşılıklı açılarının eşit olması yani A.A.A. (Açı-Açı-Açı) durumunun eşlik için neden yeterli olmadığı aşağıdakilerden hangisinde doğru açıklanmıştır?"
+                  },
+                  "type": "QUIZ",
+                  "id": "card-phase3-1769717302166-1",
+                  "difficultyLevel": 2
+                },
+                {
+                  "phase": 3,
+                  "courseTopic": "LGS Geometri",
+                  "title": "K.A.K. Kuralı Uygulaması",
+                  "difficultyLevel": 3,
+                  "topic": "Eşlik Kuralları İncelemesi",
+                  "id": "card-phase3-1769717302166-2",
+                  "type": "QUIZ",
+                  "question": {
+                    "options": [
+                      "A) K.K.K. (Kenar-Kenar-Kenar)",
+                      "B) A.A.A. (Açı-Açı-Açı)",
+                      "C) K.A.K. (Kenar-Açı-Kenar)",
+                      "D) A.K.A. (Açı-Kenar-Açı)",
+                      "E) A.K.K. (Açı-Kenar-Kenar)"
+                    ],
+                    "correctIndex": 2,
+                    "text": "Bir \"LGS Geometri\" öğrencisi, $\\triangle ABC$ ve $\\triangle DEF$ üçgenleri için aşağıdaki bilgileri kaydetmiştir:\n*   $|AB| = 7\\text{ cm}$\n*   $|BC| = 10\\text{ cm}$\n*   $\\text{m}(\\angle B) = 50^\\circ$\n*   $|DE| = 7\\text{ cm}$\n*   $|EF| = 10\\text{ cm}$\n*   $\\text{m}(\\angle E) = 50^\\circ$\n\nYukarıda verilen bilgilere göre, $\\triangle ABC$ ve $\\triangle DEF$ üçgenlerinin eş olduğu hangi kurala göre belirlenir?",
+                    "explanation": "Verilen bilgilere göre, iki kenar uzunluğu ($|AB|=|DE|=7\\text{ cm}$ ve $|BC|=|EF|=10\\text{ cm}$) ve bu iki kenar arasında kalan açı ölçüsü ($\\text{m}(\\angle B)=\\text{m}(\\angle E)=50^\\circ$) eşit olduğundan, K.A.K. (Kenar-Açı-Kenar) eşlik kuralı geçerlidir."
+                  }
+                },
+                {
+                  "id": "card-phase3-1769717302166-3",
+                  "difficultyLevel": 4,
+                  "courseTopic": "LGS Geometri",
+                  "title": "A.K.A. Kuralı Analizi",
+                  "phase": 3,
+                  "topic": "Eşlik Kuralları İncelemesi",
+                  "question": {
+                    "text": "\"LGS Geometri\" dersinde incelenen bir üçgen tasarımında, $\\triangle XYZ$ üçgeni ile $\\triangle KPM$ üçgenlerinin eşliği araştırılmaktadır. Eğer $\\text{m}(\\angle Y) = \\text{m}(\\angle P)$, $|YZ| = |PM|$ ve $\\text{m}(\\angle Z) = \\text{m}(\\angle M)$ olduğu biliniyorsa, bu iki üçgenin eş olduğu hangi kurala göre belirlenir?",
+                    "correctIndex": 1,
+                    "explanation": "Verilen bilgilere göre, $\\triangle XYZ$ ve $\\triangle KPM$ üçgenlerinin iki açısı ($\\text{m}(\\angle Y) = \\text{m}(\\angle P)$ ve $\\text{m}(\\angle Z) = \\text{m}(\\angle M)$) ve bu açılar arasında kalan kenarı ($|YZ| = |PM|$) eşittir. Bu durum, A.K.A. (Açı-Kenar-Açı) eşlik kuralını doğrudan karşılar.",
+                    "options": [
+                      "A) K.K.K. kuralına göre eştir, çünkü kenarlar da eşittir.",
+                      "B) A.K.A. kuralına göre eştir, çünkü iki açı ve aralarındaki kenar eşit verilmiştir.",
+                      "C) K.A.K. kuralına göre eştir, çünkü iki kenar ve aralarındaki açı eşit verilmiştir.",
+                      "D) Sadece benzerdir, eş değildir çünkü kenar uzunlukları orantılıdır.",
+                      "E) A.A.A. kuralına göre eştir, çünkü tüm açıları eşittir."
+                    ]
+                  },
+                  "type": "QUIZ"
+                },
+                {
+                  "phase": 3,
+                  "courseTopic": "LGS Geometri",
+                  "title": "Eşlik Koşullarının Değerlendirilmesi",
+                  "topic": "Eşlik Kuralları İncelemesi",
+                  "id": "card-phase3-1769717302166-4",
+                  "question": {
+                    "options": [
+                      "A) Üçgenlerin karşılıklı kenarlarının uzunlukları eşitse ($|PQ|=|XY|$, $|QR|=|YZ|$, $|RP|=|ZX|$).",
+                      "B) Üçgenlerin iki kenarı ve bu kenarlar arasındaki açısı eşitse ($|PQ|=|XY|$, $\\text{m}(\\angle Q) = \\text{m}(\\angle Y)$, $|QR|=|YZ|$).",
+                      "C) Üçgenlerin iki açısı ve bu açılar arasındaki kenarı eşitse ($\\text{m}(\\angle P) = \\text{m}(\\angle X)$, $|PQ|=|XY|$, $\\text{m}(\\angle Q) = \\text{m}(\\angle Y)$).",
+                      "D) Üçgenlerin tüm karşılıklı açı ölçüleri eşitse ($\\text{m}(\\angle P) = \\text{m}(\\angle X)$, $\\text{m}(\\angle Q) = \\text{m}(\\angle Y)$, $\\text{m}(\\angle R) = \\text{m}(\\angle Z)$).",
+                      "E) Üçgenlerin hipotenüs uzunlukları ve birer dar açıları eşit olan dik üçgenlerse."
+                    ],
+                    "explanation": "A.A.A. (Açı-Açı-Açı) durumu, iki üçgenin sadece benzer olduğunu gösterir, eş olduğunu garanti etmez. Kenar uzunlukları farklı olan ama açıları aynı olan birçok üçgen bulunabilir. Diğer seçenekler (K.K.K., K.A.K., A.K.A. ve dik üçgenler için özel A.K.K. durumu) eşlik için yeterli kuralları temsil eder.",
+                    "text": "Bir 'LGS Geometri' öğrencisi, bir mimar tarafından çizilen iki farklı üçgenin ($\\triangle PQR$ ve $\\triangle XYZ$) kesinlikle eş olduğunu iddia edebilmesi için aşağıdaki durumlardan hangisinin tek başına yeterli OLMADIĞINI bilmesi gerekir?",
+                    "correctIndex": 3
+                  },
+                  "difficultyLevel": 5,
+                  "type": "QUIZ"
+                }
+              ],
+              "phase": 3,
+              "isPartial": false,
+              "lessonId": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W01-L02-STD"
+            }
+          },
+          {
+            "isFinalExam": true,
+            "isReview": false,
+            "title": "Metrik Bağıntılar Sınavı",
+            "conceptTitle": "Pisagor ve Benzerlik Sınavı",
+            "status": "LOCKED",
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W01-L03-FNL",
+            "conceptId": "pisagor-final-exam",
+            "isAudio": false,
+            "content": {
+              "lessonId": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W01-L03-FNL",
+              "phase": 1,
+              "isPartial": true,
+              "cards": [
+                {
+                  "visualPrompt": "Dik üçgende Öklid bağıntılarını gösteren bir çizim, hipotenüse inen yükseklik ve kenarlar arasındaki metrik ilişkilerin vurgulandığı, LGS geometri ders kitabından alınmış gibi duran bir görsel.",
+                  "id": "card-phase1-1769717314622-0",
+                  "content": "Merhaba değerli LGS Geometri öğrencileri! Bugün karşınızda, geometriye bakış açınızı değiştirecek ve LGS'deki başarınız için kritik öneme sahip bir konuyla, 'Metrik Bağıntılar Sınavı' ile geldim. Geçtiğimiz derste 'Eşlik Kuralları İncelemesi' ile üçgenlerin birbirleriyle olan büyüleyici ilişkilerini keşfetmiştik. Peki ya bu ilişkilerin, karmaşık gibi görünen bir LGS geometri sorusunu saniyeler içinde çözmenizi sağlayacak sihirli anahtarları barındırdığını bilseydiniz?\n\nDüşünsenize, antik dönemlerde Mısırlı mühendisler ve Yunan matematikçiler, büyük piramitleri ve tapınakları inşa ederken, navigasyon yaparken veya gök cisimlerini incelerken bugünkü \"Metrik Bağıntılar\" prensiplerini sezgisel olarak kullandılar. Sizin LGS'de karşınıza çıkacak bir dik üçgen sorusundaki yükseklik veya kenar uzunlukları arasındaki bağıntı, binlerce yıl öncesinin bilgi birikimini taşıyor. Bu, sadece bir ders konusu değil, aynı zamanda evrenin ve mimarinin temelindeki matematiksel düzenin bir yansımasıdır.\n\nLGS'de karşılaştığınız bir geometri sorusunun sadece şekillerden ibaret olmadığını, her çizginin, her köşenin birbirine metrik olarak bağlı olduğunu anladığınızda, çözüme giden yol bir anda netleşir. Bu sınav, bildiğiniz Pisagor Teoremi'nin ötesinde, **dik üçgende öklid bağıntıları** ve diğer **kenar-yükseklik ilişkilerini** ne kadar iyi içselleştirdiğinizi ölçecek.\n\n> [!NOTE] Unutmayın, Metrik Bağıntılar Sınavı'nda sadece formülleri ezberlemek değil, bu formüllerin farklı LGS geometri problem senaryolarında nasıl uygulanacağını görmek ve bolca pratik yapmak esastır. Bu bağıntılar, **LGS geometri sorularının kilit noktalarını bulmanızı** sağlayacak temel araçlardır. Doğru yerlerde doğru bağıntıyı kullanmak, size hem zaman kazandırır hem de tam puan getirir. Hazır mısınız bu ilişkilere hükmetmeye?",
+                  "title": "Metrik Bağıntılar Sınavı",
+                  "phase": 1,
+                  "type": "HOOK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "themeColor": "#ff9600",
+        "lessons": [
+          {
+            "conceptId": "dik-prizmalar",
+            "isReview": false,
+            "isAudio": false,
+            "status": "LOCKED",
+            "title": "Dik Prizma Yapıları",
+            "isFinalExam": false,
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W02-L00-STD",
+            "conceptTitle": "Prizma Alan ve Hacim"
+          },
+          {
+            "isFinalExam": false,
+            "status": "LOCKED",
+            "conceptId": "silindir-analizi",
+            "isReview": false,
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W02-L01-STD",
+            "isAudio": false,
+            "title": "Silindir Alan Hacim",
+            "conceptTitle": "Silindir Geometrisi"
+          },
+          {
+            "isFinalExam": false,
+            "isReview": false,
+            "title": "Piramit ve Koni",
+            "conceptTitle": "Sivri Cisimlerin Hacmi",
+            "conceptId": "piramit-koni",
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W02-L02-STD",
+            "isAudio": false,
+            "status": "LOCKED"
+          },
+          {
+            "title": "Uzay Geometri Sınavı",
+            "conceptId": "cisimler-final-exam",
+            "isReview": false,
+            "isAudio": false,
+            "status": "LOCKED",
+            "conceptTitle": "Geometrik Cisimler Finali",
+            "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W02-L03-FNL",
+            "isFinalExam": true
+          }
+        ],
+        "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W02",
+        "isLocked": true,
+        "description": "Üç boyutlu cisimlerin yüzey alanları, hacim formüllerinin türetilmesi ve dönüşüm geometrisi.",
+        "finalExam": null,
+        "isExpanded": true,
+        "title": "Geometrik Cisimler Geometrisi"
+      }
+    ],
+    "mode": "A",
+    "topic": "LGS Geometri",
+    "difficulty": 2,
+    "id": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO",
+    "ragChunks": [],
+    "creatorId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+    "isCompactMode": true,
+    "language": "Turkish",
+    "ragContext": "",
+    "lastOpenedAt": 1769717624672,
+    "updatedAt": null,
+    "contentType": "course",
+    "isPublic": true,
+    "publishedAt": {
+      "_type": "timestamp",
+      "_seconds": 1769717924,
+      "_nanoseconds": 655000000,
+      "isoString": "2026-01-29T20:18:44.655Z"
+    }
+  }
+]

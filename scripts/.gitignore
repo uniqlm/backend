@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Firebase credentials (NEVER commit this!)
+serviceAccountKey.json
+
+# Export output
+# exports/

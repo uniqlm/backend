@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "Mz7o4knIZAVmae7rlZgmxaLi5a52_ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO",
+    "_path": "user_progress/Mz7o4knIZAVmae7rlZgmxaLi5a52_ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO",
+    "lastActiveAt": {
+      "_type": "timestamp",
+      "_seconds": 1769751957,
+      "_nanoseconds": 714000000,
+      "isoString": "2026-01-30T05:45:57.714Z"
+    },
+    "completedLessons": {
+      "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L03-FNL": {
+        "status": "COMPLETED",
+        "score": 50,
+        "completedAt": {
+          "_type": "timestamp",
+          "_seconds": 1769751957,
+          "_nanoseconds": 714000000,
+          "isoString": "2026-01-30T05:45:57.714Z"
+        }
+      }
+    }
+  }
+]

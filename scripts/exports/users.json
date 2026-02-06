@@ -1,0 +1,1269 @@
+[
+  {
+    "_id": "3FKEmA7PaoVerUILTcKWGhJWIMc2",
+    "_path": "users/3FKEmA7PaoVerUILTcKWGhJWIMc2",
+    "uid": "3FKEmA7PaoVerUILTcKWGhJWIMc2",
+    "email": "cokifa2956@codgal.com",
+    "name": "Cokifa",
+    "photoUrl": null,
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1770051099,
+      "_nanoseconds": 660000000,
+      "isoString": "2026-02-02T16:51:39.660Z"
+    },
+    "avatarUrl": null,
+    "profileCompleted": false,
+    "subscriptionTier": "free",
+    "_subcollections": {
+      "coinBalance": [
+        {
+          "_id": "current",
+          "_path": "users/3FKEmA7PaoVerUILTcKWGhJWIMc2/coinBalance/current",
+          "userId": "3FKEmA7PaoVerUILTcKWGhJWIMc2",
+          "available": 500,
+          "pending": 0,
+          "lifetime": {
+            "purchased": 0,
+            "earned": 0,
+            "spent": 0,
+            "bonus": 500
+          },
+          "lastUpdated": 1770051102484
+        }
+      ],
+      "transactions": [
+        {
+          "_id": "welcome_1770051102757",
+          "_path": "users/3FKEmA7PaoVerUILTcKWGhJWIMc2/transactions/welcome_1770051102757",
+          "id": "welcome_1770051102757",
+          "userId": "3FKEmA7PaoVerUILTcKWGhJWIMc2",
+          "type": "bonus",
+          "amount": 500,
+          "balanceAfter": 500,
+          "description": "Welcome Bonus",
+          "metadata": {
+            "tier": "free",
+            "source": "signup"
+          },
+          "createdAt": 1770051102757
+        }
+      ],
+      "data": [
+        {
+          "_id": "gliff",
+          "_path": "users/3FKEmA7PaoVerUILTcKWGhJWIMc2/data/gliff",
+          "surveyAnswers": [],
+          "vector": [
+            0.3,
+            0.85,
+            0.9,
+            0.75,
+            0.5
+          ],
+          "updatedAt": {
+            "_type": "timestamp",
+            "_seconds": 1770051107,
+            "_nanoseconds": 163000000,
+            "isoString": "2026-02-02T16:51:47.163Z"
+          }
+        }
+      ],
+      "subscription": [
+        {
+          "_id": "current",
+          "_path": "users/3FKEmA7PaoVerUILTcKWGhJWIMc2/subscription/current",
+          "tier": "free",
+          "stripeSubscriptionId": null,
+          "stripeCustomerId": null,
+          "currentPeriodStart": 1770051103479,
+          "currentPeriodEnd": 1772643103479,
+          "cancelAtPeriodEnd": false,
+          "status": "active",
+          "permissions": {
+            "canStudy": true,
+            "canCreate": false,
+            "canPublish": false,
+            "canSell": false,
+            "chatAccess": true,
+            "solverAccess": false
+          },
+          "monthlyBonusCoins": 500,
+          "bonusAppliedAt": 1770051103479,
+          "createdAt": 1770051103479,
+          "updatedAt": 1770051103479
+        }
+      ]
+    }
+  },
+  {
+    "_id": "9B8yrPNfHsMeXyFguJb1XhtHRjA2",
+    "_path": "users/9B8yrPNfHsMeXyFguJb1XhtHRjA2",
+    "uid": "9B8yrPNfHsMeXyFguJb1XhtHRjA2",
+    "email": "mertinan2010@outlook.com",
+    "name": "Mert",
+    "photoUrl": null,
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1770128284,
+      "_nanoseconds": 30000000,
+      "isoString": "2026-02-03T14:18:04.030Z"
+    },
+    "avatarUrl": null,
+    "profileCompleted": false,
+    "subscriptionTier": "free",
+    "_subcollections": {
+      "coinBalance": [
+        {
+          "_id": "current",
+          "_path": "users/9B8yrPNfHsMeXyFguJb1XhtHRjA2/coinBalance/current",
+          "userId": "9B8yrPNfHsMeXyFguJb1XhtHRjA2",
+          "available": 500,
+          "pending": 0,
+          "lifetime": {
+            "purchased": 0,
+            "earned": 0,
+            "spent": 0,
+            "bonus": 500
+          },
+          "lastUpdated": 1770128287346
+        }
+      ],
+      "transactions": [
+        {
+          "_id": "welcome_1770128287625",
+          "_path": "users/9B8yrPNfHsMeXyFguJb1XhtHRjA2/transactions/welcome_1770128287625",
+          "id": "welcome_1770128287625",
+          "userId": "9B8yrPNfHsMeXyFguJb1XhtHRjA2",
+          "type": "bonus",
+          "amount": 500,
+          "balanceAfter": 500,
+          "description": "Welcome Bonus",
+          "metadata": {
+            "tier": "free",
+            "source": "signup"
+          },
+          "createdAt": 1770128287625
+        }
+      ],
+      "subscription": [
+        {
+          "_id": "current",
+          "_path": "users/9B8yrPNfHsMeXyFguJb1XhtHRjA2/subscription/current",
+          "tier": "free",
+          "stripeSubscriptionId": null,
+          "stripeCustomerId": null,
+          "currentPeriodStart": 1770128288386,
+          "currentPeriodEnd": 1772720288386,
+          "cancelAtPeriodEnd": false,
+          "status": "active",
+          "permissions": {
+            "canStudy": true,
+            "canCreate": false,
+            "canPublish": false,
+            "canSell": false,
+            "chatAccess": true,
+            "solverAccess": false
+          },
+          "monthlyBonusCoins": 500,
+          "bonusAppliedAt": 1770128288386,
+          "createdAt": 1770128288386,
+          "updatedAt": 1770128288386
+        }
+      ]
+    }
+  },
+  {
+    "_id": "FXaOmiOVCIM1Ym2eEcAZyACS7ay1",
+    "_path": "users/FXaOmiOVCIM1Ym2eEcAZyACS7ay1",
+    "uid": "FXaOmiOVCIM1Ym2eEcAZyACS7ay1",
+    "email": "twinedo.dev@gmail.com",
+    "name": "Twin Edo",
+    "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIiVTWGD7vF4tRDUQgdQ_ZYeXJvRDYVfYZ-Ft-whC2x_psnKsp8=s96-c",
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1769997095,
+      "_nanoseconds": 299000000,
+      "isoString": "2026-02-02T01:51:35.299Z"
+    },
+    "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIiVTWGD7vF4tRDUQgdQ_ZYeXJvRDYVfYZ-Ft-whC2x_psnKsp8=s96-c",
+    "profileCompleted": false,
+    "subscriptionTier": "free",
+    "_subcollections": {
+      "coinBalance": [
+        {
+          "_id": "current",
+          "_path": "users/FXaOmiOVCIM1Ym2eEcAZyACS7ay1/coinBalance/current",
+          "userId": "FXaOmiOVCIM1Ym2eEcAZyACS7ay1",
+          "available": 500,
+          "pending": 0,
+          "lifetime": {
+            "purchased": 0,
+            "earned": 0,
+            "spent": 0,
+            "bonus": 500
+          },
+          "lastUpdated": 1769997098590
+        }
+      ],
+      "transactions": [
+        {
+          "_id": "welcome_1769997099200",
+          "_path": "users/FXaOmiOVCIM1Ym2eEcAZyACS7ay1/transactions/welcome_1769997099200",
+          "id": "welcome_1769997099200",
+          "userId": "FXaOmiOVCIM1Ym2eEcAZyACS7ay1",
+          "type": "bonus",
+          "amount": 500,
+          "balanceAfter": 500,
+          "description": "Welcome Bonus",
+          "metadata": {
+            "tier": "free",
+            "source": "signup"
+          },
+          "createdAt": 1769997099200
+        }
+      ],
+      "data": [
+        {
+          "_id": "gliff",
+          "_path": "users/FXaOmiOVCIM1Ym2eEcAZyACS7ay1/data/gliff",
+          "surveyAnswers": [],
+          "vector": [
+            0.3,
+            0.85,
+            0.9,
+            0.75,
+            0.5
+          ],
+          "updatedAt": {
+            "_type": "timestamp",
+            "_seconds": 1769997101,
+            "_nanoseconds": 990000000,
+            "isoString": "2026-02-02T01:51:41.990Z"
+          }
+        }
+      ],
+      "subscription": [
+        {
+          "_id": "current",
+          "_path": "users/FXaOmiOVCIM1Ym2eEcAZyACS7ay1/subscription/current",
+          "tier": "free",
+          "stripeSubscriptionId": null,
+          "stripeCustomerId": null,
+          "currentPeriodStart": 1769997099439,
+          "currentPeriodEnd": 1772589099439,
+          "cancelAtPeriodEnd": false,
+          "status": "active",
+          "permissions": {
+            "canStudy": true,
+            "canCreate": false,
+            "canPublish": false,
+            "canSell": false,
+            "chatAccess": true,
+            "solverAccess": false
+          },
+          "monthlyBonusCoins": 500,
+          "bonusAppliedAt": 1769997099439,
+          "createdAt": 1769997099439,
+          "updatedAt": 1769997099439
+        }
+      ]
+    }
+  },
+  {
+    "_id": "L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+    "_path": "users/L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+    "uid": "L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+    "email": "venganzdektor26@gmail.com",
+    "name": "Twin Edo",
+    "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIBxf1xuTDgO7vkn26Fd8mH3Tqm0IIsbVx7US8OqDbTkcX5fSI6=s96-c",
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1769708972,
+      "_nanoseconds": 584000000,
+      "isoString": "2026-01-29T17:49:32.584Z"
+    },
+    "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIBxf1xuTDgO7vkn26Fd8mH3Tqm0IIsbVx7US8OqDbTkcX5fSI6=s96-c",
+    "profileCompleted": false,
+    "subscriptionTier": "free",
+    "_subcollections": {
+      "coinBalance": [
+        {
+          "_id": "current",
+          "_path": "users/L4Y6pSiOn8U7CtSXHeeOO4Huq1q1/coinBalance/current",
+          "userId": "L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+          "available": 500,
+          "pending": 0,
+          "lifetime": {
+            "purchased": 0,
+            "earned": 0,
+            "spent": 0,
+            "bonus": 500
+          },
+          "lastUpdated": 1769708974912
+        }
+      ],
+      "transactions": [
+        {
+          "_id": "welcome_1769708975204",
+          "_path": "users/L4Y6pSiOn8U7CtSXHeeOO4Huq1q1/transactions/welcome_1769708975204",
+          "id": "welcome_1769708975204",
+          "userId": "L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+          "type": "bonus",
+          "amount": 500,
+          "balanceAfter": 500,
+          "description": "Welcome Bonus",
+          "metadata": {
+            "tier": "free",
+            "source": "signup"
+          },
+          "createdAt": 1769708975204
+        }
+      ],
+      "subscription": [
+        {
+          "_id": "current",
+          "_path": "users/L4Y6pSiOn8U7CtSXHeeOO4Huq1q1/subscription/current",
+          "tier": "free",
+          "stripeSubscriptionId": null,
+          "stripeCustomerId": null,
+          "currentPeriodStart": 1769708975530,
+          "currentPeriodEnd": 1772300975530,
+          "cancelAtPeriodEnd": false,
+          "status": "active",
+          "permissions": {
+            "canStudy": true,
+            "canCreate": false,
+            "canPublish": false,
+            "canSell": false,
+            "chatAccess": true,
+            "solverAccess": false
+          },
+          "monthlyBonusCoins": 500,
+          "bonusAppliedAt": 1769708975530,
+          "createdAt": 1769708975530,
+          "updatedAt": 1769708975530
+        }
+      ]
+    }
+  },
+  {
+    "_id": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+    "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52",
+    "uid": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+    "email": "keremin@gmail.com",
+    "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIl82LkQ53ZNQJRcM-kUQY7Jo4Mf8FAmP-3bDqTaW98uOn7jcK2rg=s96-c",
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1769714822,
+      "_nanoseconds": 449000000,
+      "isoString": "2026-01-29T19:27:02.449Z"
+    },
+    "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIl82LkQ53ZNQJRcM-kUQY7Jo4Mf8FAmP-3bDqTaW98uOn7jcK2rg=s96-c",
+    "profileCompleted": false,
+    "subscriptionTier": "free",
+    "profession": "CFO Danone Indonesia",
+    "name": "Kerem Inan",
+    "bio": "Kerem İnan is a senior finance executive with more than 20 years of international experience across emerging and developed markets, currently serving as Chief Financial Officer of Danone Indonesia, overseeing a ~$2B business.\n\nHe began his career at Danone in 2005 as a Management Trainee in Finance, holding multiple controlling and business planning roles within Danone Dairy Turkey. In 2010, he relocated to Paris to take on regional responsibilities as Regional Controller for Danone Waters EMEA, where he led financial integration and M&A projects.\n\nAfter returning to Turkey in 2013, Kerem joined Vodafone Turkey as Finance & Strategy Director, where he drove strategic planning, revenue optimization, and large-scale cost efficiency programs. In 2017, he rejoined Danone as CFO of Danone Turkey & Middle East, successfully leading a major profitability turnaround, including making the Hayat business profitable for the first time in 30 years of Danone’s history and delivering significant margin and cash improvements.\n\nIn 2021, Kerem moved to Asia as VP Finance & Strategy for Danone India & South Asia, overseeing financial strategy across India and Southeast Asia while executing major investment programs in India and Vietnam. Since 2023, he has served as CFO of Danone Indonesia, navigating a highly challenging macro and commercial environment while delivering record margin expansion, strong cash generation, balance sheet deleveraging, and structural value creation through disciplined P&L management.\n\nAcross his career, Kerem is recognized for combining deep financial rigor with business leadership, implementing long-term structural value creation frameworks (notably the 5X Value Creation model), driving cross-functional collaboration, and strengthening finance organizations as true business enablers. Despite severe topline pressures in recent years, his leadership has consistently delivered resilience, profitability, and cash discipline.\n\nKerem holds a degree in Industrial Engineering from Bilkent University (Full Scholarship) and has completed elite leadership programs including Danone’s LIONS Program and Vodafone’s Global Excellence Program. His long-term aspiration is to become a General Manager and, subsequently, pursue a global CFO role.\n\n\n",
+    "location": "Jakarta",
+    "updatedAt": {
+      "_type": "timestamp",
+      "_seconds": 1769716100,
+      "_nanoseconds": 71000000,
+      "isoString": "2026-01-29T19:48:20.071Z"
+    },
+    "_subcollections": {
+      "coinBalance": [
+        {
+          "_id": "current",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/coinBalance/current",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "available": 131750,
+          "pending": 0,
+          "lifetime": {
+            "purchased": 0,
+            "earned": 0,
+            "spent": 69150,
+            "bonus": 200500
+          },
+          "lastUpdated": 1770051492637
+        }
+      ],
+      "transactions": [
+        {
+          "_id": "tx_1769715714372_4h2x8muhmci",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769715714372_4h2x8muhmci",
+          "id": "tx_1769715714372_4h2x8muhmci",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "bonus",
+          "amount": 200000,
+          "balanceAfter": 200500,
+          "description": "Subscription Bonus",
+          "metadata": {
+            "operation": "promo_code_redemption",
+            "promoCode": "DENEM2026",
+            "promoCampaign": "admin_created",
+            "promoSource": "admin_panel"
+          },
+          "createdAt": 1769715715457
+        },
+        {
+          "_id": "tx_1769716632050_uhxtisb3iym",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769716632050_uhxtisb3iym",
+          "id": "tx_1769716632050_uhxtisb3iym",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 199700,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769716632461
+        },
+        {
+          "_id": "tx_1769717989472_k2fqojuhre",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769717989472_k2fqojuhre",
+          "id": "tx_1769717989472_k2fqojuhre",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 198900,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769717989868
+        },
+        {
+          "_id": "tx_1769718504039_9qeh0yxodl",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718504039_9qeh0yxodl",
+          "id": "tx_1769718504039_9qeh0yxodl",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 197700,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-LNG-2ID-1769717989-000@IND-SOLO-W02-L00-STD",
+            "lessonTitle": "Pembentukan Kata Kerja"
+          },
+          "createdAt": 1769718504380
+        },
+        {
+          "_id": "tx_1769718557395_c39oerit4e",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718557395_c39oerit4e",
+          "id": "tx_1769718557395_c39oerit4e",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 196500,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-LNG-2ID-1769717989-000@IND-SOLO-W02-L01-STD",
+            "lessonTitle": "Waktu Sekarang Turki"
+          },
+          "createdAt": 1769718557908
+        },
+        {
+          "_id": "tx_1769718658915_hxtqqc4uspd",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718658915_hxtqqc4uspd",
+          "id": "tx_1769718658915_hxtqqc4uspd",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 195300,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-LNG-2ID-1769717989-000@IND-SOLO-W02-L02-STD",
+            "lessonTitle": "Kata Kerja Perintah"
+          },
+          "createdAt": 1769718659293
+        },
+        {
+          "_id": "tx_1769718757050_fdn3jjjd8h",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718757050_fdn3jjjd8h",
+          "id": "tx_1769718757050_fdn3jjjd8h",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 194100,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-LNG-2ID-1769717989-000@IND-SOLO-W02-L02-STD",
+            "lessonTitle": "Kata Kerja Perintah"
+          },
+          "createdAt": 1769718757380
+        },
+        {
+          "_id": "tx_1769718768107_ub48apso2ya",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718768107_ub48apso2ya",
+          "id": "tx_1769718768107_ub48apso2ya",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 192900,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-LNG-2ID-1769717989-000@IND-SOLO-W02-L01-STD",
+            "lessonTitle": "Waktu Sekarang Turki"
+          },
+          "createdAt": 1769718768440
+        },
+        {
+          "_id": "tx_1769718901259_10mycbld7wlr",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718901259_10mycbld7wlr",
+          "id": "tx_1769718901259_10mycbld7wlr",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 192500,
+          "description": "Generation: Studio: timeline",
+          "metadata": {
+            "operation": "Studio: timeline"
+          },
+          "createdAt": 1769718901575
+        },
+        {
+          "_id": "tx_1769718904743_gsi3gxmqfn4",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718904743_gsi3gxmqfn4",
+          "id": "tx_1769718904743_gsi3gxmqfn4",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 192500,
+          "description": "Generation: Studio: flashcards",
+          "metadata": {
+            "operation": "Studio: flashcards"
+          },
+          "createdAt": 1769718905059
+        },
+        {
+          "_id": "tx_1769718910470_vx6ez6150ar",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718910470_vx6ez6150ar",
+          "id": "tx_1769718910470_vx6ez6150ar",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 192500,
+          "description": "Generation: Studio: article",
+          "metadata": {
+            "operation": "Studio: article"
+          },
+          "createdAt": 1769718910780
+        },
+        {
+          "_id": "tx_1769718931880_t0zgdzozdz",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718931880_t0zgdzozdz",
+          "id": "tx_1769718931880_t0zgdzozdz",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 192150,
+          "description": "Generation: Studio: quiz",
+          "metadata": {
+            "operation": "Studio: quiz"
+          },
+          "createdAt": 1769718932249
+        },
+        {
+          "_id": "tx_1769718944675_l48vfrqhsp",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718944675_l48vfrqhsp",
+          "id": "tx_1769718944675_l48vfrqhsp",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -250,
+          "balanceAfter": 192150,
+          "description": "Generation: Studio: presentation",
+          "metadata": {
+            "operation": "Studio: presentation"
+          },
+          "createdAt": 1769718945043
+        },
+        {
+          "_id": "tx_1769718946993_cpthbgppfy",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718946993_cpthbgppfy",
+          "id": "tx_1769718946993_cpthbgppfy",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 192150,
+          "description": "Generation: Studio: faq",
+          "metadata": {
+            "operation": "Studio: faq"
+          },
+          "createdAt": 1769718947335
+        },
+        {
+          "_id": "tx_1769718956024_vns955r44c9",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718956024_vns955r44c9",
+          "id": "tx_1769718956024_vns955r44c9",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 192250,
+          "description": "Generation: Studio: summary",
+          "metadata": {
+            "operation": "Studio: summary"
+          },
+          "createdAt": 1769718956430
+        },
+        {
+          "_id": "tx_1769718958979_ahxpz9t0yma",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718958979_ahxpz9t0yma",
+          "id": "tx_1769718958979_ahxpz9t0yma",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 191050,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-LNG-2ID-1769717989-000@IND-SOLO-W02-L02-STD",
+            "lessonTitle": "Kata Kerja Perintah"
+          },
+          "createdAt": 1769718959323
+        },
+        {
+          "_id": "tx_1769718976332_2j8wnou5b6b",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769718976332_2j8wnou5b6b",
+          "id": "tx_1769718976332_2j8wnou5b6b",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 191150,
+          "description": "Generation: Studio: summary",
+          "metadata": {
+            "operation": "Studio: summary"
+          },
+          "createdAt": 1769718976689
+        },
+        {
+          "_id": "tx_1769734168528_k7fbehw3h6",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769734168528_k7fbehw3h6",
+          "id": "tx_1769734168528_k7fbehw3h6",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 190350,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769734168882
+        },
+        {
+          "_id": "tx_1769735376926_rt32u3hu5nl",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769735376926_rt32u3hu5nl",
+          "id": "tx_1769735376926_rt32u3hu5nl",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 189550,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769735377251
+        },
+        {
+          "_id": "tx_1769748064054_uaonflyxk5e",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769748064054_uaonflyxk5e",
+          "id": "tx_1769748064054_uaonflyxk5e",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 188350,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769734168-000@IND-SOLO-W00-L03-STD",
+            "lessonTitle": "Validating Value Propositions"
+          },
+          "createdAt": 1769748064418
+        },
+        {
+          "_id": "tx_1769748081010_nr93c6oux4q",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769748081010_nr93c6oux4q",
+          "id": "tx_1769748081010_nr93c6oux4q",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 187150,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769734168-000@IND-SOLO-W00-L03-STD",
+            "lessonTitle": "Validating Value Propositions"
+          },
+          "createdAt": 1769748081384
+        },
+        {
+          "_id": "tx_1769748159047_6bipahucqp3",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769748159047_6bipahucqp3",
+          "id": "tx_1769748159047_6bipahucqp3",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 185950,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769734168-000@IND-SOLO-W00-L04-STD",
+            "lessonTitle": "Minimum Viable Product"
+          },
+          "createdAt": 1769748159363
+        },
+        {
+          "_id": "tx_1769748171194_28foo2tqg6t",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769748171194_28foo2tqg6t",
+          "id": "tx_1769748171194_28foo2tqg6t",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 184750,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769734168-000@IND-SOLO-W00-L04-STD",
+            "lessonTitle": "Minimum Viable Product"
+          },
+          "createdAt": 1769748171513
+        },
+        {
+          "_id": "tx_1769748488028_h9mcvv12684",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769748488028_h9mcvv12684",
+          "id": "tx_1769748488028_h9mcvv12684",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 183550,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2TR-1769716632-000@IND-SOLO-W00-L02-STD",
+            "lessonTitle": "Üçgen Çizim Şartları"
+          },
+          "createdAt": 1769748489072
+        },
+        {
+          "_id": "tx_1769749164807_0rizqg6bmzs",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769749164807_0rizqg6bmzs",
+          "id": "tx_1769749164807_0rizqg6bmzs",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 182750,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769749165162
+        },
+        {
+          "_id": "tx_1769752191408_mnnea0rwrqp",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769752191408_mnnea0rwrqp",
+          "id": "tx_1769752191408_mnnea0rwrqp",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 179550,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769752191940
+        },
+        {
+          "_id": "tx_1769752927207_2jk7gfzz4qj",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769752927207_2jk7gfzz4qj",
+          "id": "tx_1769752927207_2jk7gfzz4qj",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 178350,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769752191-000@IND-SOLO-W00-L01-STD",
+            "lessonTitle": "Protein Synthesis Path"
+          },
+          "createdAt": 1769752927524
+        },
+        {
+          "_id": "tx_1769757799698_dd2zo58vo05",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769757799698_dd2zo58vo05",
+          "id": "tx_1769757799698_dd2zo58vo05",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 177150,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769752191-000@IND-SOLO-W00-L01-STD",
+            "lessonTitle": "Protein Synthesis Path"
+          },
+          "createdAt": 1769757800472
+        },
+        {
+          "_id": "tx_1769757890653_b2zqfpfifzq",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769757890653_b2zqfpfifzq",
+          "id": "tx_1769757890653_b2zqfpfifzq",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 175950,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769752191-000@IND-SOLO-W00-L02-STD",
+            "lessonTitle": "Metabolic Energy Systems"
+          },
+          "createdAt": 1769757891035
+        },
+        {
+          "_id": "tx_1769757981749_8khoq9hxy7u",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769757981749_8khoq9hxy7u",
+          "id": "tx_1769757981749_8khoq9hxy7u",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 175450,
+          "description": "Generation: Studio: flashcards",
+          "metadata": {
+            "operation": "Studio: flashcards"
+          },
+          "createdAt": 1769757984045
+        },
+        {
+          "_id": "tx_1769757984144_pr5fsddksh",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769757984144_pr5fsddksh",
+          "id": "tx_1769757984144_pr5fsddksh",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 175450,
+          "description": "Generation: Studio: article",
+          "metadata": {
+            "operation": "Studio: article"
+          },
+          "createdAt": 1769757986276
+        },
+        {
+          "_id": "tx_1769757992578_ozu39xqjd88",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769757992578_ozu39xqjd88",
+          "id": "tx_1769757992578_ozu39xqjd88",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 175450,
+          "description": "Generation: Studio: timeline",
+          "metadata": {
+            "operation": "Studio: timeline"
+          },
+          "createdAt": 1769757992893
+        },
+        {
+          "_id": "tx_1769758001031_yxl0zg4kqaq",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769758001031_yxl0zg4kqaq",
+          "id": "tx_1769758001031_yxl0zg4kqaq",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 175450,
+          "description": "Generation: Studio: quiz",
+          "metadata": {
+            "operation": "Studio: quiz"
+          },
+          "createdAt": 1769758001552
+        },
+        {
+          "_id": "tx_1769758004057_7mdgsgqhwwl",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769758004057_7mdgsgqhwwl",
+          "id": "tx_1769758004057_7mdgsgqhwwl",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -100,
+          "balanceAfter": 175450,
+          "description": "Generation: Studio: faq",
+          "metadata": {
+            "operation": "Studio: faq"
+          },
+          "createdAt": 1769758004555
+        },
+        {
+          "_id": "tx_1769758058443_gyipr7deeb6",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769758058443_gyipr7deeb6",
+          "id": "tx_1769758058443_gyipr7deeb6",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1200,
+          "balanceAfter": 174250,
+          "description": "Generation: lesson",
+          "metadata": {
+            "operation": "lesson",
+            "lessonId": "ANON0-CRS-IND-STD-GEN-2EN-1769752191-000@IND-SOLO-W00-L02-STD",
+            "lessonTitle": "Metabolic Energy Systems"
+          },
+          "createdAt": 1769758060615
+        },
+        {
+          "_id": "tx_1769769416702_dn7yxj1ey4q",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769769416702_dn7yxj1ey4q",
+          "id": "tx_1769769416702_dn7yxj1ey4q",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 171850,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769769417041
+        },
+        {
+          "_id": "tx_1769786213003_kb5kjownt5",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769786213003_kb5kjownt5",
+          "id": "tx_1769786213003_kb5kjownt5",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -500,
+          "balanceAfter": 175350,
+          "description": "Generation: UniQ Solver (pro)",
+          "metadata": {
+            "operation": "UniQ Solver (pro)",
+            "modelTier": "pro",
+            "withThinking": true
+          },
+          "createdAt": 1769786213350
+        },
+        {
+          "_id": "tx_1769786340087_7xkgas0di9q",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769786340087_7xkgas0di9q",
+          "id": "tx_1769786340087_7xkgas0di9q",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -500,
+          "balanceAfter": 174850,
+          "description": "Generation: UniQ Solver (pro)",
+          "metadata": {
+            "operation": "UniQ Solver (pro)",
+            "modelTier": "pro",
+            "withThinking": true
+          },
+          "createdAt": 1769786340444
+        },
+        {
+          "_id": "tx_1769799931451_og0q0f7mvh",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1769799931451_og0q0f7mvh",
+          "id": "tx_1769799931451_og0q0f7mvh",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 174050,
+          "description": "Generation: course_structure",
+          "metadata": {
+            "operation": "course_structure"
+          },
+          "createdAt": 1769799931877
+        },
+        {
+          "_id": "tx_1770032884529_e0q8iwczya",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1770032884529_e0q8iwczya",
+          "id": "tx_1770032884529_e0q8iwczya",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -500,
+          "balanceAfter": 173550,
+          "description": "Generation: UniQ Solver (pro)",
+          "metadata": {
+            "operation": "UniQ Solver (pro)",
+            "modelTier": "pro",
+            "withThinking": true
+          },
+          "createdAt": 1770032884868
+        },
+        {
+          "_id": "tx_1770051213841_og6d0vngt2s",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1770051213841_og6d0vngt2s",
+          "id": "tx_1770051213841_og6d0vngt2s",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -1000,
+          "balanceAfter": 172550,
+          "description": "Generation: Curriculum: Medicine",
+          "metadata": {
+            "operation": "Curriculum: Medicine"
+          },
+          "createdAt": 1770051214214
+        },
+        {
+          "_id": "tx_1770051467522_tz2a2f57bba",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1770051467522_tz2a2f57bba",
+          "id": "tx_1770051467522_tz2a2f57bba",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -800,
+          "balanceAfter": 131750,
+          "description": "Generation: CURRICULUM: TUS",
+          "metadata": {
+            "operation": "CURRICULUM: TUS"
+          },
+          "createdAt": 1770051467831
+        },
+        {
+          "_id": "tx_1770051492196_niu73wh3ctm",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/tx_1770051492196_niu73wh3ctm",
+          "id": "tx_1770051492196_niu73wh3ctm",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "spend",
+          "amount": -40000,
+          "balanceAfter": 131750,
+          "description": "Generation: Generate B Course",
+          "metadata": {
+            "operation": "Generate B Course",
+            "mode": "B"
+          },
+          "createdAt": 1770051492638
+        },
+        {
+          "_id": "welcome_1769714825538",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/transactions/welcome_1769714825538",
+          "id": "welcome_1769714825538",
+          "userId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "type": "bonus",
+          "amount": 500,
+          "balanceAfter": 500,
+          "description": "Welcome Bonus",
+          "metadata": {
+            "tier": "free",
+            "source": "signup"
+          },
+          "createdAt": 1769714825538
+        }
+      ],
+      "data": [
+        {
+          "_id": "profile",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/data/profile",
+          "profession": "CFO Danone Indonesia",
+          "gliffVector": [],
+          "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIl82LkQ53ZNQJRcM-kUQY7Jo4Mf8FAmP-3bDqTaW98uOn7jcK2rg=s96-c",
+          "coins": 100,
+          "profileCompleted": false,
+          "bio": "Kerem İnan is a senior finance executive with more than 20 years of international experience across emerging and developed markets, currently serving as Chief Financial Officer of Danone Indonesia, overseeing a ~$2B business.\n\nHe began his career at Danone in 2005 as a Management Trainee in Finance, holding multiple controlling and business planning roles within Danone Dairy Turkey. In 2010, he relocated to Paris to take on regional responsibilities as Regional Controller for Danone Waters EMEA, where he led financial integration and M&A projects.\n\nAfter returning to Turkey in 2013, Kerem joined Vodafone Turkey as Finance & Strategy Director, where he drove strategic planning, revenue optimization, and large-scale cost efficiency programs. In 2017, he rejoined Danone as CFO of Danone Turkey & Middle East, successfully leading a major profitability turnaround, including making the Hayat business profitable for the first time in 30 years of Danone’s history and delivering significant margin and cash improvements.\n\nIn 2021, Kerem moved to Asia as VP Finance & Strategy for Danone India & South Asia, overseeing financial strategy across India and Southeast Asia while executing major investment programs in India and Vietnam. Since 2023, he has served as CFO of Danone Indonesia, navigating a highly challenging macro and commercial environment while delivering record margin expansion, strong cash generation, balance sheet deleveraging, and structural value creation through disciplined P&L management.\n\nAcross his career, Kerem is recognized for combining deep financial rigor with business leadership, implementing long-term structural value creation frameworks (notably the 5X Value Creation model), driving cross-functional collaboration, and strengthening finance organizations as true business enablers. Despite severe topline pressures in recent years, his leadership has consistently delivered resilience, profitability, and cash discipline.\n\nKerem holds a degree in Industrial Engineering from Bilkent University (Full Scholarship) and has completed elite leadership programs including Danone’s LIONS Program and Vodafone’s Global Excellence Program. His long-term aspiration is to become a General Manager and, subsequently, pursue a global CFO role.\n\n\n",
+          "language": "Turkish",
+          "birthDate": "1982-07-25",
+          "birthPlace": "Adiyaman",
+          "createdAt": {
+            "_type": "timestamp",
+            "_seconds": 1769714822,
+            "_nanoseconds": 449000000,
+            "isoString": "2026-01-29T19:27:02.449Z"
+          },
+          "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIl82LkQ53ZNQJRcM-kUQY7Jo4Mf8FAmP-3bDqTaW98uOn7jcK2rg=s96-c",
+          "uid": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+          "gliffCompleted": false,
+          "learningProfile": "",
+          "personalAnalysis": "",
+          "name": "Kerem Inan",
+          "learningGoal": "Lifetime learner",
+          "location": "Jakarta",
+          "subscriptionTier": "free",
+          "email": "keremin@gmail.com",
+          "updatedAt": {
+            "_type": "timestamp",
+            "_seconds": 1769716099,
+            "_nanoseconds": 737000000,
+            "isoString": "2026-01-29T19:48:19.737Z"
+          }
+        }
+      ],
+      "subscription": [
+        {
+          "_id": "current",
+          "_path": "users/Mz7o4knIZAVmae7rlZgmxaLi5a52/subscription/current",
+          "tier": "free",
+          "stripeSubscriptionId": null,
+          "stripeCustomerId": null,
+          "currentPeriodStart": 1769714825863,
+          "currentPeriodEnd": 1772306825863,
+          "cancelAtPeriodEnd": false,
+          "status": "active",
+          "permissions": {
+            "canStudy": true,
+            "canCreate": false,
+            "canPublish": false,
+            "canSell": false,
+            "chatAccess": true,
+            "solverAccess": false
+          },
+          "monthlyBonusCoins": 500,
+          "bonusAppliedAt": 1769714825863,
+          "createdAt": 1769714825863,
+          "updatedAt": 1769714825863
+        }
+      ]
+    }
+  },
+  {
+    "_id": "bId6omKataMuj95CjTMMRmwMw503",
+    "_path": "users/bId6omKataMuj95CjTMMRmwMw503",
+    "uid": "bId6omKataMuj95CjTMMRmwMw503",
+    "email": "uniqlm@uniqlm.com",
+    "name": "Kerem Inan",
+    "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIDu9ThMmnykG4R0MUygEZpHBHKB5UfYNji6nSf1-4cUKxCXg=s96-c",
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1769733330,
+      "_nanoseconds": 597000000,
+      "isoString": "2026-01-30T00:35:30.597Z"
+    },
+    "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIDu9ThMmnykG4R0MUygEZpHBHKB5UfYNji6nSf1-4cUKxCXg=s96-c",
+    "profileCompleted": false,
+    "subscriptionTier": "free",
+    "_subcollections": {
+      "coinBalance": [
+        {
+          "_id": "current",
+          "_path": "users/bId6omKataMuj95CjTMMRmwMw503/coinBalance/current",
+          "userId": "bId6omKataMuj95CjTMMRmwMw503",
+          "available": 500,
+          "pending": 0,
+          "lifetime": {
+            "purchased": 0,
+            "earned": 0,
+            "spent": 0,
+            "bonus": 500
+          },
+          "lastUpdated": 1769733332494
+        }
+      ],
+      "transactions": [
+        {
+          "_id": "welcome_1769733332841",
+          "_path": "users/bId6omKataMuj95CjTMMRmwMw503/transactions/welcome_1769733332841",
+          "id": "welcome_1769733332841",
+          "userId": "bId6omKataMuj95CjTMMRmwMw503",
+          "type": "bonus",
+          "amount": 500,
+          "balanceAfter": 500,
+          "description": "Welcome Bonus",
+          "metadata": {
+            "tier": "free",
+            "source": "signup"
+          },
+          "createdAt": 1769733332841
+        }
+      ],
+      "subscription": [
+        {
+          "_id": "current",
+          "_path": "users/bId6omKataMuj95CjTMMRmwMw503/subscription/current",
+          "tier": "free",
+          "stripeSubscriptionId": null,
+          "stripeCustomerId": null,
+          "currentPeriodStart": 1769733333195,
+          "currentPeriodEnd": 1772325333195,
+          "cancelAtPeriodEnd": false,
+          "status": "active",
+          "permissions": {
+            "canStudy": true,
+            "canCreate": false,
+            "canPublish": false,
+            "canSell": false,
+            "chatAccess": true,
+            "solverAccess": false
+          },
+          "monthlyBonusCoins": 500,
+          "bonusAppliedAt": 1769733333195,
+          "createdAt": 1769733333195,
+          "updatedAt": 1769733333195
+        }
+      ]
+    }
+  },
+  {
+    "_id": "rzwrW8YU3afRMOsFS4SiaV05qPK2",
+    "_path": "users/rzwrW8YU3afRMOsFS4SiaV05qPK2",
+    "uid": "rzwrW8YU3afRMOsFS4SiaV05qPK2",
+    "email": "mertinan2010@gmail.com",
+    "name": "Mert Inan",
+    "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIHnMslKA3Nqel1iR0JwMUBHqmyUyG-S64s_uy8nHG5nngjgixt=s96-c",
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1770120417,
+      "_nanoseconds": 882000000,
+      "isoString": "2026-02-03T12:06:57.882Z"
+    },
+    "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIHnMslKA3Nqel1iR0JwMUBHqmyUyG-S64s_uy8nHG5nngjgixt=s96-c",
+    "profileCompleted": false,
+    "subscriptionTier": "free",
+    "_subcollections": {
+      "coinBalance": [
+        {
+          "_id": "current",
+          "_path": "users/rzwrW8YU3afRMOsFS4SiaV05qPK2/coinBalance/current",
+          "userId": "rzwrW8YU3afRMOsFS4SiaV05qPK2",
+          "available": 500,
+          "pending": 0,
+          "lifetime": {
+            "purchased": 0,
+            "earned": 0,
+            "spent": 0,
+            "bonus": 500
+          },
+          "lastUpdated": 1770120420055
+        }
+      ],
+      "transactions": [
+        {
+          "_id": "welcome_1770120420359",
+          "_path": "users/rzwrW8YU3afRMOsFS4SiaV05qPK2/transactions/welcome_1770120420359",
+          "id": "welcome_1770120420359",
+          "userId": "rzwrW8YU3afRMOsFS4SiaV05qPK2",
+          "type": "bonus",
+          "amount": 500,
+          "balanceAfter": 500,
+          "description": "Welcome Bonus",
+          "metadata": {
+            "tier": "free",
+            "source": "signup"
+          },
+          "createdAt": 1770120420359
+        }
+      ],
+      "subscription": [
+        {
+          "_id": "current",
+          "_path": "users/rzwrW8YU3afRMOsFS4SiaV05qPK2/subscription/current",
+          "tier": "free",
+          "stripeSubscriptionId": null,
+          "stripeCustomerId": null,
+          "currentPeriodStart": 1770120421137,
+          "currentPeriodEnd": 1772712421137,
+          "cancelAtPeriodEnd": false,
+          "status": "active",
+          "permissions": {
+            "canStudy": true,
+            "canCreate": false,
+            "canPublish": false,
+            "canSell": false,
+            "chatAccess": true,
+            "solverAccess": false
+          },
+          "monthlyBonusCoins": 500,
+          "bonusAppliedAt": 1770120421137,
+          "createdAt": 1770120421137,
+          "updatedAt": 1770120421137
+        }
+      ]
+    }
+  }
+]

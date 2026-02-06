@@ -1,0 +1,10 @@
+{
+  "name": "backend",
+  "private": true,
+  "scripts": {
+    "dev": "./mvnw spring-boot:run",
+    "build": "./mvnw -DskipTests package",
+    "test": "./mvnw test",
+    "clean": "./mvnw clean"
+  }
+}

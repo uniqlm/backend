@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "DENEM2026",
+    "_path": "promo_codes/DENEM2026",
+    "id": "DENEM2026",
+    "type": "fixed_coins",
+    "value": 200000,
+    "description": "Admin-created code: 200000 coins",
+    "displayMessage": "🎉 Success! 200000 coins added to your balance!",
+    "isActive": true,
+    "startDate": 1769715673898,
+    "endDate": null,
+    "maxRedemptions": null,
+    "maxPerUser": 1,
+    "createdBy": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+    "campaign": "admin_created",
+    "source": "admin_panel",
+    "tags": [
+      "admin",
+      "custom"
+    ],
+    "createdAt": 1769715673898,
+    "lastUsedAt": 1769715713756,
+    "currentRedemptions": 1
+  }
+]

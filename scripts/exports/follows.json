@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "Mz7o4knIZAVmae7rlZgmxaLi5a52_L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+    "_path": "follows/Mz7o4knIZAVmae7rlZgmxaLi5a52_L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+    "id": "Mz7o4knIZAVmae7rlZgmxaLi5a52_L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+    "followerId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+    "followingId": "L4Y6pSiOn8U7CtSXHeeOO4Huq1q1",
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1769719023,
+      "_nanoseconds": 925000000,
+      "isoString": "2026-01-29T20:37:03.925Z"
+    }
+  },
+  {
+    "_id": "Mz7o4knIZAVmae7rlZgmxaLi5a52_bId6omKataMuj95CjTMMRmwMw503",
+    "_path": "follows/Mz7o4knIZAVmae7rlZgmxaLi5a52_bId6omKataMuj95CjTMMRmwMw503",
+    "id": "Mz7o4knIZAVmae7rlZgmxaLi5a52_bId6omKataMuj95CjTMMRmwMw503",
+    "followerId": "Mz7o4knIZAVmae7rlZgmxaLi5a52",
+    "followingId": "bId6omKataMuj95CjTMMRmwMw503",
+    "createdAt": {
+      "_type": "timestamp",
+      "_seconds": 1769748859,
+      "_nanoseconds": 902000000,
+      "isoString": "2026-01-30T04:54:19.902Z"
+    }
+  }
+]
