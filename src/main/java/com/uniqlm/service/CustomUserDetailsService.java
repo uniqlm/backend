@@ -31,13 +31,10 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         MstUser user = mstUserDaoService.getByUsername(username);
-        if (user == null) {
-            throw new UsernameNotFoundException("User not found: " + username);
-        }
-        // Strict Mode: Reject login if email not verified
-        if (user.getIsVerified() != null && !user.getIsVerified()) {
-            throw new RuntimeException("Email not verified. Please check your inbox.");
-        }
+        if (user == null) throw new UsernameNotFoundException("User not found");
+
+        // Removed the RuntimeException check here.
+        // Verification logic is now handled in the Controller for standard login.
         return new org.springframework.security.core.userdetails.User(
                 user.getUsername(), user.getPassword(), new ArrayList<>());
     }
@@ -80,23 +77,21 @@ public class CustomUserDetailsService implements UserDetailsService {
         MstUser user = mstUserDaoService.getByUsername(email);
 
         if (user == null) {
-            log.info("BELUM ADA");
+            log.info("NEW OAUTH USER: {}", email);
             user = new MstUser();
             user.setUsername(email);
             user.setName(name);
             user.setEmail(email);
             user.setPassword(passwordEncoder.encode("OAUTH_USER_" + UUID.randomUUID()));
-            user.setIsVerified(true); // Google OAuth users are auto-verified
+            user.setIsVerified(true);
             mstUserDaoService.saveUser(user);
-        }else {
-            log.info("SUDAH ADA");
+        } else {
             try {
-                log.info(objectMapper.writeValueAsString(user));
-            } catch (JsonProcessingException e) {
-                throw new RuntimeException(e);
+                log.info("EXISTING OAUTH USER: {}", objectMapper.writeValueAsString(user));
+            } catch (Exception e) {
+                log.warn("Could not log user object");
             }
         }
-
         return loadUserByUsername(email);
     }
 

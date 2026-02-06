@@ -35,14 +35,13 @@ public class OAuth2SuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
         String email = oAuth2User.getAttribute("email");
         String name = oAuth2User.getAttribute("name");
 
-        // Use your service to find or create the user
         UserDetails userDetails = userDetailsService.processOAuthPostLogin(email, name);
-
-        // Generate the JWT
         String token = jwtUtil.generateToken(userDetails);
 
-        // Redirect to Frontend: https://uniqlm.com/home?token=...
-        String targetUrl = frontendUrl + redirectPath + "?token=" + token;
+        // Build the URL: https://uniqlm.com/home?token=...
+        String targetUrl = UriComponentsBuilder.fromUriString(frontendUrl + redirectPath)
+                .queryParam("token", token)
+                .build().toUriString();
 
         getRedirectStrategy().sendRedirect(request, response, targetUrl);
     }
